@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://infinitbility.com/</loc>
+	<lastmod>2020-09-08T16:29:19+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/authors/infinitbility/</loc>
+	<lastmod>2020-09-08T16:29:28+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/manage-dark-mode-without-installing-any-package-in-react-native/</loc>
+	<lastmod>2020-09-08T16:29:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/always-use-https-url-using-cloudflare/</loc>
+	<lastmod>2020-09-08T16:29:29+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/about/</loc>
+	<lastmod>2020-09-08T16:29:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/disclaimer/</loc>
+	<lastmod>2020-09-08T16:29:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/deploy-react-application-on-ubuntu-apache/</loc>
+	<lastmod>2020-09-08T16:29:30+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/privacy-policy/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/page/2/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/authors/infinitbility/page/2/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/terms-and-conditions/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
