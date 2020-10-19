@@ -116,7 +116,27 @@
 	<priority>0.6</priority>
 </url>
 <url>
+	<loc>https://infinitbility.com/page/3/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/page/4/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
 	<loc>https://infinitbility.com/authors/infinitbility/page/2/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/authors/infinitbility/page/3/</loc>
+	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://infinitbility.com/authors/infinitbility/page/4/</loc>
 	<lastmod>2020-09-08T16:29:31+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
