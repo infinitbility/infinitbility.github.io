@@ -20,6 +20,9 @@
 <url> <loc>https://infinitbility.com/page/18</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/19</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/20</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/page/21</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-clean-cache-in-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-comment-in-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-bold-text-in-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-clean-gradle-in-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-blur-background-in-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -168,6 +171,7 @@
 <url> <loc>https://infinitbility.com/category/react-native/page/6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/8</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/react-native/page/9</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/md</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/mdx</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/svn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
