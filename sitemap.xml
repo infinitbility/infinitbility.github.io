@@ -31,7 +31,9 @@
 <url> <loc>https://infinitbility.com/page/29</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/30</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/31</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-add-object-in-array-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-compare-two-files-in-vs-code</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-add-array-in-javascript-object</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-upload-dsyms-in-firebash-crashlytics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/implement-react-native-firebase-crashlytics-in-ios</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-solve-react-native-firebase-crashlytics-generatedebugrfile-failed-issue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -240,9 +242,12 @@
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/26</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/27</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/28</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/authors/infinitbility/page/29</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/notebility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/visual-studio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/firebase</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -261,8 +266,6 @@
 <url> <loc>https://infinitbility.com/category/react-native/page/14</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/15</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/16</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://infinitbility.com/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://infinitbility.com/category/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/browser</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
