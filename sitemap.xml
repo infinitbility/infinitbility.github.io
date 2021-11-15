@@ -35,6 +35,7 @@
 <url> <loc>https://infinitbility.com/page/33</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/34</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/35</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-get-first-element-of-array-in-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-remove-back-button-in-react-navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -278,6 +279,10 @@
 <url> <loc>https://infinitbility.com/authors/notebility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/javascript/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react-native/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -298,9 +303,6 @@
 <url> <loc>https://infinitbility.com/category/react-navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/typescript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://infinitbility.com/category/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://infinitbility.com/category/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://infinitbility.com/category/javascript/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/guidebook</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/visual-studio</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/firebase</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
