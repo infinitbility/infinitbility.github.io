@@ -43,6 +43,9 @@
 <url> <loc>https://infinitbility.com/page/41</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/42</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/43</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-get-array-index-value-in-typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-get-array-length-in-typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-add-key-and-value-from-json-array-object-in-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-convert-number-to-boolean-in-typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-remove-keys-with-null-values-in-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-convert-number-to-decimal-in-typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -337,6 +340,7 @@
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/38</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/39</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/infinitbility/page/40</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/authors/infinitbility/page/41</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/notebility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/authors/repairbility/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
