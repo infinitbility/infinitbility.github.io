@@ -66,6 +66,8 @@
 <url> <loc>https://infinitbility.com/page/64</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/65</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/page/66</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-get-number-of-days-between-two-dates-in-moment-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/how-to-get-previous-month-in-moment-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-get-first-and-last-date-of-month-in-moment-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-find-the-month-name-from-the-moment-js-date</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/how-to-format-date-in-react-js-using-moment</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -529,6 +531,7 @@
 <url> <loc>https://infinitbility.com/category/momentjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/momentjs/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/momentjs/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://infinitbility.com/category/momentjs/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://infinitbility.com/category/react/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
