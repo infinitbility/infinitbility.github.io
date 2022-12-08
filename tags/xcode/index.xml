@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xcode on Infinitbility</title>
+    <link>https://infinitbility.com/tags/xcode/</link>
+    <description>Recent content in Xcode on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to open Archive build list in Xcode</title>
+      <link>https://infinitbility.com/how-to-open-archive-build-list-in-xcode/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-open-archive-build-list-in-xcode/</guid>
+      <description>Archive navigation solution</description>
+    </item>
+    
+    <item>
+      <title>Archive uploading error to App Store using Xcode</title>
+      <link>https://infinitbility.com/archive-uploading-error-to-app-store-using-xcode/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/archive-uploading-error-to-app-store-using-xcode/</guid>
+      <description>how to solve archive uploading error to App Store using Xcode</description>
+    </item>
+    
+    <item>
+      <title>Build failed after update Xcode 12.5</title>
+      <link>https://infinitbility.com/build-failed-after-update-xcode-12.5</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/build-failed-after-update-xcode-12.5</guid>
+      <description>how to solve Build failed after update Xcode 12.5</description>
+    </item>
+    
+    <item>
+      <title>How to debug swift code in react native xcode</title>
+      <link>https://infinitbility.com/how-to-debug-swift-code-in-react-native-xcode/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-debug-swift-code-in-react-native-xcode/</guid>
+      <description>check swift print logs in xcode</description>
+    </item>
+    
+    <item>
+      <title>how to run react native project in xcode</title>
+      <link>https://infinitbility.com/how-to-run-react-native-project-in-xcode/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-run-react-native-project-in-xcode/</guid>
+      <description>how to run react native project on the desired simulator using Xcode</description>
+    </item>
+    
+    <item>
+      <title>how to add background mode in xcode</title>
+      <link>https://infinitbility.com/how-to-add-background-mode-in-xcode/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-background-mode-in-xcode/</guid>
+      <description>add background mode capability.</description>
+    </item>
+    
+    <item>
+      <title>React native application release testing using xcode</title>
+      <link>https://infinitbility.com/react-native-application-release-testing-using-xcode/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-application-release-testing-using-xcode/</guid>
+      <description>how to test release mode in xcode</description>
+    </item>
+    
+  </channel>
+</rss>

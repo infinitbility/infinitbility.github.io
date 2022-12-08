@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pm2 on Infinitbility</title>
+    <link>https://infinitbility.com/tags/pm2/</link>
+    <description>Recent content in pm2 on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/pm2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to check pm2 logs?</title>
+      <link>https://infinitbility.com/how-to-check-pm2-logs/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-pm2-logs/</guid>
+      <description>An example of check logs in pm2 with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>How to clear pm2 logs?</title>
+      <link>https://infinitbility.com/how-to-clear-pm2-logs/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-clear-pm2-logs/</guid>
+      <description>An example of clearing pm2 logs with the step-by-step guide.</description>
+    </item>
+    
+  </channel>
+</rss>

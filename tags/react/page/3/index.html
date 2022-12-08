@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get first character of string react js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi 👋,
+Welcome To Infinitbility! ❤️
+To get the first character of the string to react js, just use charAt(0) it will return the first char of a string.
+For the sample let’s see how can we use charAt(0) on a string.
+// 👇️ i console.log(&#34;infinitbility&#34;.charAt(0)); Today, I’m going to show you How do I get the first character of a string in to react js, as above mentioned here, I’m going to use the charAt(0) so we can first alphabet of the string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-29 00:00:00 +0000 UTC'>June 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get first character of string react js?" href="https://infinitbility.com/how-to-get-first-character-of-string-react-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get query string value in react js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi 👋,
+Welcome To Infinitbility! ❤️
+To get the query string value in react js, just use window.location.search it will return the query string and you can use it as you want.
+For now, we are taking the query string using window.location.search and converting its parameter into objects.
+const parseParams = (querystring) =&gt; { // parse query string const params = new URLSearchParams(querystring); const obj = {}; // iterate over all keys for (const key of params....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-29 00:00:00 +0000 UTC'>June 29, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get query string value in react js?" href="https://infinitbility.com/how-to-get-query-string-value-in-react-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Get first letter of each word in a string in react js
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi 👋,
+Welcome To Infinitbility! ❤️
+To get first letter of each word in react js, just use string.split(&#39; &#39;).map(i =&gt; i.charAt(0)) it will split your string with space ( you can put any other separator also ), and help of map() and charAt() method it will return array of first letter of each word.
+Or instead of array you want as a string of first letter of each word just use join(&#39;&#39;) method after map() like this string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-28 00:00:00 +0000 UTC'>June 28, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Get first letter of each word in a string in react js" href="https://infinitbility.com/get-first-letter-of-each-word-in-a-string-in-react-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get first and last date of month in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get month name in moment js, use the startOf(&#39;month&#39;) method to get month starting date and endOf(&#39;month&#39;) to get ending date of the month.
+Just import moment in your file and call startOf(&#39;month&#39;) and endOf(&#39;month&#39;) with moment() date, it will return first and last date of the month.
+const startOfMonth = moment().startOf(&#39;month&#39;).format(&#39;YYYY-MM-DD hh:mm&#39;); const endOfMonth = moment().endOf(&#39;month&#39;).format(&#39;YYYY-MM-DD hh:mm&#39;); Today, I’m going to show How do I get first and last date of month using moment js, here I will use the momentjs standard method startOf() and endOf() to find first and last date of the month....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-16 00:00:00 +0000 UTC'>June 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get first and last date of month in moment js?" href="https://infinitbility.com/how-to-get-first-and-last-date-of-month-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to format date in react js using moment?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To format date in react js using moment, use the moment().format() method by passing desire format string parameters.
+Just import moment in your file and invoke moment().format(&#39;DD-MM-YYYY hh:mm:ss&#39;); it will show the current date time with the format.
+moment().format(&#39;DD-MM-YYYY hh:mm:ss&#39;) Today, I’m going to show How do I format date in react js using moment, here I will use the momentjs standard method format() to format the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-15 00:00:00 +0000 UTC'>June 15, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to format date in react js using moment?" href="https://infinitbility.com/how-to-format-date-in-react-js-using-moment/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React @mui/x-data-grid search example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+Today, we will learn to use x-data-grid Table, we will implement search functionality, and also encounter some issues like duplicate keys, and undefined keys issues.
+Let’s start the today’s tutorial ***React @mui/x-data-grid search example ***
+Table Of Content
+Installation Implement x-data-grid table Implement search functionality Resolve undefined and duplicate keys issues in x-data-grid Okey, now we know what we are going to do let’s start with Installation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-14 00:00:00 +0000 UTC'>May 14, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React @mui/x-data-grid search example" href="https://infinitbility.com/react-@mui/x-data-grid-search-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to change material icon size react?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+Today, we will learn to change the size of mui icon ( material icons ) with installation steps also an example of material icon size, and custom icon size.
+Want list of all material icons, Click Here.
+Let’s start the today’s tutorial How to change material icon size react?
+Table Of Content
+Installation Example of using the material icon Example of Material icon font size Example of Material icon custom font size Combined examples with output Okay, now we know what we are going to do let’s start with Installation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-13 00:00:00 +0000 UTC'>May 13, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to change material icon size react?" href="https://infinitbility.com/how-to-change-material-icon-size-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to change material icon color in react?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+Today, we will learn to change the color of mui icon ( material icons ) with installation steps also an example of custom color, custom HEX color, and custom RGB color.
+Want list of all material icons, Click Here.
+Let’s start today’s tutorial How to change material icon color in react?
+Table Of Content
+Installation Example of using material icon Example of color material icon Example of custom color Example of custom HEX color Example of custom RGB color Combined examples with output Okay, now we know what we are going to do let’s start with Installation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-12 00:00:00 +0000 UTC'>May 12, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to change material icon color in react?" href="https://infinitbility.com/how-to-change-material-icon-color-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get specific data from json in reactjs?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi 👋,
+Welcome To Infinitbility! ❤️
+Today, we will learn to get specific data from JSON with example using objects, and an array of objects.
+So, we are Going to learn to get specific data from 👇
+Table of content
+React object example React array of the object example React object example To access any property of an object, we have to write the key of an object property.
+As we know to create an object we need key and value pairs....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-20 00:00:00 +0000 UTC'>March 20, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get specific data from json in reactjs?" href="https://infinitbility.com/how-to-get-specific-data-from-json-in-reactjs/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to make a div scrollable in react js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi 👋,
+Welcome To Infinitbility! ❤️
+Today, we will learn to create scrollable div in react js using CSS with examples of vertically and horizontally scrollable.
+So, we are Going to make a scrollable div 👇
+Table of content
+Scrollable div vertically example scrollable div horizontally example Scrollable div vertically example To make a vertically scrollable div we have to write a fixed height of div and it will make a vertically scrollable div....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-19 00:00:00 +0000 UTC'>March 19, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to make a div scrollable in react js?" href="https://infinitbility.com/how-to-make-a-div-scrollable-in-react-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to use history in reactjs functional component?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to use react-router in your react.js functional component, basically, we pass history from props and use it in the functional components.
+But we have a better way to use history screen navigation in the function component.
+In this tutorial example based on react-router-dom package.
+React router dom provides useHistory() method to use history without passing from props.
+let do example of useHistory() in react functional component....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-13 00:00:00 +0000 UTC'>March 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to use history in reactjs functional component?" href="https://infinitbility.com/how-to-use-history-in-reactjs-functional-component/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React hoverable menu example using CSS
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+We use menu and submenus (dropdown) concepts on each react project for this we use some package like reactstrap or Material UI (MUI) but we can do this by using some simple CSS code also.
+Today, We write some CSS and HTML code in react to make hoverable menu and on hower we will show some sub menus also.
+Let start today’s tutorial React hoverable menu example using CSS...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-05 00:00:00 +0000 UTC'>January 5, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React hoverable menu example using CSS" href="https://infinitbility.com/react-hoverable-menu-example-using-css/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to provide custom input value in autocomplete textfield in react material UI?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+MUI Autocomplete Provide option to show suggestion list in below Textfield and it works like a charm but problems comes when we want to show multiple options in suggestion like Name, and email.
+When user select suggestion it should show only email in Textfield but it’s my expectation, it’s will show whole text available in option text.
+So let’s comes to solution Material UI ( MUI ) Autocomplete provide onChange event and inputValue props to handle this types of situwation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-29 00:00:00 +0000 UTC'>December 29, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to provide custom input value in autocomplete textfield in react material UI?" href="https://infinitbility.com/how-to-provide-custom-input-value-in-autocomplete-textfield-in-react-material-ui/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to make tooltip clickable in react material UI?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React material ui ( mui ) provide awesome tooltip componant to show tooltip in web but sometime we need to add close icon, or link in tooltip now after your hardwork you are add your link or close icon in tooltip now problems come when you want to click on those things.
+ahem, ( clear throat )
+In this tutorial, we will learn how we can make react material ui tooltip clickable....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-27 00:00:00 +0000 UTC'>November 27, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to make tooltip clickable in react material UI?" href="https://infinitbility.com/how-to-make-tooltip-clickable-in-react-material-ui/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to create a ref of the functional component in React?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to create a ref of your custom functional component in react, after creating ref we are able to use the child component function in the parent component and many things.
+Let start today’s tutorial How to create a ref of the functional component in React?
+I found, many tutorials where they are explaining how to use ref in functional components but rarely do I find how to make referenceable custom functional components where we can use ref in any place....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-18 00:00:00 +0000 UTC'>November 18, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to create a ref of the functional component in React?" href="https://infinitbility.com/how-to-create-a-ref-of-the-functional-component-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to use interface in React hook useState?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to use interface or DTO in your React useState hook, Below example will work on react and react native both frameworks.
+Here we will learn use of interface objects and an array of interface objects in useState.
+Let start today’s tutorial How to use interface in React hook useState?
+First, take an example of an interface to use in variables....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-16 00:00:00 +0000 UTC'>November 16, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to use interface in React hook useState?" href="https://infinitbility.com/how-to-use-interface-in-react-hook-usestate/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to disable autocomplete in material-ui Textfield
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+I tried autocomplete=&#34;off&#34;, autoComplete=&#34;off&#34; and many more but many browsers like Mozilla, Google or Edge are still showing autocomplete and auto-fill data to my input box, and then I found an article after hours of research and now I’m going to show how I can disable autocomplete and auto-fill.
+Let’s start today’s tutorial How to disable autocomplete in material-ui Textfield
+I found Mozila MDN Documentation where Documentation exaplaining why many modern browsers do not support autocomplete=“off” for login fields something like inputs....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-09 00:00:00 +0000 UTC'>October 9, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to disable autocomplete in material-ui Textfield" href="https://infinitbility.com/how-to-disable-autocomplete-in-material-ui-textfield/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to remove the underline from material select in react js
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Material Ui provides a great UI Component and Select is one of those. As we know in Select design have to underline but in any case, we want to remove the underline.
+Today, we are going to remove the underline from React Material Ui.
+Let’s start today tutorial How to remove the underline from material select in react js
+React Material Ui provides disableUnderline props to remove the underline from the material-UI select component....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-18 00:00:00 +0000 UTC'>September 18, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to remove the underline from material select in react js" href="https://infinitbility.com/how-to-remove-the-underline-from-material-select-in-react-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to show suggestion on click in react tag input
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React tag input does not provide any specific key to show suggestion list on onClick but we can do using with minQueryLength and renderSuggestion
+when we pass minQueryLength={0} in reactTags then it will show suggestion list on onClick but we can phase also the query selection issue that’s why we have to render custom suggestion style, where we can put code show only suggestion text....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-10 00:00:00 +0000 UTC'>September 10, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to show suggestion on click in react tag input" href="https://infinitbility.com/how-to-show-suggestion-on-click-in-react-tag-input/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to disable typing in React DatePicker
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+react-datepicker throws the error invalid date when the user clears the date value on react date picker textinput. To handle invalid date issues many devs try to use editable false, disabled true, and readOnly but it also affects react date picker select date modal ( it will work some browsers but not all ).
+Now the problem comes how can we disable type or pasting user data on date picker text input....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-08 00:00:00 +0000 UTC'>September 8, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to disable typing in React DatePicker" href="https://infinitbility.com/how-to-disable-typing-in-react-datepicker/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/react/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/react/page/4/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

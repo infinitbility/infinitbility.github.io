@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TypeScript | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/typescript/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/typescript/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="TypeScript" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/typescript/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="TypeScript"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    TypeScript
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get length of numbers in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Get the length of numbers in typescript To get the length of numbers in typescript, you can use the toString() method with the length property it will return the length of numbers.
+// ✅ Get the length of numbers in typescript let num: number = 493054; num.toString().length; // 👉️ 6 Today, I’m going to show you How do I get the length of numbers in typescript, as above mentioned here, I’m going to use thetoString() method with the length property to get the length of numbers;...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-28 00:00:00 +0000 UTC'>July 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get length of numbers in typescript?" href="https://infinitbility.com/how-to-get-length-of-numbers-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get length of object in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Get the length of the object in typescript To get the length of the object in typescript, you can use the Object.keys() method with the length property it will return the length of the object.
+// ✅ Get the length of the object in typescript let num: number = 493054; Object.keys({id: 1, name: &#34;infinitbility.com&#34;}).length; // 👉️ 2 Today, I’m going to show you How do I get the length of the object in typescript, as above mentioned here, I’m going to use theObject....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-28 00:00:00 +0000 UTC'>July 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get length of object in typescript?" href="https://infinitbility.com/how-to-get-length-of-object-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add number to string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Add a number to a string in typescript To add the number to a string in typescript, you can use the &#43; addition operator or ${} template literal to add a number in a string both can add the number to a string.
+// ✅ Using `&#43;` addition operator 5 &#43; &#34;0&#34; 👉️ &#34;50&#34; // ✅ Using `${}` template literal `${5}0` 👉️ &#34;50&#34; Today, I’m going to show you How do I add a number to a string in typescript, as above mentioned here, I’m going to use the &#43; addition operator or ${} template literal to add the number to a string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-27 00:00:00 +0000 UTC'>July 27, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add number to string in typescript?" href="https://infinitbility.com/how-to-add-number-to-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to export constants in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Export constants in typescript To export constants in typescript, use the export keyword it will export your constants, variables, or functions.
+To use export constants, variables, or functions in typescript, use the import keyword. using the import keyword you can easily use exported module.
+Today, I’m going to show you How do i export constants in typescript, as mentioned above, I’m going to use the use export statement to export constants and use them in another file....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-24 00:00:00 +0000 UTC'>July 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to export constants in typescript?" href="https://infinitbility.com/how-to-export-constants-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to extract numbers from the string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Extract number from string in typescript To extract a number from a string in typescript, use the match() method with the /\d&#43;/g regex it will find all numbers from the string and return as an array of numbers.
+const REGEX = /\d&#43;/g; let sampleString: string = &#34;#div-name-1234-characteristic:561613213213&#34;; let arrOfNumber: Array&lt;number&gt; = sampleString.match(REGEX); // 👇️ [ &#39;1234&#39;, &#39;561613213213&#39; ] console.log(arrOfNumber) Today, I’m going to show you How to i extract a number from a string in typescript, as mentioned above, I’m going to use the use match() and join() method with /\d&#43;/g regex to extract numbers from string and convert in digits....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-24 00:00:00 +0000 UTC'>July 24, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to extract numbers from the string in typescript?" href="https://infinitbility.com/how-to-extract-numbers-from-the-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check empty string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>check an empty string in typescript To check an empty string in typescript, use the if..else statement just pass and put your string variable in an if condition if it’s empty it will go to the else statement.
+Today, I’m going to show you How do i check an empty string in typescript, as mentioned above, I’m going to use the use if..else statement to check the typescript empty string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-20 00:00:00 +0000 UTC'>July 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check empty string in typescript?" href="https://infinitbility.com/how-to-check-empty-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to stringify json object in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Stringify JSON object in typescript To stringify json object in typescript, use JSON.stringify() it will convert your json object to json string.
+The JSON.stringify() method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.
+interface domain { name: string, domain: string, } const arr: Array&lt;domain&gt; = [ { name: &#34;infinitbility&#34;, domain: &#34;infinitbility....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-20 00:00:00 +0000 UTC'>July 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to stringify json object in typescript?" href="https://infinitbility.com/how-to-stringify-json-object-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to convert array to string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Convert array to string in typescript To convert array to string in typescript, use the join() method it will convert the array to a comma (,) separated string.
+The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-19 00:00:00 +0000 UTC'>July 19, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to convert array to string in typescript?" href="https://infinitbility.com/how-to-convert-array-to-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove space from string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Remove all space from the string in typescript To remove all white space from the string in typescript, use the replace() method with the /\s/g regex it will remove all whitespace from the string.
+const str: string = &#39; first second third &#39;; // ✅ Remove all Whitespace const withoutAnyWhitespace: string = str.replace(/\s/g, &#39;&#39;); console.log(withoutAnyWhitespace); // 👉️ &#34;firstsecondthird&#34; Remove whitespace from the beginning and end of the string in typescript To remove space from the start and end of the string in typescript, use the trim() method it will remove space from both sides and return a new string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-18 00:00:00 +0000 UTC'>July 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove space from string in typescript?" href="https://infinitbility.com/how-to-remove-space-from-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add double quotes in string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Add double quotes in string in typescript To add double quotes in the string in typescript, use double quotes both side with the &#43; operator it will concatenate the string and return a new string with double quotes like below example.
+let str: string = &#34;infinitbility&#34;; // add double quotes str = &#39;&#34;&#39; &#43; str &#43; &#39;&#34;&#39;; console.log(str) // 👉️ &#39;&#34;infinitbility&#34;&#39; Add double quotes at the beginning of string in typescript To add double quotes at the beginning of string in typescript, use double quotes at starting of the string with the &#43; operator it will concatenate the string and return a new string with double quotes like below example....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-17 00:00:00 +0000 UTC'>July 17, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add double quotes in string in typescript?" href="https://infinitbility.com/how-to-add-double-quotes-in-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add new line in string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Add new line in string in typescript To add a new line in string in typescript, use new line \n with the &#43; operator it will concatenate the string and return a new string with a new line separator.
+let str: string = &#34;&#34;; // add new line str = &#34;Hi Friends&#34; &#43; &#34;\n&#34;; str = str &#43; &#34;Welcome to Infinitbility&#34;; console.log(str) // Output // &#39;Hi Friends // Welcome to Infinitbility&#39; put the &#34;\n&#34; where you want to break the line and concatenate another string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-16 00:00:00 +0000 UTC'>July 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add new line in string in typescript?" href="https://infinitbility.com/how-to-add-new-line-in-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add space in string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Add space beginning of the string in typescript To add space beginning of the string in typescript, use blank space with the &#43; operator it will concatenate the string and return a new string with space.
+let str: string = &#34;infinitbility&#34;; // add blank space str = &#34; &#34; &#43; str; console.log(str) // 👉️ &#34; infinitbility&#34; To show space at the beginning of the string you should put a blank space string before the &#43; operator, like in the above example....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-16 00:00:00 +0000 UTC'>July 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add space in string in typescript?" href="https://infinitbility.com/how-to-add-space-in-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check both undefined and null in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn how we can check both undefined and null in typescript, here we will use the check falsy value concept to check both undefined and null.
+To handle, false, &#39;&#39;, undefined, null, and other false value we can easily manage in single default condition in typescript.
+Here, we have to just check variables in if cases.
+Well, we will take an example of undefined, and null....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-10 00:00:00 +0000 UTC'>May 10, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check both undefined and null in typescript?" href="https://infinitbility.com/how-to-check-both-undefined-and-null-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get last element of array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to get the last element of the array in typescript?, here we will use basic array length syntax to find the last element of the array.
+So, when we want to know how many elements are in an array we will use array.length and it will return a number of elements in an array.
+Well, what we can do here, is we will use array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-09 00:00:00 +0000 UTC'>May 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get last element of array in typescript?" href="https://infinitbility.com/how-to-get-last-element-of-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get random number in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to get a random number in typescript?, here we will use Math.ceil(), Math.floor(), and Math.random() methods to generate random as per our requirement.
+Before going to code, let first understand what is those methods.
+Math.ceil()
+The Math.ceil() function always rounds a number up to the next largest integer.
+Math.floor()
+The Math.floor() function returns the largest integer less than or equal to a given number....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-08 00:00:00 +0000 UTC'>May 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get random number in typescript?" href="https://infinitbility.com/how-to-get-random-number-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get value from object by key in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we will learn how to get value from an object by key in typescript, here we will use some basic syntax to get value from an object.
+Here, we will see
+Access object value using the dot method Access object value using bracket method ( we can also use it for dynamic value access ) In the code below, we create a sample object variable to store sample dog data....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-07 00:00:00 +0000 UTC'>May 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get value from object by key in typescript?" href="https://infinitbility.com/how-to-get-value-from-object-by-key-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to milliseconds in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to milliseconds in typescript?, here we will use the date built-in method getTime() to get a date in milliseconds.
+Intro to getTime() The getTime() method returns the number of milliseconds since the ECMAScript epoch.
+A number representing the milliseconds elapsed between 1 January 1970 00:00:00 UTC and the given date.
+Code summary Here, we will see what we are going to do:...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to milliseconds in typescript?" href="https://infinitbility.com/how-to-convert-date-to-milliseconds-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to iso format in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+This tutorial will help you to convert date to iso format in typescript, here we will use the toISOString() method to convert date to iso format.
+what is toISOString()?
+The toISOString() method returns a string in simplified extended ISO format (ISO 8601), which is always 24 or 27 characters long (YYYY-MM-DDTHH:mm:ss.sssZ or ±YYYYYY-MM-DDTHH:mm:ss.sssZ, respectively). The timezone is always zero UTC offset, as denoted by the suffix “Z”....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-01 00:00:00 +0000 UTC'>May 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to iso format in typescript?" href="https://infinitbility.com/how-to-convert-date-to-iso-format-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to timestamp in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert a date to the timestamp in typescript?, here we will use the date built-in method Date.parse() method to convert the date to timestamp format.
+So, let’s see what is Date.parse() method is?
+The Date.parse() method parses a string representation of a date and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC or NaN if the string is unrecognized or, in some cases, contains illegal date values (e....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-29 00:00:00 +0000 UTC'>April 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to timestamp in typescript?" href="https://infinitbility.com/how-to-convert-date-to-timestamp-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to mm/dd/yyyy in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to mm/dd/yyyy in typescript?, here we will use custom method formatDate() method to convert date to mm/dd/yyyy format.
+So, first we have to create a function which get date as a parameter and return formated like we want…
+Here, we want format date as month/date/year like.
+let’s dive in code…
+const formatDate = (date: Date) =&gt; { function pad(s) { return (s &lt; 10) ?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-27 00:00:00 +0000 UTC'>April 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to mm/dd/yyyy in typescript?" href="https://infinitbility.com/how-to-convert-date-to-mm/dd/yyyy-in-typescript/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/typescript/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/typescript/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React Native | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react-native/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react-native/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React Native" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react-native/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React Native"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React Native
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check data type in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check data type in react native, use typeof keyword it will return type of data just we have to use this keyword before variable or data.
+Let’s see short example to use typeof to get data type of value.
+typeof &#34;Hello&#34;; Today, I’m going to show you How do I check data type in react native, as above mentioned, I’m going to use the above-mentioned typeof method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-09-08 00:00:00 +0000 UTC'>September 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check data type in react native?" href="https://infinitbility.com/how-to-check-data-type-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check null value in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check null value in react native, use if statement it will handle all falsy value or you can compare with null it self.
+Let’s see short example to use if statement to handle null value.
+let value = null; if(value){ console.log(&#34;value have data&#34;) } else { console.log(&#34;value is null or falsy value&#34;) } Today, I’m going to show you How do I check null value in react native, as above mentioned, I’m going to use the above-mentioned use if statement....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-09-08 00:00:00 +0000 UTC'>September 8, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check null value in react native?" href="https://infinitbility.com/how-to-check-null-value-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get last word of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get last word of string in react native, use split(&#34; &#34;) method with strArr.length - 1 index value it will return last word from string. You have to only pass &#34; &#34; in split() method.
+Let’s see short example to use split(&#34; &#34;) with with strArr.length - 1 index to get last word from string.
+let strArr = string.split(&#34; &#34;); strArr[strArr.length - 1]; Today, I’m going to show you How do I get last word of string in react native, as above mentioned, I’m going to use the above-mentioned split() method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-22 00:00:00 +0000 UTC'>August 22, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get last word of string in react native?" href="https://infinitbility.com/how-to-get-last-word-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get first word of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get first word of string in react native, use split(&#34; &#34;) method with 0 index value it will return first word from string. You have to only pass &#34; &#34; in split() method.
+Let’s see short example to use split(&#34; &#34;) with with 0 index to get first word from string.
+string.split(&#34; &#34;)[0]; Today, I’m going to show you How do I get first word of string in react native, as above mentioned, I’m going to use the above-mentioned split() method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-19 00:00:00 +0000 UTC'>August 19, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get first word of string in react native?" href="https://infinitbility.com/how-to-get-first-word-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get each character of string of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To each character of string in react native, use for...of loop, it will return each character one by one. You have to just use for...of loop on your string string.
+Let’s see short example to use for loop on string to get each char.
+for (let char of string) { console.log(char) } Today, I’m going to show you How do I get each character of string in react native, as above mentioned, I’m going to use the for....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-18 00:00:00 +0000 UTC'>August 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get each character of string of string in react native?" href="https://infinitbility.com/how-to-get-each-character-of-string-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get last two character of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get last two character of string in react native, use substring() method to extracts last two character from string. You have to only pass starting and ending postion of string so for last two character pass text.length - 2 as parameter it will return last two character of string.
+Let’s see short example to use substring() to get last two character from string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-17 00:00:00 +0000 UTC'>August 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get last two character of string in react native?" href="https://infinitbility.com/how-to-get-last-two-character-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get last character of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get last character of string in react native, use substring() method to extracts last character from string. You have to only pass starting and ending postion of string so for last character pass text.length - 1 as parameter it will return last character of string.
+Let’s see short example to use substring() to get last character from string.
+text.substring(text.length - 1); Today, I’m going to show you How do I get last character of string in react native, as above mentioned, I’m going to use the above-mentioned substring() method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-16 00:00:00 +0000 UTC'>August 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get last character of string in react native?" href="https://infinitbility.com/how-to-get-last-character-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get first character of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get first character of string in react native, use substring() method to extracts first character from string. You have to only pass starting and ending postion of string so for first character pass 0, 1 as parameter it will return first character of string.
+Let’s see short example to use substring() to get first character from string.
+text.substring(0, 1); Today, I’m going to show you How do I get first character of string in react native, as above mentioned, I’m going to use the above-mentioned substring() method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-14 00:00:00 +0000 UTC'>August 14, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get first character of string in react native?" href="https://infinitbility.com/how-to-get-first-character-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get first two character of string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get first two character of string in react native, use substring() method to extracts first two character from string. You have to only pass starting and ending postion of string so for first two character pass 0, 2 as parameter it will return first two character of string.
+Let’s see short example to use substring() to get first two character from string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-14 00:00:00 +0000 UTC'>August 14, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get first two character of string in react native?" href="https://infinitbility.com/how-to-get-first-two-character-of-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove item from object in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove item from object in react native, use delete keyword it will remove key value pair from object only you have to mantion delete keyword with key.
+Let’s see how to use delete keyword to remove item from object.
+let exampleObject = { id: 1, name: &#34;infinitbility&#34;, error: &#34;Feild required&#34; }; console.log(&#34;exampleObject&#34;, exampleObject); // Output // &#39;exampleObject&#39; { // id: 1, // name: &#39;infinitbility&#39;, // error: &#39;Feild required&#39; // } delete exampleObject....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-10 00:00:00 +0000 UTC'>August 10, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove item from object in react native?" href="https://infinitbility.com/how-to-remove-item-from-object-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to handle apostrophe in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To handle apostrophe ( single quote, or double quote ) in react native, use the ( \ ) Escape characters or ( ` ) Template literals it will handle both types quotes single and double.
+Let’s see how Escape characters and Template literals will solve the issue.
+let brokenString = &#39;I&#39;m a broken string&#39;; console.log(brokenString); // Output // unknown: Unexpected token (1:24) brokenString = &#39;I\&#39;m a broken string&#39;; console....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-09 00:00:00 +0000 UTC'>August 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to handle apostrophe in react native?" href="https://infinitbility.com/how-to-handle-apostrophe-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check nan in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check or handle NaN in react native, use the isNaN() method it will return if the value is not a number, if the value is a number it will return false.
+Let’s understand when the isNaN method returns false or when true.
+Number.isNaN(NaN); // true Number.isNaN(Number.NaN); // true Number.isNaN(0 / 0); // true // e.g. these would have been true with global isNaN() Number....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-07 00:00:00 +0000 UTC'>August 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check nan in react native?" href="https://infinitbility.com/how-to-check-nan-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check undefined in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check or handle undefined in react native, use the if statement it will go inside in if statement if the value is not undefined.
+Basically, If the statement will handle all your false values like 0, false, &#34;&#34;, undefined, etc.
+let value = undefined; if(value){ console.log(&#34;value have some data&#34;) } else { console.log(&#34;value is undefined&#34;) } Today, I’m going to show you How do I check or handle undefined in react native, as above mentioned, I’m going to use the if statement to check value is undefined or has some data....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-06 00:00:00 +0000 UTC'>August 6, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check undefined in react native?" href="https://infinitbility.com/how-to-check-undefined-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to empty an array in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To empty an array in react native, set [] empty array in a state it will remove the existing array of elements and store a new empty array in a state.
+setArr([]); Today, I’m going to show you How do I empty an array in react native, as above mentioned, I’m going to use the above-mentioned set [] empty array syntax method to empty an array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-02 00:00:00 +0000 UTC'>August 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to empty an array in react native?" href="https://infinitbility.com/how-to-empty-an-array-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to pass parameter to a promise function in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To pass parameters to a promise function in react native, create a parameter function and use promise in a function like the below example.
+var getNameById = function (id) { return new Promise(function (resolve, reject) { // ... }); }; getNameById(3).then(function (res) { console.log(res); }); // output: &#34;Stuff worked&#34; Today, I’m going to show you How do I pass parameters to a promise function in react native, as above mentioned, I’m going to use the above-mentioned syntax to create and use a promise function with a parameter....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-08-01 00:00:00 +0000 UTC'>August 1, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to pass parameter to a promise function in react native?" href="https://infinitbility.com/how-to-pass-parameter-to-a-promise-function-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add two numbers in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add two numbers in react native, use the &#43; addition operator it will add if your value datatype is a number else if your value datatype is string first convert it using parseInt() and then perform addition operation.
+In the following example, we will take the sample numbers, and strings and perform add operation using the &#43; addition operator.
+Adding Two numbers example let num1 = 30; let num2 = 34; num1 &#43; num2; // 64 Adding Two string numbers example let num1 = &#34;30&#34;; let num2 = &#34;34&#34;; parseInt(num1) &#43; parseInt(num2); // 64 Today, I’m going to show you How do i add two numbers in react native, as mentioned above here, I’m going to use the &#43; addition operator....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-15 00:00:00 +0000 UTC'>July 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add two numbers in react native?" href="https://infinitbility.com/how-to-add-two-numbers-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to center text in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To center text in react native, just use the textAlign css property it will center text horizontaly and for vertical center flex: 1, justifyContent: &#34;center&#34;, on upper element.
+Today, I’m going to show you How do I center text in react native, as above mentioned here, I’m going to use the textAlign and justifyContent css property to make text center.
+Let’s start today’s tutorial how do you center text in react native?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-09 00:00:00 +0000 UTC'>July 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to center text in react native?" href="https://infinitbility.com/how-to-center-text-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove double quotes from string in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove double quotes from a string in react native, just use the replaceAll(&#39;&#34;&#39;, &#39;&#39;) method it will replace double quotes with an empty string and return a new string without double quotes.
+Like the following example, let’s take the below sample string example here we will remove all double quotes available in the string.
+const str = &#39;Hi&#34; Friend&#34;s, Welcome &#34;to&#34; infinitbility&#39;; // 👇️ &#39;Hi Friends, Welcome to infinitbility&#39; str....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-06 00:00:00 +0000 UTC'>July 6, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove double quotes from string in react native?" href="https://infinitbility.com/how-to-remove-double-quotes-from-string-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check empty object in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check the empty object in react native, just use the Object.keys() method it will create an array of object keys after then you can check the length and if it’s equal to 0 means the object is empty.
+Like the following example, let’s take the below array of objects example here we will find an index of id 3 and delete it from the array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-28 00:00:00 +0000 UTC'>June 28, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check empty object in react native?" href="https://infinitbility.com/how-to-check-empty-object-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove react native cli globally?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove react native cli globally, just use the npm uninstall -g react-native-cli command in your cmd or terminal it will uninstall react native cli from your computer.
+As per react native documents, they are telling you shuld remove react native cli and just use your cammand with npx it will work.
+If you previously installed a global react-native-cli package, please remove it as it may cause unexpected issues....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-27 00:00:00 +0000 UTC'>June 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove react native cli globally?" href="https://infinitbility.com/how-to-remove-react-native-cli-globally/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://infinitbility.com/tags/react-native/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

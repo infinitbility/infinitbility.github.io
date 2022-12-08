@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Date on ReactJsSnippet</title>
+    <link>https://reactjssnippet.com/tags/date/</link>
+    <description>Recent content in Date on ReactJsSnippet</description>
+    <image>
+      <url>https://reactjssnippet.com/papermod-cover.png</url>
+      <link>https://reactjssnippet.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reactjssnippet.com/tags/date/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get yesterday date in React js?</title>
+      <link>https://reactjssnippet.com/posts/how-to-get-yesterday-date-in-react-js/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reactjssnippet.com/posts/how-to-get-yesterday-date-in-react-js/</guid>
+      <description>An Example of get yesterday date in React js with javascript concepts.</description>
+    </item>
+    
+    <item>
+      <title>How to get current year in React js?</title>
+      <link>https://reactjssnippet.com/posts/how-to-get-current-year-in-react-js/</link>
+      <pubDate>Thu, 24 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reactjssnippet.com/posts/how-to-get-current-year-in-react-js/</guid>
+      <description>An Example of get current year in React js with javascript concepts.</description>
+    </item>
+    
+    <item>
+      <title>How to get current month in React js?</title>
+      <link>https://reactjssnippet.com/posts/how-to-get-current-month-in-react-js/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reactjssnippet.com/posts/how-to-get-current-month-in-react-js/</guid>
+      <description>An Example of get current month in React js with javascript concepts.</description>
+    </item>
+    
+  </channel>
+</rss>

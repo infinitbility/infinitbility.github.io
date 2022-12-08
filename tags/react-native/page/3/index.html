@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React Native | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react-native/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react-native/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React Native" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react-native/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React Native"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React Native
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get current month in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the current month in react native has the new Date().getMonth() method which will return every time the current month index in number datatype.
+we have to just call new Date().getMonth() and it will check the current date and return month index based on the date.
+let monthIndex = new Date().getMonth(); console.log(monthIndex); // 1 for Feb, 0 for jan So whenever we have to so month number we have to add 1 in got value from new Date()....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-14 00:00:00 +0000 UTC'>February 14, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get current month in react native?" href="https://infinitbility.com/how-to-get-current-month-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get current year in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the current year in react native has the new Date().getFullYear() method which will return every time the current year in number datatype.
+we have to just call new Date().getFullYear() and it will check the current date and return the current year based on the date.
+let year = new Date().getFullYear(); console.log(year); // 2022 Now, we know how to get the current year in react native and the way to hold in a variable....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-14 00:00:00 +0000 UTC'>February 14, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get current year in react native?" href="https://infinitbility.com/how-to-get-current-year-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get array from json object in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+Every time, we got an array in an object and we have to use arrays from objects.
+Today, we will see how we will use an array from an object in React native.
+In this tutorial, we will take the example of an object in an array of objects and we will iterate every row of arrays.
+Let’s start Today’s tutorial How to get an array from JSON object in react native?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-13 00:00:00 +0000 UTC'>February 13, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get array from json object in react native?" href="https://infinitbility.com/how-to-get-array-from-json-object-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get array index value in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To get index value of element in react native have indexOf() and findIndex() method but both have different poupose of use.
+Today, we will learn how to get index array elements in react native and we will see examples with an array of string and an array of objects.
+Let’s first understand when use indexOf() or findIndex() method.
+The indexOf() method is used for an array of primitive datatypes like string, number, etc or you can also say single dimension array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-11 00:00:00 +0000 UTC'>February 11, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get array index value in react native?" href="https://infinitbility.com/how-to-get-array-index-value-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get current time in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the current datetime in react native has the Date() object it will return every time the current date and time when we use it.
+we have to just write new Date() and it returns the date object where we get a year, month, date, hours, minutes, and seconds.
+let today = new Date(); console.log(today); // 2022-02-06T08:05:49.292Z Now, we know we have the current date time but we can’t show the same to also users....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-11 00:00:00 +0000 UTC'>February 11, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get current time in react native?" href="https://infinitbility.com/how-to-get-current-time-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get array length in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To know the length of an array in react native has the same syntax as javascript.
+we have to just use arrayVeriable.length syntax and it will return array element count.
+Today, we will learn how to create an array and how to check array length in react native.
+Let’s start with the creation
+Now, we are going to create an array of objects then we have to store it to state and then we will print their length on screen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-09 00:00:00 +0000 UTC'>February 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get array length in react native?" href="https://infinitbility.com/how-to-get-array-length-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check react native version in CMD?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+Today, we are going to know how to check react native and react native cli version using CMD.
+To check react native version, React native CLI provide react-native -v commad to show react native and react native cli version.
+Let’s start steps to check react native version.
+Steps Open your CMD and navigate to your react native project.
+Run react-native -v command in your project folder....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-20 00:00:00 +0000 UTC'>January 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check react native version in CMD?" href="https://infinitbility.com/how-to-check-react-native-version-in-cmd/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check array contains value in react-native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility.
+To check array contains value in react native, use the includes() method, it will return true or false based on array contains value or not.
+As a developer, we have many times needed to check values on having array values or not.
+Today, we will see how to check array contains a value or not in react native.
+Let’s see, what we are going to do...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-16 00:00:00 +0000 UTC'>January 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check array contains value in react-native?" href="https://infinitbility.com/how-to-check-array-contains-value-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check android version in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+React native have multiple packages to get android version like Platform and react-native-device-info.
+Today, we will see how we can get an android version in react native.
+When you want to only the android version like tutorial topic then the Platform package is best for you.
+Platform package provides constant and Release one of them it will return device android version.
+Check the following example....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-15 00:00:00 +0000 UTC'>January 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check android version in react native?" href="https://infinitbility.com/how-to-check-android-version-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>react-native-otp-input detox example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native detox tutorial 1. React native detox example
+2. React native detox multiple typeText crash issues
+3. React native detox with react navigation example
+4. react-native-date-picker detox example
+5. react-native-otp-input detox example
+Github source repo
+react-native-otp-input package not provides option to test by detox using testID but i have found some hack and i’m going to share with you guys.
+Today, we will learn how we can test react-native-otp-input using detox in react native....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-13 00:00:00 +0000 UTC'>January 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to react-native-otp-input detox example" href="https://infinitbility.com/react-native-otp-input-detox-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>react-native-date-picker detox example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native detox tutorial 1. React native detox example
+2. React native detox multiple typeText crash issues
+3. React native detox with react navigation example
+4. react-native-date-picker detox example
+5. react-native-otp-input detox example
+Github source repo
+As I researched, I haven’t got any example of react-native-date-picker detox example that’s why I tried myself and shared it with you guys.
+If anyone has better the following example, please share it in the comment section....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-11 00:00:00 +0000 UTC'>January 11, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to react-native-date-picker detox example" href="https://infinitbility.com/react-native-date-picker-detox-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to show and hide password using eye icon in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native provides an option to create password text input using secureTextEntry props but for the eye icon, we have to write some extra code to handle it.
+Today, we will see how we can implement an eye icon with toggle password functionality.
+In this tutotial, we are using react-native-paper for textinput and react-native-vector-icons for icons.
+Let start today’s tutorial How to show and hide password using eye icon in react native?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-10 00:00:00 +0000 UTC'>January 10, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to show and hide password using eye icon in react native?" href="https://infinitbility.com/how-to-show-and-hide-password-using-eye-icon-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native detox with react navigation example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native detox tutorial 1. React native detox example
+2. React native detox multiple typeText crash issues
+3. React native detox with react navigation example
+4. react-native-date-picker detox example
+5. react-native-otp-input detox example
+Github source repo
+When react-native navigate to another screen detox all test cases failed and now we start thinking about how to stop detox test cases execution when react-native navigate to another screen....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-09 00:00:00 +0000 UTC'>January 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native detox with react navigation example" href="https://infinitbility.com/react-native-detox-with-react-navigation-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native detox multiple typeText crash issues
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native detox tutorial 1. React native detox example
+2. React native detox multiple typeText crash issues
+3. React native detox with react navigation example
+4. react-native-date-picker detox example
+5. react-native-otp-input detox example
+Github source repo
+React native detox typeText works properly no matter how many times you are using it.
+Some developers write complex component render code like forwarding ref, dynamic rendering components, etc....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-08 00:00:00 +0000 UTC'>January 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native detox multiple typeText crash issues" href="https://infinitbility.com/react-native-detox-multiple-typetext-crash-issues/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to show bullets in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native does not provide &lt;ol&gt; and &lt;ul&gt; like tags which auto handle bullet and counts now we have to handle both &lt;ol&gt; and &lt;ul&gt; in React Native FlatList.
+For &lt;ol&gt;, we can easily show using index value but for &lt;ul&gt; we have to use some Unicode to handle it.
+As per Unicode when we use \u2B24 code to make round bullet code....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-07 00:00:00 +0000 UTC'>January 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to show bullets in react native?" href="https://infinitbility.com/how-to-show-bullets-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native detox example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native detox tutorial 1. React native detox example
+2. React native detox multiple typeText crash issues
+3. React native detox with react navigation example
+4. react-native-date-picker detox example
+5. react-native-otp-input detox example
+Github source repo
+Today, we will learn how to do end-to-end testing in react native and for end to end testing we wil use Detox devlop by Wix.
+This tutorial is part of React native detox series and in this first part, we will implement detox in react native application and write some test case examples....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-06 00:00:00 +0000 UTC'>January 6, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native detox example" href="https://infinitbility.com/react-native-detox-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to enable or disable scroll in flatlist react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+Sometimes, we need to disable users scrolling content and you are also searching for how to enable or disable scrolling of react native flatlist then you are in right place.
+Today, we are going to do how to enable or disable flatlist scroll programatically.
+Basically, we will create a state isScrollEnabled and use in flatlist scrollEnabled props.
+React Native FlatList provide scrollEnabled props to handle scrolling of flatlist and we will pass our isScrollEnabled state value on it means when change isScrollEnabled true it will allow user to scroll and vice versa....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-04 00:00:00 +0000 UTC'>January 4, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to enable or disable scroll in flatlist react native?" href="https://infinitbility.com/how-to-enable-or-disable-scroll-in-flatlist-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to disable button after one click in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+When we are calling servers and any third-party API’s then we have to make sure users will not press multiple times’ buttons and that’s some people show loader and some disabled-buttons.
+Today, we will see how we can disable a button when anyone presses a button.
+Basically, we are going to create a state and we will disable it when clicking on a button plus we also condition a button if the state isDisabled is true we will disable a button....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-03 00:00:00 +0000 UTC'>January 3, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to disable button after one click in react native?" href="https://infinitbility.com/how-to-disable-button-after-one-click-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to set current date in datepicker in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+Many devs searching for set current date in datepicker i.e we have decided to make tutprial on this topic.
+Today, we are using react-native-datepicker lib to set current date example but you are open to use any lib it will work.
+React native datepicker lib provide date props to get value from state and Javascript provide current date when we write new Date(). So we only store new Date() in state....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-02 00:00:00 +0000 UTC'>January 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to set current date in datepicker in react native?" href="https://infinitbility.com/how-to-set-current-date-in-datepicker-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to set button bottom of the screen in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+Sometimes, we need to create on bottom fixed button so users can press button at any level of scrolling they don’t need to go end of the screen to submit a button.
+So, Today we will see how we can create bottom fixed button in react native.
+First, we will create sample button and then we will add bottom fixed styles to make bottom fixed button....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-01 00:00:00 +0000 UTC'>January 1, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to set button bottom of the screen in react native?" href="https://infinitbility.com/how-to-set-button-bottom-of-the-screen-in-react-native/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/react-native/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/react-native/page/4/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

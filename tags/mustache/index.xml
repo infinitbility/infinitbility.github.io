@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mustache on Infinitbility</title>
+    <link>https://infinitbility.com/tags/mustache/</link>
+    <description>Recent content in Mustache on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/mustache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>integrate Mustache nodejs example</title>
+      <link>https://infinitbility.com/integrate-mustache-nodejs-example/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/integrate-mustache-nodejs-example/</guid>
+      <description>Mustache html template use for email content</description>
+    </item>
+    
+  </channel>
+</rss>

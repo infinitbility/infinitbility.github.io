@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TypeScript | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/typescript/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/typescript/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="TypeScript" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/typescript/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="TypeScript"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    TypeScript
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to number in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to number in typescript?, here we will use date built-in method Date.parse() method to convert date to number format.
+So, let’s see what is Date.parse() method?
+The Date.parse() method parses a string representation of a date, and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC or NaN if the string is unrecognized or, in some cases, contains illegal date values (e....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-27 00:00:00 +0000 UTC'>April 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to number in typescript?" href="https://infinitbility.com/how-to-convert-date-to-number-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to epoch time in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to epoch time in typescript, here we will use built-in method Date.parse() method to convert date to epoch time.
+First of all, let understand what is a epoch time?
+The Unix epoch or Unix time is the number of seconds elapsed since January 1, 1970. The getTime() method is used to return the millisecond representation of the Date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-26 00:00:00 +0000 UTC'>April 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to epoch time in typescript?" href="https://infinitbility.com/how-to-convert-date-to-epoch-time-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to string format in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to date string format in typescript, here we will use built-in method .toString() to convert date to string date.
+First, we will create sample new date() object variable, after then, we will use .toString() method to convert it on string date format.
+let’s dive in code…
+let date = new Date(); console.log(date); // 2022-04-25T08:21:19....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-25 00:00:00 +0000 UTC'>April 25, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to string format in typescript?" href="https://infinitbility.com/how-to-convert-date-to-string-format-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert date to utc format in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert date to utc format in typescript, here we will use built-in method .toUTCString() to convert date to utc date.
+First, we will create sample new date() object variable, after then, we will use .toUTCString() method to convert it on utc date format.
+let’s dive in code…
+let date = new Date(); console.log(date); // 2022-04-24T11:26:53.690Z let utcDate: string = date....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-24 00:00:00 +0000 UTC'>April 24, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert date to utc format in typescript?" href="https://infinitbility.com/how-to-convert-date-to-utc-format-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to char array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn How to convert string to char array in typescript, here we will use built-in method .split() to convert string to array.
+Well, we have sample an string which we have to seprate and we have to pick those data and use as array.
+To do this things, we have built-in method .split() which we have to provide empty string seprator for to seprate every string char element....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-23 00:00:00 +0000 UTC'>April 23, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to char array in typescript?" href="https://infinitbility.com/how-to-convert-string-to-char-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to title case in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn how to convert string in any case like camel case, paskal case to title case in typescript, here we will create toTitleCase() custom method to convert string any case to title case.
+Well, let’s create a function which return the provided string with the first letter of each word capitalized and Make sure the rest of the word is in lower case....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-22 00:00:00 +0000 UTC'>April 22, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to title case in typescript?" href="https://infinitbility.com/how-to-convert-string-to-title-case-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert comma separated string to array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to learn how to convert comma (,) separated string to array in typescript, here we will use built-in method .split() to convert string to array.
+Well, we have an string which have comma ( , ) seprate data and we have to pick those data and use as array.
+To do this things, we have built-in method .split() which we have to provide seprator for now it’s comma and it will return an array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-20 00:00:00 +0000 UTC'>April 20, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert comma separated string to array in typescript?" href="https://infinitbility.com/how-to-convert-comma-separated-string-to-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert a string to uppercase in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert a string to uppercase in typescript, here we will use the javascript toUpperCase() method to convert it an uppercase.
+So first, we will create some examples variables, then we use the toUpperCase() method on those variables, and then we will check our console it’s working or not.
+Let’s start codeing…
+let firstStr: string = &#39;Hello World&#39;; let secondStr: string = &#39;Infinitbility&#39;; let thirdStr: string = &#39;IfergUokgIgokr04&#39;; // lets convert it firstStr = firstStr....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-17 00:00:00 +0000 UTC'>April 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert a string to uppercase in typescript?" href="https://infinitbility.com/how-to-convert-a-string-to-uppercase-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert a string to lowercase in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert string to lowercase in typescript, here we will use the javascript toLowerCase() method to convert to lowercase.
+So first, we will create some examples variables, then we use the toLowerCase() method on those variables, and then we will check our console it’s working or not.
+Let’s start coding…
+let firstStr: string = &#39;Hello World&#39;; let secondStr: string = &#39;Infinitbility&#39;; let thirdStr: string = &#39;IfergUokgIgokr04&#39;; // lets convert it firstStr = firstStr....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-16 00:00:00 +0000 UTC'>April 16, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert a string to lowercase in typescript?" href="https://infinitbility.com/how-to-convert-a-string-to-lowercase-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert any to string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+This tutorial will help you to convert any type of data to a string in typescript, here we will use the built-in method .toString() method to convert data any type to a string.
+we will first create any type variable with sample array data and then we will check their data type. after that we will use the .toString() method to convert it into a string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-14 00:00:00 +0000 UTC'>April 14, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert any to string in typescript?" href="https://infinitbility.com/how-to-convert-any-to-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert object to json string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to see how we can convert the object to JSON string in typescript, here we will use the built-in method JSON.stringify() to convert data object to JSON string.
+When you want to pass data to API or anywhere then you should stringify your JSON.
+Here, we will create a sample object and then we use JSON.stringify() to convert the object to a string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-14 00:00:00 +0000 UTC'>April 14, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert object to json string in typescript?" href="https://infinitbility.com/how-to-convert-object-to-json-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to json in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to see how we can convert string to object in typescript, here we will use the built-in method JSON.parse() to convert data string to JSON.
+When you get a string from any API or anywhere and it looks like JSON key-value pair for example
+&#39;{&#34;id&#34;:1,&#34;name&#34;:&#34;infinitbility&#34;,&#34;domain&#34;:&#34;infinitbility.com&#34;,&#34;age&#34;:2,&#34;isActive&#34;:1}&#39;
+and you won’t use it then first you to parse it.
+let’s start code....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-14 00:00:00 +0000 UTC'>April 14, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to json in typescript?" href="https://infinitbility.com/how-to-convert-string-to-json-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to boolean in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, we are going to see how we can convert string to boolean in typescript, here we are going to use the ternary operator to convert string to boolean.
+To convert a string to a boolean, we have to check whether &#39;true&#39; is present in the string or not, and if present we have to assign a new true value or false.
+In the following code, we are taken of both cases if the string true or if string false....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-13 00:00:00 +0000 UTC'>April 13, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to boolean in typescript?" href="https://infinitbility.com/how-to-convert-string-to-boolean-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert a string to camel case in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how can we convert normal string text to camel case in typescript,
+If you are using lodash then you have to just use their available camel case convert method.
+_.camelCase(&#39;Foo Bar&#39;); // → &#39;fooBar&#39; _.camelCase(&#39;--foo-bar--&#39;); // → &#39;fooBar&#39; _.camelCase(&#39;__FOO_BAR__&#39;); // → &#39;fooBar but in this article, we are going to create a custom function that converts text to camelCase text....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-11 00:00:00 +0000 UTC'>April 11, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert a string to camel case in typescript?" href="https://infinitbility.com/how-to-convert-a-string-to-camel-case-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert object keys to array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert object keys to array in typescript, here we use some javascript Objects method like Object.keys() method.
+Sometime’s we need to create array from object keys and that’s why we simple method Object.keys()
+interface User { id: number; name: string; domain?: string; age?: number; isActive?: boolean; } let user: User = { id: 1, name: &#34;infinitbility&#34;, domain: &#34;infinitbility....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-09 00:00:00 +0000 UTC'>April 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert object keys to array in typescript?" href="https://infinitbility.com/how-to-convert-object-keys-to-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert object values to array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert object values to array in typescript, here we use some javascript Objects method like Object.values() method.
+Sometime’s we need to create array from object values and that’s why we simple method Object.values()
+interface User { id: number; name: string; domain?: string; age?: number; isActive?: boolean; } let user: User = { id: 1, name: &#34;infinitbility&#34;, domain: &#34;infinitbility....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-09 00:00:00 +0000 UTC'>April 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert object values to array in typescript?" href="https://infinitbility.com/how-to-convert-object-values-to-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert object to array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert object to array in typescript, here we use some javascript Objects method like Object.keys() method.
+Sometime’s we need to create array from object we have to iterate a object.
+interface User { id: number; name: string; domain?: string; age?: number; isActive?: boolean; } let user: User = { id: 1, name: &#34;infinitbility&#34;, domain: &#34;infinitbility.com&#34;, age: 2, isActive: 1 }; let userDetail = []; const resultArray = Object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-08 00:00:00 +0000 UTC'>April 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert object to array in typescript?" href="https://infinitbility.com/how-to-convert-object-to-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to date in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+Today, I’m going to show you how to convert string to date object in typescript, here we will use new Date() method to convert date string to date.
+Let’s start the code.
+Suppose, you will get &#39;1968-11-16T00:00:00&#39; this type of string from api and want use as a date then you have to pass this string in date object like this new Date(&#39;1968-11-16T00:00:00&#39;)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-04-06 00:00:00 +0000 UTC'>April 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to date in typescript?" href="https://infinitbility.com/how-to-convert-string-to-date-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to define array of objects in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+This tutorial is part of the below series.
+TypeScript define variable
+How to define type in typescript?
+How to define array in typescript?
+How to define object in typescript?
+How to define array of objects in typescript?
+Let start Part 3: How to define array of objects in typescript?
+To create an array of objects, we will combine our Second and third tutorials, Here we have to define object property type and use it with in array data type....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-29 00:00:00 +0000 UTC'>March 29, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to define array of objects in typescript?" href="https://infinitbility.com/how-to-define-array-of-objects-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to define object in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome to Infinitbility ❤️!
+This tutorial is part of the below series.
+TypeScript define variable
+How to define type in typescript?
+How to define array in typescript?
+How to define object in typescript?
+How to define array of objects in typescript?
+Let start Part 3: How to define object in typescript?
+In this tutorial, we will create objects in typescript, but before creating objects we have to write their property data type....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-28 00:00:00 +0000 UTC'>March 28, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to define object in typescript?" href="https://infinitbility.com/how-to-define-object-in-typescript/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/typescript/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/typescript/page/4/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

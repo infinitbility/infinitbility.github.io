@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React Native ScrollView | Infinitbility</title>
+<meta name="keywords" content="ScrollView">
+<meta name="description" content="React Native Tutorial - React Native ScrollView">
+<meta name="author" content="Infinitbility">
+<link rel="canonical" href="https://infinitbility.com/react-native/react-native-scrollview/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React Native ScrollView" />
+<meta property="og:description" content="React Native Tutorial - React Native ScrollView" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://infinitbility.com/react-native/react-native-scrollview/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-02-10T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React Native ScrollView"/>
+<meta name="twitter:description" content="React Native Tutorial - React Native ScrollView"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "React Native ScrollView",
+      "item": "https://infinitbility.com/react-native/react-native-scrollview/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "React Native ScrollView",
+  "name": "React Native ScrollView",
+  "description": "React Native Tutorial - React Native ScrollView",
+  "keywords": [
+    "ScrollView"
+  ],
+  "articleBody": "This Article Part of React Native Tutorial Series want to start from scrach follow below link\nhttps://infinitbility.com/react-native/table-of-contents\nEver have the situation where you sometimes had content that was shorter than the screen size and didn’t require scrolling but occasionally had content taller than the screen size, thus necessitating scroll to allow the user to see all the content.\nReact native scrollview provide feature to create scrolllable content on both direction ( vertically and horizontally ).\nReact Native ScrollView example.\nApp.js import React, { Component } from \"react\"; import { ScrollView, StyleSheet, Text, View } from \"react-native\"; class App extends Component { state = { products: [ { product: \"Rice\", id: 1 }, { product: \"Sweets\", id: 2 }, { product: \"Fruits\", id: 3 }, { product: \"Animals\", id: 4 }, { product: \"humans\", id: 5 }, { product: \"sport\", id: 6 }, { product: \"kitchen\", id: 7 }, { product: \"childrens\", id: 8 }, { product: \"men\", id: 9 }, { product: \"old people\", id: 10 }, { product: \"shafty\", id: 11 }, { product: \"transport\", id: 12 } ] }; render() { return ( \u003cView\u003e \u003cScrollView\u003e {this.state.products.map((item, index) =\u003e ( \u003cView key={item.id} style={styles.item}\u003e \u003cText\u003e{item.product}\u003c/Text\u003e \u003c/View\u003e ))} \u003c/ScrollView\u003e \u003c/View\u003e ); } } const styles = StyleSheet.create({ item: { flexDirection: \"row\", justifyContent: \"space-between\", alignItems: \"left\", padding: 20, margin: 2, borderColor: \"pink\", borderWidth: 3, backgroundColor: \"yellow\" } }); export default App; Scroll horizontally react native scrollview provide horizontal props. When true, the scroll view’s children are arranged horizontally in a row instead of vertically in a column. The default value is false.\nUse like below example\n... \u003cScrollView horizontal={true} \u003e {this.state.products.map((item, index) =\u003e ( \u003cView key={item.id} style={styles.item}\u003e \u003cText\u003e{item.product}\u003c/Text\u003e \u003c/View\u003e ))} \u003c/ScrollView\u003e ... Common Q \u0026 A Common Q \u0026 A section explain commonly question ask on google.\nHow do you get the scroll position in react native? react native scrollview provide onScroll props to get scrolled position of screen.\njust like below example\n\u003cScrollView onScroll={event =\u003e this.setState({horizontalScroll:event.nativeEvent.contentOffset.x, VerticalScroll:event.nativeEvent.contentOffset.y}) } \u003e // Your list data \u003c/ScrollView\u003e React native Scroll programmatically infinitbility already published Tutorial related to Scroll programmatically. please check out the below link.\nReact native ScrollView scroll to position\nThanks For reading…\nMore From React Native Tutorial Basics 1. Introduction To React Native\r2. React Native Environment Setup using expo\r3. React Native Environment Setup for windows\r4. React Native Environment setup on Mac OS\r5. React Native Environment setup on linux 6. React Native Project Structure\r7. React Native State\r8. React Native Props\r9. React Native Styling\r10. React Native Flexbox\r11. React Native Text\r12. React Native Textinput\r13. React Native Commands\r14. React Native ScrollView\rAdvances 1. React Native Dark Mode\r2. React Native Fonts\r3. React Native SQLite 4. React Native DatepickerAndroid\r5. React native ScrollView scroll to position\r6. How to align icon with text in react native\r7. React Native Image\r8. React Native Firebase Crashlytics\r9. React Native Async Storage\r10. React Native Share\rError \u0026 Issue Solution 1. Task :app:transformDexArchiveWithDexMergerForDebug FAILED In React Native\r2. Expiring Daemon because JVM heap space is exhausted In React Native\r3. Task :app:transformNativeLibsWithMergeJniLibsForDebug FAILED In React Native\r4. Unable to determine the current character, it is not a string, number, array, or object in react native\r5. App crashed immediately after install react native video or track player\r6. how to delete SQLite database in android react native\r7. React native material dropdown twice click issue\r8. How to get the current route in react-navigation?\r9. how to disable drawer on the drawer navigation screen?\r10. Image not showing in ios 14 react native",
+  "wordCount" : "597",
+  "inLanguage": "en",
+  "datePublished": "2021-02-10T00:00:00Z",
+  "dateModified": "2021-02-10T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Infinitbility"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://infinitbility.com/react-native/react-native-scrollview/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Infinitbility",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://infinitbility.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      React Native ScrollView
+    </h1>
+    <div class="post-description">
+      React Native Tutorial - React Native ScrollView
+    </div>
+    <div class="post-meta"><span title='2021-02-10 00:00:00 +0000 UTC'>February 10, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul><ul><ul>
+                <li>
+                    <a href="#appjs" aria-label="App.js">App.js</a></li></ul>
+                    </ul>
+                    
+                <li>
+                    <a href="#scroll-horizontally" aria-label="Scroll horizontally">Scroll horizontally</a></li>
+                <li>
+                    <a href="#common-q--a" aria-label="Common Q &amp;amp; A">Common Q &amp; A</a><ul>
+                        
+                <li>
+                    <a href="#how-do-you-get-the-scroll-position-in-react-native" aria-label="How do you get the scroll position in react native?">How do you get the scroll position in react native?</a></li></ul>
+                </li>
+                <li>
+                    <a href="#react-native-scroll-programmatically" aria-label="React native Scroll programmatically">React native Scroll programmatically</a></li></ul>
+                    
+                <li>
+                    <a href="#more-from-react-native-tutorial" aria-label="More From React Native Tutorial">More From React Native Tutorial</a><ul>
+                        
+                <li>
+                    <a href="#basics" aria-label="Basics">Basics</a></li>
+                <li>
+                    <a href="#advances" aria-label="Advances">Advances</a></li>
+                <li>
+                    <a href="#error--issue-solution" aria-label="Error &amp;amp; Issue Solution">Error &amp; Issue Solution</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>This Article Part of React Native Tutorial Series want to start from scrach follow below link</p>
+<p><a href="https://infinitbility.com/react-native/table-of-contents">https://infinitbility.com/react-native/table-of-contents</a></p>
+<hr>
+<p>Ever have the situation where you sometimes had content that was shorter than the screen size and didn’t require scrolling but occasionally had content taller than the screen size, thus necessitating scroll to allow the user to see all the content.</p>
+<p>React native scrollview provide feature to create scrolllable content on both direction ( vertically and horizontally ).</p>
+<p>React Native ScrollView example.</p>
+<h4 id="appjs">App.js<a hidden class="anchor" aria-hidden="true" href="#appjs">#</a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">ScrollView</span><span class="p">,</span> <span class="nx">StyleSheet</span><span class="p">,</span> <span class="nx">Text</span><span class="p">,</span> <span class="nx">View</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;react-native&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">class</span> <span class="nx">App</span> <span class="kr">extends</span> <span class="nx">Component</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">state</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">products</span><span class="o">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;Rice&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">1</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;Sweets&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">2</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;Fruits&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">3</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;Animals&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">4</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;humans&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">5</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;sport&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">6</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;kitchen&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">7</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;childrens&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">8</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;men&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">9</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;old people&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">10</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;shafty&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">11</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">product</span><span class="o">:</span> <span class="s2">&#34;transport&#34;</span><span class="p">,</span> <span class="nx">id</span><span class="o">:</span> <span class="mi">12</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&lt;</span><span class="nx">View</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">ScrollView</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">products</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">item</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">View</span> <span class="nx">key</span><span class="o">=</span><span class="p">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="p">}</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span><span class="nx">styles</span><span class="p">.</span><span class="nx">item</span><span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="o">&lt;</span><span class="nx">Text</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">product</span><span class="p">}</span><span class="o">&lt;</span><span class="err">/Text&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="err">/View&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">))}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/ScrollView&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&lt;</span><span class="err">/View&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">styles</span> <span class="o">=</span> <span class="nx">StyleSheet</span><span class="p">.</span><span class="nx">create</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">item</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">flexDirection</span><span class="o">:</span> <span class="s2">&#34;row&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">justifyContent</span><span class="o">:</span> <span class="s2">&#34;space-between&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">alignItems</span><span class="o">:</span> <span class="s2">&#34;left&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">padding</span><span class="o">:</span> <span class="mi">20</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">margin</span><span class="o">:</span> <span class="mi">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">borderColor</span><span class="o">:</span> <span class="s2">&#34;pink&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">borderWidth</span><span class="o">:</span> <span class="mi">3</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">backgroundColor</span><span class="o">:</span> <span class="s2">&#34;yellow&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="k">default</span> <span class="nx">App</span><span class="p">;</span>
+</span></span></code></pre></div><h2 id="scroll-horizontally">Scroll horizontally<a hidden class="anchor" aria-hidden="true" href="#scroll-horizontally">#</a></h2>
+<p>react native scrollview provide <code>horizontal</code> props. When true, the scroll view&rsquo;s children are arranged horizontally in a row instead of vertically in a column. The default value is false.</p>
+<p>Use like below example</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="p">...</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="nx">ScrollView</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">horizontal</span><span class="o">=</span><span class="p">{</span><span class="kc">true</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">state</span><span class="p">.</span><span class="nx">products</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">item</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="nx">View</span> <span class="nx">key</span><span class="o">=</span><span class="p">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="p">}</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span><span class="nx">styles</span><span class="p">.</span><span class="nx">item</span><span class="p">}</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="o">&lt;</span><span class="nx">Text</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">item</span><span class="p">.</span><span class="nx">product</span><span class="p">}</span><span class="o">&lt;</span><span class="err">/Text&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="err">/View&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">))}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="err">/ScrollView&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
+</span></span></code></pre></div><h2 id="common-q--a">Common Q &amp; A<a hidden class="anchor" aria-hidden="true" href="#common-q--a">#</a></h2>
+<p>Common Q &amp; A section explain commonly question ask on google.</p>
+<h3 id="how-do-you-get-the-scroll-position-in-react-native">How do you get the scroll position in react native?<a hidden class="anchor" aria-hidden="true" href="#how-do-you-get-the-scroll-position-in-react-native">#</a></h3>
+<p>react native scrollview provide <code>onScroll</code> props to get scrolled position of screen.</p>
+<p>just like below example</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">ScrollView</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">onScroll</span><span class="o">=</span><span class="p">{</span><span class="nx">event</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span><span class="nx">horizontalScroll</span><span class="o">:</span><span class="nx">event</span><span class="p">.</span><span class="nx">nativeEvent</span><span class="p">.</span><span class="nx">contentOffset</span><span class="p">.</span><span class="nx">x</span><span class="p">,</span> <span class="nx">VerticalScroll</span><span class="o">:</span><span class="nx">event</span><span class="p">.</span><span class="nx">nativeEvent</span><span class="p">.</span><span class="nx">contentOffset</span><span class="p">.</span><span class="nx">y</span><span class="p">})</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// Your list data
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">&lt;</span><span class="err">/ScrollView&gt;</span>
+</span></span></code></pre></div><h2 id="react-native-scroll-programmatically">React native Scroll programmatically<a hidden class="anchor" aria-hidden="true" href="#react-native-scroll-programmatically">#</a></h2>
+<p>infinitbility already published Tutorial related to Scroll programmatically. please check out the below link.</p>
+<p><a href="https://infinitbility.com/react-native-scrollview-scroll-to-position" target="_blank">React native ScrollView scroll to position</a></p>
+<p>Thanks For reading&hellip;</p>
+<h1 id="more-from-react-native-tutorial">More From React Native Tutorial<a hidden class="anchor" aria-hidden="true" href="#more-from-react-native-tutorial">#</a></h1>
+<h2 id="basics">Basics<a hidden class="anchor" aria-hidden="true" href="#basics">#</a></h2>
+<P>1. <a href="https://infinitbility.com/react-native/introduction-to-react-native" target="_blank">Introduction To React Native</a></P>
+<P>2. <a href="https://infinitbility.com/react-native/react-native-environment-setup-using-expo" target="_blank">React Native Environment Setup using expo</a></P>
+<P>3. <a href="https://infinitbility.com/react-native/react-native-environment-setup-for-windows" target="_blank">React Native Environment Setup for windows</a></P>
+<P>4. <a href="https://infinitbility.com/react-native/react-native-environment-setup-on-mac-os" target="_blank">React Native Environment setup on Mac OS</a></P>
+<P>5. <a href="https://infinitbility.com/react-native/react-native-environment-setup-on-ubuntu" target="_blank">React Native Environment setup on linux </a></P>
+<P>6. <a href="https://infinitbility.com/react-native/react-native-project-structure" target="_blank">React Native Project Structure</a></P>
+<P>7. <a href="https://infinitbility.com/react-native/react-native-state" target="_blank">React Native State</a></P>
+<P>8. <a href="https://infinitbility.com/react-native/react-native-props" target="_blank">React Native Props</a></P>
+<P>9. <a href="https://infinitbility.com/react-native/react-native-styling" target="_blank">React Native Styling</a></P>
+<P>10. <a href="https://infinitbility.com/react-native/react-native-flexbox" target="_blank">React Native Flexbox</a></P>
+<P>11. <a href="https://infinitbility.com/react-native/react-native-text" target="_blank">React Native Text</a></P>
+<P>12. <a href="https://infinitbility.com/react-native/react-native-textinput" target="_blank">React Native Textinput</a></P>
+<P>13. <a href="https://infinitbility.com/react-native-commands-you-need-almost-every-day" target="_blank">React Native Commands</a></P>
+<P>14. <a href="https://infinitbility.com/react-native/react-native-scrollview" target="_blank">React Native ScrollView</a></P>
+<h2 id="advances">Advances<a hidden class="anchor" aria-hidden="true" href="#advances">#</a></h2>
+<P>1. <a href="https://infinitbility.com/manage-dark-mode-without-installing-any-package-in-react-native" target="_blank">React Native Dark Mode</a></P>
+<P>2. <a href="https://infinitbility.com/react-native-font-family-list" target="_blank">React Native Fonts</a></P>
+<P>3. <a href="https://infinitbility.com/react-native-sqlite-storage-examples-of-query" target="_blank">React Native SQLite </a></P>
+<P>4. <a href="https://infinitbility.com/how-to-add-datepickerandroid-in-react-native-with-color-changes" target="_blank">React Native DatepickerAndroid</a></P>
+<P>5. <a href="https://infinitbility.com/react-native-scrollview-scroll-to-position" target="_blank">React native ScrollView scroll to position</a></P>
+<P>6. <a href="https://infinitbility.com/how-to-align-icon-with-text-in-react-native" target="_blank">How to align icon with text in react native</a></P>
+<P>7. <a href="https://infinitbility.com/react-native-image" target="_blank">React Native Image</a></P>
+<P>8. <a href="https://infinitbility.com/implement-react-native-firebase-crashlytics-on-android" target="_blank">React Native Firebase Crashlytics</a></P>
+<P>9. <a href="https://medium.com/infinitbility/react-native-async-storage-8773dcdcb54a" target="_blank">React Native Async Storage</a></P>
+<P>10. <a href="https://medium.com/infinitbility/react-native-share" target="_blank">React Native Share</a></P>
+<h2 id="error--issue-solution">Error &amp; Issue Solution<a hidden class="anchor" aria-hidden="true" href="#error--issue-solution">#</a></h2>
+<P>1. <a href="https://infinitbility.medium.com/task-app-transformdexarchivewithdexmergerfordebug-failed-in-react-native-6d03bc4655af" target="_blank">Task :app:transformDexArchiveWithDexMergerForDebug FAILED In React Native</a></P>
+<P>2. <a href="https://infinitbility.medium.com/expiring-daemon-because-jvm-heap-space-is-exhausted-in-react-native-e17c2248c8af" target="_blank">Expiring Daemon because JVM heap space is exhausted In React Native</a></P>
+<P>3. <a href="https://infinitbility.medium.com/task-app-transformnativelibswithmergejnilibsfordebug-failed-in-react-native-83bdbc43ce79" target="_blank">Task :app:transformNativeLibsWithMergeJniLibsForDebug FAILED In React Native</a></P>
+<P>4. <a href="https://infinitbility.medium.com/unable-to-determine-the-current-character-it-is-not-a-string-number-array-or-object-in-react-f34c80d96e8e" target="_blank">Unable to determine the current character, it is not a string, number, array, or object in react native</a></P>
+<P>5. <a href="https://infinitbility.com/app-crashed-immediately-after-install-react-native-video-or-track-player" target="_blank">App crashed immediately after install react native video or track player</a></P>
+<P>6. <a href="https://infinitbility.com/how-to-delete-sqlite-database-in-android-react-native" target="_blank">how to delete SQLite database in android react native</a></P>
+<P>7. <a href="https://infinitbility.com/react-native-material-dropdown-twice-click-issue" target="_blank">React native material dropdown twice click issue</a></P>
+<P>8. <a href="https://infinitbility.com/how-to-get-the-current-route-in-react-navigation" target="_blank">How to get the current route in react-navigation?</a></P>
+<P>9. <a href="https://infinitbility.com/how-to-disable-drawer-on-the-drawer-navigation-screen" target="_blank">how to disable drawer on the drawer navigation screen?</a></P>
+<P>10. <a href="https://infinitbility.com/image-not-showing-in-ios-14-react-native" target="_blank">Image not showing in ios 14 react native</a></P>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://infinitbility.com/tags/scrollview/">ScrollView</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://infinitbility.com/react-native-image-picker-launchimagelibrary-on-second-time-issue/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>React Native image picker launchimagelibrary on second time issue</span>
+  </a>
+  <a class="next" href="https://infinitbility.com/laravel-clear-cache,-config,-view-and-routes/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Laravel Clear cache, config, view and Routes</span>
+  </a>
+</nav>
+
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on twitter"
+        href="https://twitter.com/intent/tweet/?text=React%20Native%20ScrollView&amp;url=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f&amp;hashtags=ScrollView">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f&amp;title=React%20Native%20ScrollView&amp;summary=React%20Native%20ScrollView&amp;source=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f&title=React%20Native%20ScrollView">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on whatsapp"
+        href="https://api.whatsapp.com/send?text=React%20Native%20ScrollView%20-%20https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share React Native ScrollView on telegram"
+        href="https://telegram.me/share/url?text=React%20Native%20ScrollView&amp;url=https%3a%2f%2finfinitbility.com%2freact-native%2freact-native-scrollview%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+  </footer>
+</article>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

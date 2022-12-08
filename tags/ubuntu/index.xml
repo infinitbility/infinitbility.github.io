@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ubuntu on Infinitbility</title>
+    <link>https://infinitbility.com/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVN tutorial for ubuntu</title>
+      <link>https://infinitbility.com/svn-tutorial-for-ubuntu/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/svn-tutorial-for-ubuntu/</guid>
+      <description>how to setup svn and use in ubuntu</description>
+    </item>
+    
+    <item>
+      <title>How to delete files on s3 bucket using aws cli</title>
+      <link>https://infinitbility.com/how-to-delete-files-on-s3-bucket-using-aws-cli/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-delete-files-on-s3-bucket-using-aws-cli/</guid>
+      <description>Delete files from s3 bucket using AWS CLI</description>
+    </item>
+    
+    <item>
+      <title>how to copy folder s3 bucket to another s3 bucket</title>
+      <link>https://infinitbility.com/how-to-copy-folder-s3-bucket-to-another-s3-bucket/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-folder-s3-bucket-to-another-s3-bucket/</guid>
+      <description>how to copy folder between s3 bucket using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to copy folder from s3 using aws cli</title>
+      <link>https://infinitbility.com/how-to-copy-folder-from-s3-using-aws-cli/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-folder-from-s3-using-aws-cli/</guid>
+      <description>upload and download folder from s3 using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to copy file from s3 using aws cli</title>
+      <link>https://infinitbility.com/how-to-copy-file-from-s3-using-aws-cli/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-file-from-s3-using-aws-cli/</guid>
+      <description>upload and download files from s3 using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to check files and folders of s3 bucket using aws cli</title>
+      <link>https://infinitbility.com/how-to-check-files-and-folders-of-s3-bucket-using-aws-cli/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-files-and-folders-of-s3-bucket-using-aws-cli/</guid>
+      <description>check files and folders of s3 bucket using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to configure S3 in ubuntu</title>
+      <link>https://infinitbility.com/how-to-configure-s3-in-ubuntu/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-configure-s3-in-ubuntu/</guid>
+      <description>Install and configure s3 in ubuntu</description>
+    </item>
+    
+    <item>
+      <title>How to deploy nodejs application subdirectory level in apache ubuntu</title>
+      <link>https://infinitbility.com/how-to-deploy-nodejs-application-subdirectory-level-in-apache-ubuntu/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-deploy-nodejs-application-subdirectory-level-in-apache-ubuntu/</guid>
+      <description>Deploy your nodejs application to subdirectory url level in apache server.</description>
+    </item>
+    
+    <item>
+      <title>How to exit from initramfs busybox in Ubuntu</title>
+      <link>https://infinitbility.com/how-to-exit-from-initramfs-busybox-in-ubuntu/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-exit-from-initramfs-busybox-in-ubuntu/</guid>
+      <description>here you get solution of busybox initramfs issue in ubuntu</description>
+    </item>
+    
+    <item>
+      <title>Deploy React Application on Ubuntu Apache</title>
+      <link>https://infinitbility.com/deploy-react-application-on-ubuntu-apache/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/deploy-react-application-on-ubuntu-apache/</guid>
+      <description>In this article, we set up a ubuntu server with a react environment, learn the react build process, and figure out some issues like after build getting a blank page, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

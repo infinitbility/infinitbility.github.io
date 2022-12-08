@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infinitbility</title>
+    <link>https://infinitbility.com/tags/infinitbility/</link>
+    <description>Recent content on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/infinitbility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://infinitbility.com/about/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/about/</guid>
+      <description>Infinitbility is a tech blog created with the sole purpose of explaining complex tech in a simple and concise way thus creating value for budding developers out there.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://infinitbility.com/contact/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/contact/</guid>
+      <description>Contact infinitbility for any suggestions/issues and we will try to implement/resolve them ASAP.</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://infinitbility.com/disclaimer/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/disclaimer/</guid>
+      <description>If you require any more information or have any questions about our site&amp;#39;s disclaimer, please feel free to contact us.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://infinitbility.com/privacy-policy/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/privacy-policy/</guid>
+      <description>t Infinitbility, accessible from https</description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>https://infinitbility.com/terms-and-conditions/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/terms-and-conditions/</guid>
+      <description>hese terms and conditions outline the rules and regulations for the use of Infinitbility&amp;#39;s Website, located at https</description>
+    </item>
+    
+  </channel>
+</rss>

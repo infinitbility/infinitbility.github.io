@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>MomentJS | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/momentjs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/momentjs/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="MomentJS" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/momentjs/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="MomentJS"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    MomentJS
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get number of days between two dates in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the number of days between two dates in moment js, use the diff() method with days to get the difference in a day.
+Just import a moment in your file and call a.diff(b, &#39;days&#39;) and it will return the difference of dates in a day.
+a.diff(b, &#39;days&#39;) Today, I’m going to show How do I get a number of days between two dates using moment js, here I will use the momentjs standard method moment() and diff() for a number of days between two dates....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-17 00:00:00 +0000 UTC'>June 17, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get number of days between two dates in moment js?" href="https://infinitbility.com/how-to-get-number-of-days-between-two-dates-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get previous month in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the previous month in moment js, use the subtract(1, &#34;month&#34;) method to subtract the month in date and use format(&#39;MMMM&#39;) to get the month name from subtracted date.
+Just import moment in your file and call moment().subtract(1, &#34;month&#34;).format(&#39;MMMM&#39;) and it will return previous month.
+moment().subtract(1, &#34;month&#34;).format(&#39;MMMM&#39;) Today, I’m going to show How do I get the previous month using moment js, here I will use the momentjs standard method subtract() and format() to get last month....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-17 00:00:00 +0000 UTC'>June 17, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get previous month in moment js?" href="https://infinitbility.com/how-to-get-previous-month-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to find the month name from the moment js date?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get month name in moment js, use the moment().format() method by passing desire month format string parameters.
+Just import moment in your file and invoke moment().format(&#39;MMM&#39;); it will show the current date time with the format.
+moment().format(&#39;MMM&#39;) Today, I’m going to show How do I get month from date using moment js, here I will use the momentjs standard method format() to find month name from the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-16 00:00:00 +0000 UTC'>June 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to find the month name from the moment js date?" href="https://infinitbility.com/how-to-find-the-month-name-from-the-moment-js-date/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get first and last date of month in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get month name in moment js, use the startOf(&#39;month&#39;) method to get month starting date and endOf(&#39;month&#39;) to get ending date of the month.
+Just import moment in your file and call startOf(&#39;month&#39;) and endOf(&#39;month&#39;) with moment() date, it will return first and last date of the month.
+const startOfMonth = moment().startOf(&#39;month&#39;).format(&#39;YYYY-MM-DD hh:mm&#39;); const endOfMonth = moment().endOf(&#39;month&#39;).format(&#39;YYYY-MM-DD hh:mm&#39;); Today, I’m going to show How do I get first and last date of month using moment js, here I will use the momentjs standard method startOf() and endOf() to find first and last date of the month....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-16 00:00:00 +0000 UTC'>June 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get first and last date of month in moment js?" href="https://infinitbility.com/how-to-get-first-and-last-date-of-month-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to format date in react js using moment?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To format date in react js using moment, use the moment().format() method by passing desire format string parameters.
+Just import moment in your file and invoke moment().format(&#39;DD-MM-YYYY hh:mm:ss&#39;); it will show the current date time with the format.
+moment().format(&#39;DD-MM-YYYY hh:mm:ss&#39;) Today, I’m going to show How do I format date in react js using moment, here I will use the momentjs standard method format() to format the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-15 00:00:00 +0000 UTC'>June 15, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to format date in react js using moment?" href="https://infinitbility.com/how-to-format-date-in-react-js-using-moment/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get yesterday date in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get yesterday date in moment js, pass -1 and days in moment().add() method it will subtract 1 day in current date and return yesterday date.
+Just import a moment in your file and use moment().add(-1, &#39;days&#39;) to get yesterday date.
+moment().add(-1, &#39;days&#39;) Today, I’m going to show How do I get yesterday’s date in moment js, here I will use the momentjs common method moment()....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-15 00:00:00 +0000 UTC'>June 15, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get yesterday date in moment js?" href="https://infinitbility.com/how-to-get-yesterday-date-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get am and pm in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get am and pm in moment js, just use the moment().format() method by passing desire format string parameters with a at the end.
+Just import moment in your file and invoke moment().format(&#39;hh:mm:ss a&#39;); it will show the current time with am and pm.
+moment().format(&#39;hh:mm:ss a&#39;) Today, I’m going to show How do I get am and pm in moment js, here I will use the momentjs common method format() to format the date time object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-14 00:00:00 +0000 UTC'>June 14, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get am and pm in moment js?" href="https://infinitbility.com/how-to-get-am-and-pm-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to subtract two dates in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To subtract two dates in moment js, just use the moment() and diff() method to subtract dates and get the difference in milliseconds ( You can specify your measurement unit like seconds, minutes, hours, days months, or years ).
+Just import a moment in your file and use moment() to create a moment date after you can use the diff() method like the following example....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-14 00:00:00 +0000 UTC'>June 14, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to subtract two dates in moment js?" href="https://infinitbility.com/how-to-subtract-two-dates-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to convert string to date in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To convert string to date in moment js, just use the moment().format() method by passing desire format string parameters.
+Just import moment in your file and invoke moment().format(&#39;DD-MM-YYYY&#39;); it will show the current date time plus 30 years.
+moment().format(&#39;DD-MM-YYYY&#39;) Today, I’m going to show How do I convert string to date in moment js, here I will use the momentjs common method format() to convert string to the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-13 00:00:00 +0000 UTC'>June 13, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to convert string to date in moment js?" href="https://infinitbility.com/how-to-convert-string-to-date-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to format time in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To format time in moment js, just use the moment().format() method by passing desire format string parameters.
+Just import moment in your file and invoke moment().format(&#39;hh:mm:ss&#39;); it will show the current time.
+moment().format(&#39;hh:mm:ss&#39;) Today, I’m going to show How do I format time in moment js, here I will use the momentjs common method format() to format the date object.
+Let’s start the today’s tutorial How do you format time in moment js?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-13 00:00:00 +0000 UTC'>June 13, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to format time in moment js?" href="https://infinitbility.com/how-to-format-time-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add days in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add days in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of days you want to add, and the second parameter is &#39;days&#39; it’s means want to add days.
+Just import moment in your file and invoke moment().add(30, &#39;days&#39;); it will show the current date time plus 30 days.
+moment().add(20, &#39;days&#39;); Today, I’m going to show How do I add days in moment js, here I will use the momentjs common method add() to add days in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add days in moment js?" href="https://infinitbility.com/how-to-add-days-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add hours in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add hours in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of hours you want to add, and the second parameter is &#39;hours&#39; it’s means want to add hours.
+Just import moment in your file and invoke moment().add(30, &#39;hours&#39;); it will show the current date time plus 30 hours.
+moment().add(20, &#39;hours&#39;); Today, I’m going to show How do I add hours in moment js, here I will use the momentjs common method add() to add hours in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add hours in moment js?" href="https://infinitbility.com/how-to-add-hours-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add minutes in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add minutes in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of minutes you want to add, and the second parameter is &#39;minutes&#39; it’s means want to add minutes.
+Just import moment in your file and invoke moment().add(30, &#39;minutes&#39;); it will show the current date time plus 30 minutes.
+moment().add(20, &#39;minutes&#39;); Today, I’m going to show How do I add minutes in moment js, here I will use the momentjs common method add() to add minutes in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add minutes in moment js?" href="https://infinitbility.com/how-to-add-minutes-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add months in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add months in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of months you want to add, and the second parameter is &#39;months&#39; it’s means want to add months.
+Just import moment in your file and invoke moment().add(30, &#39;months&#39;); it will show the current date time plus 30 months.
+moment().add(20, &#39;months&#39;); Today, I’m going to show How do I add months in moment js, here I will use the momentjs common method add() to add months in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add months in moment js?" href="https://infinitbility.com/how-to-add-months-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add weeks in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add weeks in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of weeks you want to add, and the second parameter is &#39;weeks&#39; it’s means want to add weeks.
+Just import moment in your file and invoke moment().add(30, &#39;weeks&#39;); it will show the current date time plus 30 weeks.
+moment().add(20, &#39;weeks&#39;); Today, I’m going to show How do I add weeks in moment js, here I will use the momentjs common method add() to add weeks in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add weeks in moment js?" href="https://infinitbility.com/how-to-add-weeks-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add years in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add years in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of years you want to add, and the second parameter is &#39;years&#39; it’s means want to add years.
+Just import moment in your file and invoke moment().add(30, &#39;years&#39;); it will show the current date time plus 30 years.
+moment().add(20, &#39;years&#39;); Today, I’m going to show How do I add years in moment js, here I will use the momentjs common method add() to add years in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-12 00:00:00 +0000 UTC'>June 12, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add years in moment js?" href="https://infinitbility.com/how-to-add-years-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add seconds in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add seconds in the date using moment js, just use the moment().add() method by passing two parameters, first is the number of seconds you want to add, and the second parameter is &#39;seconds&#39; it’s means want to add seconds.
+Just import moment in your file and invoke moment().add(30, &#39;seconds&#39;); it will show the current date time plus 30 seconds.
+moment().add(20, &#39;seconds&#39;); Today, I’m going to show How do I add seconds in moment js, here I will use the momentjs common method add() to add seconds in the date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-11 00:00:00 +0000 UTC'>June 11, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add seconds in moment js?" href="https://infinitbility.com/how-to-add-seconds-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to compare two dates in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To compare two dates in moment js, The momentjs provide isBefore(), isSame(), isAfter(), isSameOrBefore(), isSameOrAfter(), and isBetween() to compare dates as you want.
+Today, I’m going to show How do I compare two dates in moment js, here I will use the momentjs above-mentioned functions with example to compare dates.
+Let’s start the today’s tutorial How do you compare two dates in moment js?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-11 00:00:00 +0000 UTC'>June 11, 2022</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to compare two dates in moment js?" href="https://infinitbility.com/how-to-compare-two-dates-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get current date in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the current date in moment js, just call moment() with no parameter, it will return the current date and time.
+Just import moment in your file and invoke moment().
+moment() Today, I’m going to show How do I get the current date in moment js, here I will use the momentjs common method moment() to the current date.
+Let’s start the today’s tutorial How do you get the current date in moment js?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-10 00:00:00 +0000 UTC'>June 10, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get current date in moment js?" href="https://infinitbility.com/how-to-get-current-date-in-moment-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get current time in moment js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get current time in moment js, just call moment().format() with &#34;hh:mm:ss&#34; time parameter format, it will return current time.
+Just import moment in your file and invoke moment().format(&#34;hh:mm:ss&#34;).
+moment().format(&#34;hh:mm:ss&#34;) Today, I’m going to show How do I get the current time in moment js, here I will use the momentjs common method moment().format() to the current time.
+Let’s start the today’s tutorial How do you get the current time in moment js?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-10 00:00:00 +0000 UTC'>June 10, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get current time in moment js?" href="https://infinitbility.com/how-to-get-current-time-in-moment-js/"></a>
+</article>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

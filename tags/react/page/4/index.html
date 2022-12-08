@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to solve RecordRTC recorded video seekable issue
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to solve your recorded video seekable issue, and also how we create seekable recorded video using RecordRTC and ts-ebml.
+If you are using RecordRTC for screen recording and geting issue seek bar when you play recorded video. Let’s solve this issue.
+ts-ebml ( https://www.npmjs.com/package/ts-ebml ) help to RecordRTC recorded make video seekable. let’s install it
+npm install ts-ebml --save below code is help you to make Seekable Blob, add in your code....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-08-21 00:00:00 +0000 UTC'>August 21, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to solve RecordRTC recorded video seekable issue" href="https://infinitbility.com/how-to-solve-recordrtc-recorded-video-seekable-issue/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get browser details in react
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+Introduction Sometimes, we need browser details like browser name, version, os, and etc to store on our database and write code based on browser details. today you will get how to get browser or device detail in react.
+For get browser details, we are going to use Platform.js ( https://github.com/bestiejs/platform.js ) and check examples to get browser detail like name, version, and os.
+Let’s start today topic How to get browser details in react programmatically...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-20 00:00:00 +0000 UTC'>July 20, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get browser details in react" href="https://infinitbility.com/how-to-get-browser-details-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to export excel in react
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article based on export excel in React, here you will get example of how to export excel in react.
+We are going to use react-data-export library to manage export excel task.
+Many dev’s install and stuck on react-export-excel package. Please don’t waste time in this package it just forked of react-data-export there are no support option.
+Let’s start today article How to export excel in react...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-06 00:00:00 +0000 UTC'>July 6, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to export excel in react" href="https://infinitbility.com/how-to-export-excel-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to download file in react
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article based on how to download any file in react, when you are working any type of project there are one definitely feature is download report.
+May be you are looking for excel ( xslx, and csv ), pdf, video ( mp4, mov, and avi ), image (png, jpg, and jpeg ) and etc but in this article we will learn to download any type file in react....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-03 00:00:00 +0000 UTC'>July 3, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to download file in react" href="https://infinitbility.com/how-to-download-file-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to detect video finished in video react
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article will help you to know when user view full video using video-react package.
+Many times we want to know user watch full video or not then video-react package provide onEnded call back function.
+Note: this article only for those developer who are using video-react library.
+Let’s start today’s article How to detect video completed in video react
+Video React also provide subscribeToStateChange but it’s now work for me and this article alternative solution for this....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-29 00:00:00 +0000 UTC'>June 29, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to detect video finished in video react" href="https://infinitbility.com/how-to-detect-video-finished-in-video-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React Native Functional Component Example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article will help you to create a functional component in react-native. Here, I will share the functional component example structure for your reference.
+We are clear below some basic topics in this article
+How to create a functional component how to create functions in functional component How to create a state in functional component How to use a functional component in class component Let’s start today topic React Native Functional Component Example...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-27 00:00:00 +0000 UTC'>June 27, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React Native Functional Component Example" href="https://infinitbility.com/react-native-functional-component-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React datepicker scrollable year dropdown
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article will help you to create datepicker year scrollable, below example based on react-datepicker package then please first verify with your project datepicker package.
+Default, React datepicker provide arrow to show more year but it’s not good when user want go previous 50 year then user have click 50 times to select those year.
+Let’s start today topic React datepicker scrollable year dropdown
+Here we use yearDropdownItemNumber and scrollableYearDropdown props to make year dropdown scrollable....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-09 00:00:00 +0000 UTC'>June 9, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React datepicker scrollable year dropdown" href="https://infinitbility.com/react-datepicker-scrollable-year-dropdown/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to generate dynamic route in React
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article will help you to create dynamic route in react like server rendering, here we are using react-router and react-router-dom to manage route in react.
+In this article, I will share Routes component to manage routes with routes props, every time it will create routes when props change.
+Let’s start today topic how to render dynamic route in React
+Step 1: Import Component
+First, we have to import all component in routes files and create object with their key, because we have to access component dynamically....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-07 00:00:00 +0000 UTC'>June 7, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to generate dynamic route in React" href="https://infinitbility.com/how-to-generate-dynamic-route-in-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to show bottom in react datepicker
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article will help you to show datepicker bottom every time when it’s open, below example based on react-datepicker package then please first verify with your project datepicker package.
+Sometime, react-datepicker open in window it’s half of picker then we have only one solution we have to show datepicker bottom align when it’s open.
+Let’s start today topic How to show bottom in react datepicker...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-06 00:00:00 +0000 UTC'>June 6, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to show bottom in react datepicker" href="https://infinitbility.com/how-to-show-bottom-in-react-datepicker/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Mute and Unmute functionality in mediastream react
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+in this article, we are use RecordRTC and MediaStream to record audio.
+This article provide example to add mute and unmute functionality in your react web rtc application.
+Let’s start today topic how to add mute and unmute functionality in mediastream react
+let audioTrack; await navigator.mediaDevices .getUserMedia({ audio: true }) .then((audioStream) =&gt; { let track = audioStream.getAudioTracks(); if(track.length){ audioTrack = track[0]; } let finalTrack = new MediaStream(); // audioStream....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-28 00:00:00 +0000 UTC'>April 28, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Mute and Unmute functionality in mediastream react" href="https://infinitbility.com/mute-and-unmute-functionality-in-mediastream-react/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Deploy React Application on Ubuntu Apache
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+are you find steps to deploy react applications on the ubuntu server with setup guide? Then you are right page. let’s start
+In this article, we set up a ubuntu server with a react environment, learn the react build process, and figure out some issues like after build getting a blank page, etc.
+Setup Ubuntu Server Install Apache
+$ sudo apt-get update $ sudo apt-get install apache2 Install Vim for editing content...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-08-17 00:00:00 +0000 UTC'>August 17, 2020</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Deploy React Application on Ubuntu Apache" href="https://infinitbility.com/deploy-react-application-on-ubuntu-apache/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/react/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

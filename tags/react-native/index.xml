@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React Native on Infinitbility</title>
+    <link>https://infinitbility.com/tags/react-native/</link>
+    <description>Recent content in React Native on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/react-native/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to check data type in react native?</title>
+      <link>https://infinitbility.com/how-to-check-data-type-in-react-native/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-data-type-in-react-native/</guid>
+      <description>An example of check data type in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to check null value in react native?</title>
+      <link>https://infinitbility.com/how-to-check-null-value-in-react-native/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-null-value-in-react-native/</guid>
+      <description>An example of check null value in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get last word of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-last-word-of-string-in-react-native/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-last-word-of-string-in-react-native/</guid>
+      <description>An example of get last word of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get first word of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-first-word-of-string-in-react-native/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-first-word-of-string-in-react-native/</guid>
+      <description>An example of get first word of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get each character of string of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-each-character-of-string-of-string-in-react-native/</link>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-each-character-of-string-of-string-in-react-native/</guid>
+      <description>An example of get each character of string of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get last two character of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-last-two-character-of-string-in-react-native/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-last-two-character-of-string-in-react-native/</guid>
+      <description>An example of get last two character of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get last character of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-last-character-of-string-in-react-native/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-last-character-of-string-in-react-native/</guid>
+      <description>An example of get last character of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get first character of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-first-character-of-string-in-react-native/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-first-character-of-string-in-react-native/</guid>
+      <description>An example of get first character of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get first two character of string in react native?</title>
+      <link>https://infinitbility.com/how-to-get-first-two-character-of-string-in-react-native/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-first-two-character-of-string-in-react-native/</guid>
+      <description>An example of get first two character of string in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to remove item from object in react native?</title>
+      <link>https://infinitbility.com/how-to-remove-item-from-object-in-react-native/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-item-from-object-in-react-native/</guid>
+      <description>An example of remove or delete item from object in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to handle apostrophe in react native?</title>
+      <link>https://infinitbility.com/how-to-handle-apostrophe-in-react-native/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-handle-apostrophe-in-react-native/</guid>
+      <description>An example of handle apostrophe in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to check nan in react native?</title>
+      <link>https://infinitbility.com/how-to-check-nan-in-react-native/</link>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-nan-in-react-native/</guid>
+      <description>An example of check or handle nan in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to check undefined in react native?</title>
+      <link>https://infinitbility.com/how-to-check-undefined-in-react-native/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-undefined-in-react-native/</guid>
+      <description>An example of check or handle undefined in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to empty an array in react native?</title>
+      <link>https://infinitbility.com/how-to-empty-an-array-in-react-native/</link>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-empty-an-array-in-react-native/</guid>
+      <description>An example of an empty array in react native with the step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to pass parameter to a promise function in react native?</title>
+      <link>https://infinitbility.com/how-to-pass-parameter-to-a-promise-function-in-react-native/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-pass-parameter-to-a-promise-function-in-react-native/</guid>
+      <description>An example of a pass parameter to a promise function in react native with step-by-step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to add two numbers in react native?</title>
+      <link>https://infinitbility.com/how-to-add-two-numbers-in-react-native/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-two-numbers-in-react-native/</guid>
+      <description>An example of add two numbers in react native with a step-by-step example.</description>
+    </item>
+    
+    <item>
+      <title>how to center text in react native?</title>
+      <link>https://infinitbility.com/how-to-center-text-in-react-native/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-center-text-in-react-native/</guid>
+      <description>An example of center text in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to remove double quotes from string in react native?</title>
+      <link>https://infinitbility.com/how-to-remove-double-quotes-from-string-in-react-native/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-double-quotes-from-string-in-react-native/</guid>
+      <description>An example of remove double quotes from string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to check empty object in react native?</title>
+      <link>https://infinitbility.com/how-to-check-empty-object-in-react-native/</link>
+      <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-empty-object-in-react-native/</guid>
+      <description>An example of check empty object in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to remove react native cli globally?</title>
+      <link>https://infinitbility.com/how-to-remove-react-native-cli-globally/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-react-native-cli-globally/</guid>
+      <description>An example of remove react native cli globally with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to create array of objects in react native?</title>
+      <link>https://infinitbility.com/how-to-create-array-of-objects-in-react-native/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-array-of-objects-in-react-native/</guid>
+      <description>An example of create array of objects in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to remove item from array in react native?</title>
+      <link>https://infinitbility.com/how-to-remove-item-from-array-in-react-native/</link>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-item-from-array-in-react-native/</guid>
+      <description>An example of remove item from array in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to map array of objects react native?</title>
+      <link>https://infinitbility.com/how-to-map-array-of-objects-react-native/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-map-array-of-objects-react-native/</guid>
+      <description>An example of map array of objects in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to push data into array react native?</title>
+      <link>https://infinitbility.com/how-to-push-data-into-array-react-native/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-push-data-into-array-react-native/</guid>
+      <description>An example of push data into array in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get string length in react native?</title>
+      <link>https://infinitbility.com/how-to-get-string-length-in-react-native/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-string-length-in-react-native/</guid>
+      <description>An example of get text length in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to replace string in react native?</title>
+      <link>https://infinitbility.com/how-to-replace-string-in-react-native/</link>
+      <pubDate>Thu, 23 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-replace-string-in-react-native/</guid>
+      <description>An example of replace string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert string to json in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-string-to-json-in-react-native/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-string-to-json-in-react-native/</guid>
+      <description>Example of to convert json string to json object react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to return a string from function in react native?</title>
+      <link>https://infinitbility.com/how-to-return-a-string-from-function-in-react-native/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-return-a-string-from-function-in-react-native/</guid>
+      <description>An example of use returns a string from a function in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert boolean to string in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-boolean-to-string-in-react-native/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-boolean-to-string-in-react-native/</guid>
+      <description>Example of to convert boolean to string react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert string to date in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-string-to-date-in-react-native/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-string-to-date-in-react-native/</guid>
+      <description>Example of to convert string to date react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to check string contains substring in react native?</title>
+      <link>https://infinitbility.com/how-to-check-string-contains-substring-in-react-native/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-string-contains-substring-in-react-native/</guid>
+      <description>Example of check string contains another string or not in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert array to string in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-array-to-string-in-react-native/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-array-to-string-in-react-native/</guid>
+      <description>Example of convert array to string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to concat string in react native?</title>
+      <link>https://infinitbility.com/how-to-concat-string-in-react-native/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-concat-string-in-react-native/</guid>
+      <description>Example of concat string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert json object to array in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-json-object-to-array-in-react-native/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-json-object-to-array-in-react-native/</guid>
+      <description>Example of to convert json object to array in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to convert string to int in react native?</title>
+      <link>https://infinitbility.com/how-to-convert-string-to-int-in-react-native/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-convert-string-to-int-in-react-native/</guid>
+      <description>Example of to convert string to int react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to solve element type is invalid expected a string in react native?</title>
+      <link>https://infinitbility.com/how-to-solve-element-type-is-invalid-expected-a-string-in-react-native/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-solve-element-type-is-invalid-expected-a-string-in-react-native/</guid>
+      <description>Example of fix element type is invalid expected a string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to split string in react native?</title>
+      <link>https://infinitbility.com/how-to-split-string-in-react-native/</link>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-split-string-in-react-native/</guid>
+      <description>Example of split string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to get key and value from json array of object in react native?</title>
+      <link>https://infinitbility.com/how-to-get-key-and-value-from-json-array-of-object-in-react-native/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-key-and-value-from-json-array-of-object-in-react-native/</guid>
+      <description>Example of to get key and value from json array of object in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>how to remove the last character from a string in react native?</title>
+      <link>https://infinitbility.com/how-to-remove-the-last-character-from-a-string-in-react-native/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-the-last-character-from-a-string-in-react-native/</guid>
+      <description>Example of to remove the last character from a string in react native with step by step guide.</description>
+    </item>
+    
+    <item>
+      <title>How to get current date in react native?</title>
+      <link>https://infinitbility.com/how-to-get-current-date-in-react-native/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-current-date-in-react-native/</guid>
+      <description>React Native, get current date example.</description>
+    </item>
+    
+    <item>
+      <title>How to get current month in react native?</title>
+      <link>https://infinitbility.com/how-to-get-current-month-in-react-native/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-current-month-in-react-native/</guid>
+      <description>React Native, get current month example.</description>
+    </item>
+    
+    <item>
+      <title>How to get current year in react native?</title>
+      <link>https://infinitbility.com/how-to-get-current-year-in-react-native/</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-current-year-in-react-native/</guid>
+      <description>React Native, get current year example.</description>
+    </item>
+    
+    <item>
+      <title>How to get array from json object in react native?</title>
+      <link>https://infinitbility.com/how-to-get-array-from-json-object-in-react-native/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-array-from-json-object-in-react-native/</guid>
+      <description>React Native, get array from object example.</description>
+    </item>
+    
+    <item>
+      <title>How to get array index value in react native?</title>
+      <link>https://infinitbility.com/how-to-get-array-index-value-in-react-native/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-array-index-value-in-react-native/</guid>
+      <description>React Native, get array of element index value example.</description>
+    </item>
+    
+    <item>
+      <title>How to get current time in react native?</title>
+      <link>https://infinitbility.com/how-to-get-current-time-in-react-native/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-current-time-in-react-native/</guid>
+      <description>React Native, get current time example.</description>
+    </item>
+    
+    <item>
+      <title>How to get array length in react native?</title>
+      <link>https://infinitbility.com/how-to-get-array-length-in-react-native/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-array-length-in-react-native/</guid>
+      <description>React Native, get length of array example.</description>
+    </item>
+    
+    <item>
+      <title>How to check react native version in CMD?</title>
+      <link>https://infinitbility.com/how-to-check-react-native-version-in-cmd/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-react-native-version-in-cmd/</guid>
+      <description>React Native, check version in CMD example.</description>
+    </item>
+    
+    <item>
+      <title>How to check array contains value in react-native?</title>
+      <link>https://infinitbility.com/how-to-check-array-contains-value-in-react-native/</link>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-array-contains-value-in-react-native/</guid>
+      <description>React Native, array contains value example.</description>
+    </item>
+    
+    <item>
+      <title>How to check android version in react native?</title>
+      <link>https://infinitbility.com/how-to-check-android-version-in-react-native/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-android-version-in-react-native/</guid>
+      <description>React native get android version example.</description>
+    </item>
+    
+    <item>
+      <title>react-native-otp-input detox example</title>
+      <link>https://infinitbility.com/react-native-otp-input-detox-example/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-otp-input-detox-example/</guid>
+      <description>React Native, detox guide to test react-native-otp-input example</description>
+    </item>
+    
+    <item>
+      <title>react-native-date-picker detox example</title>
+      <link>https://infinitbility.com/react-native-date-picker-detox-example/</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-date-picker-detox-example/</guid>
+      <description>React Native, detox guide to test react-native-date-picker example</description>
+    </item>
+    
+    <item>
+      <title>How to show and hide password using eye icon in react native?</title>
+      <link>https://infinitbility.com/how-to-show-and-hide-password-using-eye-icon-in-react-native/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-show-and-hide-password-using-eye-icon-in-react-native/</guid>
+      <description>React native, hide and show password when click on eye icon example.</description>
+    </item>
+    
+    <item>
+      <title>React native detox with react navigation example</title>
+      <link>https://infinitbility.com/react-native-detox-with-react-navigation-example/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-detox-with-react-navigation-example/</guid>
+      <description>React Native, detox guide to test multiple screen example</description>
+    </item>
+    
+    <item>
+      <title>React native detox multiple typeText crash issues</title>
+      <link>https://infinitbility.com/react-native-detox-multiple-typetext-crash-issues/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-detox-multiple-typetext-crash-issues/</guid>
+      <description>React native detox, typeText method showing error when using more than two times.</description>
+    </item>
+    
+    <item>
+      <title>How to show bullets in react native?</title>
+      <link>https://infinitbility.com/how-to-show-bullets-in-react-native/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-show-bullets-in-react-native/</guid>
+      <description>React native show bullet in FlatList example.</description>
+    </item>
+    
+    <item>
+      <title>React native detox example</title>
+      <link>https://infinitbility.com/react-native-detox-example/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-detox-example/</guid>
+      <description>React native, Guide end to end testing using detox.</description>
+    </item>
+    
+    <item>
+      <title>How to enable or disable scroll in flatlist react native?</title>
+      <link>https://infinitbility.com/how-to-enable-or-disable-scroll-in-flatlist-react-native/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-enable-or-disable-scroll-in-flatlist-react-native/</guid>
+      <description>React Native, Enable or Disable flatlist scroll example.</description>
+    </item>
+    
+    <item>
+      <title>How to disable button after one click in react native?</title>
+      <link>https://infinitbility.com/how-to-disable-button-after-one-click-in-react-native/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-disable-button-after-one-click-in-react-native/</guid>
+      <description>React Native, Disable button after one click on it example.</description>
+    </item>
+    
+    <item>
+      <title>How to set current date in datepicker in react native?</title>
+      <link>https://infinitbility.com/how-to-set-current-date-in-datepicker-in-react-native/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-set-current-date-in-datepicker-in-react-native/</guid>
+      <description>React Native, Set current date in react-native-datepicker example.</description>
+    </item>
+    
+    <item>
+      <title>How to set button bottom of the screen in react native?</title>
+      <link>https://infinitbility.com/how-to-set-button-bottom-of-the-screen-in-react-native/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-set-button-bottom-of-the-screen-in-react-native/</guid>
+      <description>React Native, Set Button on bottom example.</description>
+    </item>
+    
+    <item>
+      <title>How to show a component on button click in react native?</title>
+      <link>https://infinitbility.com/how-to-show-a-component-on-button-click-in-react-native/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-show-a-component-on-button-click-in-react-native/</guid>
+      <description>React Native, show component on button click example.</description>
+    </item>
+    
+    <item>
+      <title>How to change textinput placeholder text color in react native?</title>
+      <link>https://infinitbility.com/how-to-change-textinput-placeholder-text-color-in-react-native/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-change-textinput-placeholder-text-color-in-react-native/</guid>
+      <description>React Native, change textinput placeholder color.</description>
+    </item>
+    
+    <item>
+      <title>How to enable or disable screenshot in react native?</title>
+      <link>https://infinitbility.com/how-to-enable-or-disable-screenshot-in-react-native/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-enable-or-disable-screenshot-in-react-native/</guid>
+      <description>React Native screen capture secure example</description>
+    </item>
+    
+    <item>
+      <title>How to delete item from AsyncStorage in react native?</title>
+      <link>https://infinitbility.com/how-to-delete-item-from-asyncstorage-in-react-native/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-delete-item-from-asyncstorage-in-react-native/</guid>
+      <description>React native asyncstorage remove item example</description>
+    </item>
+    
+    <item>
+      <title>How to get value from asyncstorage in react native?</title>
+      <link>https://infinitbility.com/how-to-get-value-from-asyncstorage-in-react-native/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-value-from-asyncstorage-in-react-native/</guid>
+      <description>React Native asyncstorage getItem example</description>
+    </item>
+    
+    <item>
+      <title>How to store value in asyncstorage in react native?</title>
+      <link>https://infinitbility.com/how-to-store-value-in-asyncstorage-in-react-native/</link>
+      <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-store-value-in-asyncstorage-in-react-native/</guid>
+      <description>React Native asyncstorage setItem example</description>
+    </item>
+    
+    <item>
+      <title>How to create SQLite database at runtime in react native?</title>
+      <link>https://infinitbility.com/how-to-create-sqlite-database-at-runtime-in-react-native/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-sqlite-database-at-runtime-in-react-native/</guid>
+      <description>React Native sqlite runtime database setup example</description>
+    </item>
+    
+    <item>
+      <title>How to create a border in react native?</title>
+      <link>https://infinitbility.com/how-to-create-a-border-in-react-native/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-a-border-in-react-native/</guid>
+      <description>React Native border example</description>
+    </item>
+    
+    <item>
+      <title>How to use interface in React hook useState?</title>
+      <link>https://infinitbility.com/how-to-use-interface-in-react-hook-usestate/</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-use-interface-in-react-hook-usestate/</guid>
+      <description>Example of use interface or DTO in React useState hook.</description>
+    </item>
+    
+    <item>
+      <title>How to add icon in bottom tab navigation react native?</title>
+      <link>https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native/</guid>
+      <description>React Navigation icon tab navigation example.</description>
+    </item>
+    
+    <item>
+      <title>How to remove back button in react navigation?</title>
+      <link>https://infinitbility.com/how-to-remove-back-button-in-react-navigation/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-back-button-in-react-navigation/</guid>
+      <description>React Navigation remove back button from stack mavigation screen example.</description>
+    </item>
+    
+    <item>
+      <title>How to create stack navigation with tab navigation in react navigation?</title>
+      <link>https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation/</guid>
+      <description>Stack navigator with tab navigator in react navigation example</description>
+    </item>
+    
+    <item>
+      <title>How to get first element of array in react native?</title>
+      <link>https://infinitbility.com/how-to-get-first-element-of-array-in-react-native/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-first-element-of-array-in-react-native/</guid>
+      <description>React Native get first element of array example</description>
+    </item>
+    
+    <item>
+      <title>How to get ip address in react native?</title>
+      <link>https://infinitbility.com/how-to-get-ip-address-in-react-native/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-ip-address-in-react-native/</guid>
+      <description>React Native network info getIPAddress example</description>
+    </item>
+    
+    <item>
+      <title>How to get current month name in react native?</title>
+      <link>https://infinitbility.com/how-to-get-current-month-name-in-react-native/</link>
+      <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-current-month-name-in-react-native/</guid>
+      <description>React native getMonth name example</description>
+    </item>
+    
+    <item>
+      <title>How to check array is empty or not in react native?</title>
+      <link>https://infinitbility.com/how-to-check-array-is-empty-or-not-in-react-native/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-array-is-empty-or-not-in-react-native/</guid>
+      <description>Example check array is empty or not in react native</description>
+    </item>
+    
+    <item>
+      <title>Implement react native firebase crashlytics in ios</title>
+      <link>https://infinitbility.com/implement-react-native-firebase-crashlytics-in-ios/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/implement-react-native-firebase-crashlytics-in-ios/</guid>
+      <description>Setup firebase crashlytics for your react native application.</description>
+    </item>
+    
+    <item>
+      <title>How to solve react native firebase crashlytics generateDebugRFile failed issue?</title>
+      <link>https://infinitbility.com/how-to-solve-react-native-firebase-crashlytics-generatedebugrfile-failed-issue/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-solve-react-native-firebase-crashlytics-generatedebugrfile-failed-issue/</guid>
+      <description>Execution failed for task &amp;#39;</description>
+    </item>
+    
+    <item>
+      <title>How to call multiple functions onPress in react native?</title>
+      <link>https://infinitbility.com/how-to-call-multiple-functions-onpress-in-react-native/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-call-multiple-functions-onpress-in-react-native/</guid>
+      <description>React Native onPress call two or multiple functions example</description>
+    </item>
+    
+    <item>
+      <title>Where does AsyncStorage store data?</title>
+      <link>https://infinitbility.com/where-does-asyncstorage-store-data/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/where-does-asyncstorage-store-data/</guid>
+      <description>React Native AsyncStorage where store our all data</description>
+    </item>
+    
+    <item>
+      <title>How to hide scroll indicator in react native</title>
+      <link>https://infinitbility.com/how-to-hide-scroll-indicator-in-react-native/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-hide-scroll-indicator-in-react-native/</guid>
+      <description>Example of hide vertical and horizontal scroll indicator</description>
+    </item>
+    
+    <item>
+      <title>How to detect notch in react native</title>
+      <link>https://infinitbility.com/how-to-detect-notch-in-react-native/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-notch-in-react-native/</guid>
+      <description>React Native DeviceInfo hasNotch example</description>
+    </item>
+    
+    <item>
+      <title>How to detect device is emulator in react native</title>
+      <link>https://infinitbility.com/how-to-detect-device-is-emulator-in-react-native/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-device-is-emulator-in-react-native/</guid>
+      <description>React Native DeviceInfo isEmulator example</description>
+    </item>
+    
+    <item>
+      <title>How to detect headphone in react native</title>
+      <link>https://infinitbility.com/how-to-detect-headphone-in-react-native/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-headphone-in-react-native/</guid>
+      <description>React Native DeviceInfo isHeadphonesConnected example</description>
+    </item>
+    
+    <item>
+      <title>How to detect battery charging or not in react native</title>
+      <link>https://infinitbility.com/how-to-detect-battery-charging-or-not-in-react-native/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-battery-charging-or-not-in-react-native/</guid>
+      <description>React Native DeviceInfo isBatteryCharging example</description>
+    </item>
+    
+    <item>
+      <title>How to detect airplane mode in react native</title>
+      <link>https://infinitbility.com/how-to-detect-airplane-mode-in-react-native/</link>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-airplane-mode-in-react-native/</guid>
+      <description>React Native DeviceInfo isAirplaneMode example</description>
+    </item>
+    
+    <item>
+      <title>How to check password and confirm password in react native</title>
+      <link>https://infinitbility.com/how-to-check-password-and-confirm-password-in-react-native/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-password-and-confirm-password-in-react-native/</guid>
+      <description>React Native password and confirm password validation example</description>
+    </item>
+    
+    <item>
+      <title>How to check console.log in react native</title>
+      <link>https://infinitbility.com/how-to-check-console.log-in-react-native</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-console.log-in-react-native</guid>
+      <description>React Native console.log example</description>
+    </item>
+    
+    <item>
+      <title>How to check if device is android or ios in react native</title>
+      <link>https://infinitbility.com/how-to-check-if-device-is-android-or-ios-in-react-native/</link>
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-if-device-is-android-or-ios-in-react-native/</guid>
+      <description>React Native check device is android or ios example</description>
+    </item>
+    
+    <item>
+      <title>How to check connected devices in react native</title>
+      <link>https://infinitbility.com/how-to-check-connected-devices-in-react-native/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-connected-devices-in-react-native/</guid>
+      <description>React Native check connected devices list example</description>
+    </item>
+    
+    <item>
+      <title>How to check empty string in react native</title>
+      <link>https://infinitbility.com/how-to-check-empty-string-in-react-native/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-empty-string-in-react-native/</guid>
+      <description>Check empty string example in react native</description>
+    </item>
+    
+    <item>
+      <title>How to get file details in react native</title>
+      <link>https://infinitbility.com/how-to-get-file-details-in-react-native/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-file-details-in-react-native/</guid>
+      <description>React Native FS stat example to get file name, file type, file created date, file last modified date, and file size.</description>
+    </item>
+    
+    <item>
+      <title>How to detect screen lock set or not in react native</title>
+      <link>https://infinitbility.com/how-to-detect-screen-lock-set-or-not-in-react-native/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-screen-lock-set-or-not-in-react-native/</guid>
+      <description>React Native DeviceInfo isPinOrFingerprintSet example</description>
+    </item>
+    
+    <item>
+      <title>How to detect tablet in react native</title>
+      <link>https://infinitbility.com/how-to-detect-tablet-in-react-native/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-tablet-in-react-native/</guid>
+      <description>React Native DeviceInfo isTablet example</description>
+    </item>
+    
+    <item>
+      <title>How to lock orientation in react native</title>
+      <link>https://infinitbility.com/how-to-lock-orientation-in-react-native/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-lock-orientation-in-react-native/</guid>
+      <description>React Native lock or disable orientation example</description>
+    </item>
+    
+    <item>
+      <title>how to set keyboard type in react native</title>
+      <link>https://infinitbility.com/how-to-set-keyboard-type-in-react-native/</link>
+      <pubDate>Fri, 20 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-set-keyboard-type-in-react-native/</guid>
+      <description>React Native keyboardType example</description>
+    </item>
+    
+    <item>
+      <title>How to get data from json object in react native</title>
+      <link>https://infinitbility.com/how-to-get-data-from-json-object-in-react-native/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-data-from-json-object-in-react-native/</guid>
+      <description>React Native JSON and Array usages example</description>
+    </item>
+    
+    <item>
+      <title>How to map json data with array in react native</title>
+      <link>https://infinitbility.com/how-to-map-json-data-with-array-in-react-native/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-map-json-data-with-array-in-react-native/</guid>
+      <description>React Native map json data with array Example</description>
+    </item>
+    
+    <item>
+      <title>Password TextInput in react native</title>
+      <link>https://infinitbility.com/password-textinput-in-react-native/</link>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/password-textinput-in-react-native/</guid>
+      <description>React Native Password TextInput Example</description>
+    </item>
+    
+    <item>
+      <title>How to justify text in react native</title>
+      <link>https://infinitbility.com/how-to-justify-text-in-react-native/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-justify-text-in-react-native/</guid>
+      <description>React Native Text Align Justify Example</description>
+    </item>
+    
+    <item>
+      <title>How to get value from textinput in react native</title>
+      <link>https://infinitbility.com/how-to-get-value-from-textinput-in-react-native/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-value-from-textinput-in-react-native/</guid>
+      <description>React Native Textinput get value Example</description>
+    </item>
+    
+    <item>
+      <title>How to force render in react native</title>
+      <link>https://infinitbility.com/how-to-force-render-in-react-native/</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-force-render-in-react-native/</guid>
+      <description>React Native force render Example</description>
+    </item>
+    
+    <item>
+      <title>How to filter array in react native</title>
+      <link>https://infinitbility.com/how-to-filter-array-in-react-native/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-filter-array-in-react-native/</guid>
+      <description>React Native filter array Example</description>
+    </item>
+    
+    <item>
+      <title>How to focus textinput in react native</title>
+      <link>https://infinitbility.com/how-to-focus-textinput-in-react-native/</link>
+      <pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-focus-textinput-in-react-native/</guid>
+      <description>React Native focus textinput Example</description>
+    </item>
+    
+    <item>
+      <title>How to encode a URL in react native</title>
+      <link>https://infinitbility.com/how-to-encode-a-url-in-react-native/</link>
+      <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-encode-a-url-in-react-native/</guid>
+      <description>React Native encode URL Example</description>
+    </item>
+    
+    <item>
+      <title>How to encode and decode base64 in react native</title>
+      <link>https://infinitbility.com/how-to-encode-and-decode-base64-in-react-native/</link>
+      <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-encode-and-decode-base64-in-react-native/</guid>
+      <description>React Native base64 Example</description>
+    </item>
+    
+    <item>
+      <title>How to create and use function in react native</title>
+      <link>https://infinitbility.com/how-to-create-and-use-function-in-react-native/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-and-use-function-in-react-native/</guid>
+      <description>React Native functions Example</description>
+    </item>
+    
+    <item>
+      <title>How to enable multidex in react native</title>
+      <link>https://infinitbility.com/how-to-enable-multidex-in-react-native/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-enable-multidex-in-react-native/</guid>
+      <description>React Native enable multidex Example</description>
+    </item>
+    
+    <item>
+      <title>How to disable back button in react native</title>
+      <link>https://infinitbility.com/how-to-disable-back-button-in-react-native/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-disable-back-button-in-react-native/</guid>
+      <description>React Native disable back button Example</description>
+    </item>
+    
+    <item>
+      <title>How to dismiss keyboard in react native</title>
+      <link>https://infinitbility.com/how-to-dismiss-keyboard-in-react-native/</link>
+      <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-dismiss-keyboard-in-react-native/</guid>
+      <description>React Native keyboard dismiss Example</description>
+    </item>
+    
+    <item>
+      <title>How to use background image in react native</title>
+      <link>https://infinitbility.com/how-to-use-background-image-in-react-native/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-use-background-image-in-react-native/</guid>
+      <description>React Native ImageBackground Example</description>
+    </item>
+    
+    <item>
+      <title>How to use br tag in react native</title>
+      <link>https://infinitbility.com/how-to-use-br-tag-in-react-native/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-use-br-tag-in-react-native/</guid>
+      <description>React Native br tag example</description>
+    </item>
+    
+    <item>
+      <title>How to use array in react native</title>
+      <link>https://infinitbility.com/how-to-use-array-in-react-native/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-use-array-in-react-native/</guid>
+      <description>React Native array example</description>
+    </item>
+    
+    <item>
+      <title>How to use async await in react native</title>
+      <link>https://infinitbility.com/how-to-use-async-await-in-react-native/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-use-async-await-in-react-native/</guid>
+      <description>React Native async await example</description>
+    </item>
+    
+    <item>
+      <title>How to disable textinput in react native</title>
+      <link>https://infinitbility.com/how-to-disable-textinput-in-react-native/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-disable-textinput-in-react-native/</guid>
+      <description>React Native disable textinput example</description>
+    </item>
+    
+    <item>
+      <title>How to disable touchableopacity in react native</title>
+      <link>https://infinitbility.com/how-to-disable-touchableopacity-in-react-native/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-disable-touchableopacity-in-react-native/</guid>
+      <description>React Native disable touchableopacity example</description>
+    </item>
+    
+    <item>
+      <title>How to clean cache in react native</title>
+      <link>https://infinitbility.com/how-to-clean-cache-in-react-native/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-clean-cache-in-react-native/</guid>
+      <description>React Native clean cache example</description>
+    </item>
+    
+    <item>
+      <title>How to comment in react native</title>
+      <link>https://infinitbility.com/how-to-comment-in-react-native/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-comment-in-react-native/</guid>
+      <description>React Native comments example</description>
+    </item>
+    
+    <item>
+      <title>How to bold text in react native</title>
+      <link>https://infinitbility.com/how-to-bold-text-in-react-native/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-bold-text-in-react-native/</guid>
+      <description>React Native bold effect</description>
+    </item>
+    
+    <item>
+      <title>How to clean gradle in react native</title>
+      <link>https://infinitbility.com/how-to-clean-gradle-in-react-native/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-clean-gradle-in-react-native/</guid>
+      <description>React Native clean gradle example</description>
+    </item>
+    
+    <item>
+      <title>How to blur background in react native</title>
+      <link>https://infinitbility.com/how-to-blur-background-in-react-native/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-blur-background-in-react-native/</guid>
+      <description>React Native blur effect</description>
+    </item>
+    
+    <item>
+      <title>How to block calling unencrypted URL in react native</title>
+      <link>https://infinitbility.com/how-to-block-calling-unencrypted-url-in-react-native/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-block-calling-unencrypted-url-in-react-native/</guid>
+      <description>React Native block unsecure URLs</description>
+    </item>
+    
+    <item>
+      <title>How to detect device rooted or jailbroken in react native</title>
+      <link>https://infinitbility.com/how-to-detect-device-rooted-or-jailbroken-in-react-native/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-detect-device-rooted-or-jailbroken-in-react-native/</guid>
+      <description>React Native Device is Rooted or Jailbroken</description>
+    </item>
+    
+    <item>
+      <title>React Native Validation Example</title>
+      <link>https://infinitbility.com/react-native-validation-example/</link>
+      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-validation-example/</guid>
+      <description>how to do validation in react native</description>
+    </item>
+    
+    <item>
+      <title>React Native Regex</title>
+      <link>https://infinitbility.com/react-native-regex/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-regex/</guid>
+      <description>How to use regex in react native</description>
+    </item>
+    
+    <item>
+      <title>React Native Multiple Styles Example</title>
+      <link>https://infinitbility.com/react-native-multiple-styles-example/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-multiple-styles-example/</guid>
+      <description>how to add multiple styles in react native</description>
+    </item>
+    
+    <item>
+      <title>React Native borderColor</title>
+      <link>https://infinitbility.com/react-native-bordercolor/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-bordercolor/</guid>
+      <description>borderColor in React Native</description>
+    </item>
+    
+    <item>
+      <title>React Native borderRadius</title>
+      <link>https://infinitbility.com/react-native-borderradius/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-borderradius/</guid>
+      <description>borderRadius in React Native</description>
+    </item>
+    
+    <item>
+      <title>React Native borderWidth</title>
+      <link>https://infinitbility.com/react-native-borderwidth/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-borderwidth/</guid>
+      <description>borderWidth in React Native</description>
+    </item>
+    
+    <item>
+      <title>React Native Functional Component Example</title>
+      <link>https://infinitbility.com/react-native-functional-component-example/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-functional-component-example/</guid>
+      <description>Functional Component Example</description>
+    </item>
+    
+    <item>
+      <title>How to close react native app programmatically</title>
+      <link>https://infinitbility.com/how-to-close-react-native-app-programmatically/</link>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-close-react-native-app-programmatically/</guid>
+      <description>React Native exit app programmatically</description>
+    </item>
+    
+    <item>
+      <title>Textarea in React Native</title>
+      <link>https://infinitbility.com/textarea-in-react-native/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/textarea-in-react-native/</guid>
+      <description>React Native Textarea Example</description>
+    </item>
+    
+    <item>
+      <title>React Native Dimensions Example</title>
+      <link>https://infinitbility.com/react-native-dimensions-example/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-dimensions-example/</guid>
+      <description>Screen width and height in react native</description>
+    </item>
+    
+    <item>
+      <title>How to delete file in react native</title>
+      <link>https://infinitbility.com/how-to-delete-file-in-react-native/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-delete-file-in-react-native/</guid>
+      <description>React Native file delete example</description>
+    </item>
+    
+    <item>
+      <title>How to check file is exist or not in react native</title>
+      <link>https://infinitbility.com/how-to-check-file-is-exist-or-not-in-react-native/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-file-is-exist-or-not-in-react-native/</guid>
+      <description>React Native file exists example</description>
+    </item>
+    
+    <item>
+      <title>isMicrophone mute and unmute issue in RPScreenRecorder</title>
+      <link>https://infinitbility.com/ismicrophone-mute-and-unmute-issue-in-rpscreenrecorder/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/ismicrophone-mute-and-unmute-issue-in-rpscreenrecorder/</guid>
+      <description>Replaykit isMicrophone mute and unmute issue when screen recording start</description>
+    </item>
+    
+    <item>
+      <title>How to open Archive build list in Xcode</title>
+      <link>https://infinitbility.com/how-to-open-archive-build-list-in-xcode/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-open-archive-build-list-in-xcode/</guid>
+      <description>Archive navigation solution</description>
+    </item>
+    
+    <item>
+      <title>Archive uploading error to App Store using Xcode</title>
+      <link>https://infinitbility.com/archive-uploading-error-to-app-store-using-xcode/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/archive-uploading-error-to-app-store-using-xcode/</guid>
+      <description>how to solve archive uploading error to App Store using Xcode</description>
+    </item>
+    
+    <item>
+      <title>Build failed after update Xcode 12.5</title>
+      <link>https://infinitbility.com/build-failed-after-update-xcode-12.5</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/build-failed-after-update-xcode-12.5</guid>
+      <description>how to solve Build failed after update Xcode 12.5</description>
+    </item>
+    
+    <item>
+      <title>React native SVG</title>
+      <link>https://infinitbility.com/react-native-svg/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-svg/</guid>
+      <description>how to use svg in react native</description>
+    </item>
+    
+    <item>
+      <title>React native autocomplete</title>
+      <link>https://infinitbility.com/react-native-autocomplete/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-autocomplete/</guid>
+      <description>how to add autocomplete in react native</description>
+    </item>
+    
+    <item>
+      <title>How to debug swift code in react native xcode</title>
+      <link>https://infinitbility.com/how-to-debug-swift-code-in-react-native-xcode/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-debug-swift-code-in-react-native-xcode/</guid>
+      <description>check swift print logs in xcode</description>
+    </item>
+    
+    <item>
+      <title>React native net info example</title>
+      <link>https://infinitbility.com/react-native-net-info-example/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-net-info-example/</guid>
+      <description>how to handle No internet connection in React Native</description>
+    </item>
+    
+    <item>
+      <title>Task transform dex archive with dex merger for debug failed in react native</title>
+      <link>https://infinitbility.com/task-transform-dex-archive-with-dex-merger-for-debug-failed-in-react-native/</link>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/task-transform-dex-archive-with-dex-merger-for-debug-failed-in-react-native/</guid>
+      <description>Task transform Dex Archive With Dex Merger For Debug FAILED In React Native</description>
+    </item>
+    
+    <item>
+      <title>React native video example with custom control</title>
+      <link>https://infinitbility.com/react-native-video-example-with-custom-control/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-video-example-with-custom-control/</guid>
+      <description>Create video player in react native</description>
+    </item>
+    
+    <item>
+      <title>how to run react native project in xcode</title>
+      <link>https://infinitbility.com/how-to-run-react-native-project-in-xcode/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-run-react-native-project-in-xcode/</guid>
+      <description>how to run react native project on the desired simulator using Xcode</description>
+    </item>
+    
+    <item>
+      <title>React native application release testing using xcode</title>
+      <link>https://infinitbility.com/react-native-application-release-testing-using-xcode/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-application-release-testing-using-xcode/</guid>
+      <description>how to test release mode in xcode</description>
+    </item>
+    
+    <item>
+      <title>Expiring Daemon because JVM heap space is exhausted In React Native</title>
+      <link>https://infinitbility.com/expiring-daemon-because-jvm-heap-space-is-exhausted-in-react-native/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/expiring-daemon-because-jvm-heap-space-is-exhausted-in-react-native/</guid>
+      <description>how to solve jvm heap space issue in react native</description>
+    </item>
+    
+    <item>
+      <title>How to select and upload video in react native</title>
+      <link>https://infinitbility.com/how-to-select-and-upload-video-in-react-native/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-select-and-upload-video-in-react-native/</guid>
+      <description>Example of select and upload video in react native</description>
+    </item>
+    
+    <item>
+      <title>Network request failed in react native fetch</title>
+      <link>https://infinitbility.com/network-request-failed-in-react-native-fetch/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/network-request-failed-in-react-native-fetch/</guid>
+      <description>Solve HTTP and HTTPS Network request failed issue in react native fetch</description>
+    </item>
+    
+    <item>
+      <title>how to open any link from react native render Html</title>
+      <link>https://infinitbility.com/how-to-open-any-link-from-react-native-render-html/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-open-any-link-from-react-native-render-html/</guid>
+      <description>react native render html link click issue</description>
+    </item>
+    
+    <item>
+      <title>React Native image picker launchimagelibrary on second time issue</title>
+      <link>https://infinitbility.com/react-native-image-picker-launchimagelibrary-on-second-time-issue/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-image-picker-launchimagelibrary-on-second-time-issue/</guid>
+      <description>React Native image picker launchimagelibrary doesn&amp;#39;t open image gallery when click second time.</description>
+    </item>
+    
+    <item>
+      <title>React Native commands you need almost every day</title>
+      <link>https://infinitbility.com/react-native-commands-you-need-almost-every-day/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-commands-you-need-almost-every-day/</guid>
+      <description>React Native commands you need almost every day bookmark on your machine.</description>
+    </item>
+    
+    <item>
+      <title>React Native Share</title>
+      <link>https://infinitbility.com/react-native-share/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-share/</guid>
+      <description>react native share example.</description>
+    </item>
+    
+    <item>
+      <title>Image not showing in ios 14 react native</title>
+      <link>https://infinitbility.com/image-not-showing-in-ios-14-react-native/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/image-not-showing-in-ios-14-react-native/</guid>
+      <description>How to solve React Native show image issue in iOS 14</description>
+    </item>
+    
+    <item>
+      <title>React native material dropdown twice click issue</title>
+      <link>https://infinitbility.com/react-native-material-dropdown-twice-click-issue/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-material-dropdown-twice-click-issue/</guid>
+      <description>How to solve react native material dropdown twice click issue.</description>
+    </item>
+    
+    <item>
+      <title>Implement react native firebase crashlytics on android</title>
+      <link>https://infinitbility.com/implement-react-native-firebase-crashlytics-on-android/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/implement-react-native-firebase-crashlytics-on-android/</guid>
+      <description>setup firebase crashlytics for your react native application.</description>
+    </item>
+    
+    <item>
+      <title>how to delete SQLite database in android react native</title>
+      <link>https://infinitbility.com/how-to-delete-sqlite-database-in-android-react-native/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-delete-sqlite-database-in-android-react-native/</guid>
+      <description>how to delete and check SQLite database file using react native programmatically.</description>
+    </item>
+    
+    <item>
+      <title>React Native Image</title>
+      <link>https://infinitbility.com/react-native-image/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-image/</guid>
+      <description>How to add an image to react native, statically, dynamically, and data base64.</description>
+    </item>
+    
+    <item>
+      <title>how to add datePickerAndroid in react native with color changes?</title>
+      <link>https://infinitbility.com/how-to-add-datepickerandroid-in-react-native-with-color-changes/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-datepickerandroid-in-react-native-with-color-changes/</guid>
+      <description>the simplest way to add datePickerAndroid in react native with color changes.</description>
+    </item>
+    
+    <item>
+      <title>React native ScrollView scroll to position</title>
+      <link>https://infinitbility.com/react-native-scrollview-scroll-to-position/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-scrollview-scroll-to-position/</guid>
+      <description>The simplest way of scroll to position in react native using ScrollView ref.</description>
+    </item>
+    
+    <item>
+      <title>react-native-sqlite-storage examples of query</title>
+      <link>https://infinitbility.com/react-native-sqlite-storage-examples-of-query/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-sqlite-storage-examples-of-query/</guid>
+      <description>Examples of Query Uses In react-native-sqlite-storage.</description>
+    </item>
+    
+    <item>
+      <title>How to align icon with text in react native</title>
+      <link>https://infinitbility.com/how-to-align-icon-with-text-in-react-native/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-align-icon-with-text-in-react-native/</guid>
+      <description>align text with icon in react native in button, card, etc.</description>
+    </item>
+    
+    <item>
+      <title>App crashed immediately after install react native video or track player</title>
+      <link>https://infinitbility.com/app-crashed-immediately-after-install-react-native-video-or-track-player/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/app-crashed-immediately-after-install-react-native-video-or-track-player/</guid>
+      <description>In this article, we figure out the solution of the conflict issues of video and track players.</description>
+    </item>
+    
+    <item>
+      <title>React Native Font Family list</title>
+      <link>https://infinitbility.com/react-native-font-family-list/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native-font-family-list/</guid>
+      <description>In this article, we discuss react native fonts, fonts list, custom fonts, and fonts ttf files.</description>
+    </item>
+    
+    <item>
+      <title>Manage dark mode without installing any package in react native</title>
+      <link>https://infinitbility.com/manage-dark-mode-without-installing-any-package-in-react-native/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/manage-dark-mode-without-installing-any-package-in-react-native/</guid>
+      <description>In this article, we discuss how to manage dark mode without installing any package to react native with example.</description>
+    </item>
+    
+  </channel>
+</rss>

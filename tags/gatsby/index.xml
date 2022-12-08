@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gatsby on Infinitbility</title>
+    <link>https://infinitbility.com/tags/gatsby/</link>
+    <description>Recent content in Gatsby on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/gatsby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gatsby build generating javaScript bundles failed</title>
+      <link>https://infinitbility.com/gatsby-build-generating-javascript-bundles-failed/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/gatsby-build-generating-javascript-bundles-failed/</guid>
+      <description>gatsby build failed issue with static folder path</description>
+    </item>
+    
+  </channel>
+</rss>

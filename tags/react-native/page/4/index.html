@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React Native | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react-native/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react-native/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React Native" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react-native/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React Native"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React Native
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to show a component on button click in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+Many times, we need to show components on some condition or we can also say conditional rendering then we are going to learn how we can show or hide components on a button click.
+Basically, we follow the below code steps to done show the component on a button click.
+Create components with content. Create button component. Render Content component based on state. Change state on button click....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-31 00:00:00 +0000 UTC'>December 31, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to show a component on button click in react native?" href="https://infinitbility.com/how-to-show-a-component-on-button-click-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to change textinput placeholder text color in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome to Infinitbility.
+React Native textinput provide placeholderTextColor props to change placeholder text color and other style will inherit props same like you do for input value for example fontSize, fontFamily, and others.
+Now, we are going to change textinput placeholder text color with example of code.
+First we will create sample Textinput component and will try to change placeholder color using placeholderTextColor.
+import React from &#34;react&#34;; import { SafeAreaView, StyleSheet, TextInput } from &#34;react-native&#34;; const UselessTextInput = () =&gt; { const [number, onChangeNumber] = React....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-30 00:00:00 +0000 UTC'>December 30, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to change textinput placeholder text color in react native?" href="https://infinitbility.com/how-to-change-textinput-placeholder-text-color-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to enable or disable screenshot in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+Due to many security reasons, we want to prevent our users to take screenshots and a screen capture of our react native application.
+Today, we will learn and see examples of preventing screen capture in react native.
+To enable or disable screenshot, React native have package react-native-screen-capture-secure, this package help you to enable or disable screen capture.
+Installation To install the package with NPM...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-07 00:00:00 +0000 UTC'>December 7, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to enable or disable screenshot in react native?" href="https://infinitbility.com/how-to-enable-or-disable-screenshot-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to delete item from AsyncStorage in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native Asyncstorage - setItem()React Native Asyncstorage - getItem()React Native Asyncstorage - removeItem()React native asyncstorage provide removeItem() method to remove stored value from asyncstorage, it will delete stored key value paired data in asyncstorage.
+In this tutorial, we will learn to remove stored item in asyncstorage.
+let start today’s tutorial How to delete item from AsyncStorage in react native?
+React Native asyncstorage removeItem To remove item from asyncstorage, React native asyncstorage provide removeItem() method, it will expect storage key and return status....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-06 00:00:00 +0000 UTC'>December 6, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to delete item from AsyncStorage in react native?" href="https://infinitbility.com/how-to-delete-item-from-asyncstorage-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get value from asyncstorage in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native Asyncstorage - setItem()React Native Asyncstorage - getItem()React Native Asyncstorage - removeItem()React native asyncstorage provide getItem() method to get stored value from asyncstorage, it will return string value and if you stored number and object then you to convert it first from string.
+In this tutorial, we will learn to get value from asyncstorage with example of diffrent datatypes like string, number, or object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-05 00:00:00 +0000 UTC'>December 5, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get value from asyncstorage in react native?" href="https://infinitbility.com/how-to-get-value-from-asyncstorage-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to store value in asyncstorage in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native Asyncstorage - setItem()React Native Asyncstorage - getItem()React Native Asyncstorage - removeItem()React native asyncstorage provide option to store details in application or user phones and use when you want.
+In this tutorial, we will learn to store value in asyncstorage with example of diffrent datatypes like string, number, or object.
+let start today’s tutorial How to store value in asyncstorage in react native?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-04 00:00:00 +0000 UTC'>December 4, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to store value in asyncstorage in react native?" href="https://infinitbility.com/how-to-store-value-in-asyncstorage-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to create SQLite database at runtime in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React native SQLite storage is one of the most used packages to use SQLite in react native and I have already shared an example to use sqlite with populated database.
+Now, in this tutorial, i will share how we can use the SQLite database without adding the .db file in the www directory.
+I mean How to create SQLite database at runtime in react native?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-12-01 00:00:00 +0000 UTC'>December 1, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to create SQLite database at runtime in react native?" href="https://infinitbility.com/how-to-create-sqlite-database-at-runtime-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to create a border in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React native provides borderWidth property to make border, borderWidth plays the main role to make any border because it required CSS to make any type of border.
+The borderWidth decides the thickness of the border and 1 its min value.
+After borderWidth, come borderColor and borderRadius property which decide color and cornor round things.
+Above those things, react-native provides the option to decide top, bottom, left, and right specific styles....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-29 00:00:00 +0000 UTC'>November 29, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to create a border in react native?" href="https://infinitbility.com/how-to-create-a-border-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to use interface in React hook useState?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to use interface or DTO in your React useState hook, Below example will work on react and react native both frameworks.
+Here we will learn use of interface objects and an array of interface objects in useState.
+Let start today’s tutorial How to use interface in React hook useState?
+First, take an example of an interface to use in variables....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-16 00:00:00 +0000 UTC'>November 16, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to use interface in React hook useState?" href="https://infinitbility.com/how-to-use-interface-in-react-hook-usestate/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to add icon in bottom tab navigation react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to add icon and image in you react navigation bottom tabs, here we are using React navigation 6.
+Want React Navigation stack and bottom tabs combine example?
+https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation
+Let start today tutorial How to add icon in bottom tab navigation react native?
+BottomTabNavigator with image First, we will see how can we use in react navigation bottom tabs....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-12 00:00:00 +0000 UTC'>November 12, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to add icon in bottom tab navigation react native?" href="https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to remove back button in react navigation?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to remove back button from your react navigation header bar, here we are using react navigation version 6.x.
+Let start today tutorial How to remove back button in react navigation?
+React Navigation provides headerLeft options to show your custom Ui in header bar but you can also use for remove back button when you pass null on it....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-11 00:00:00 +0000 UTC'>November 11, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to remove back button in react navigation?" href="https://infinitbility.com/how-to-remove-back-button-in-react-navigation/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to create stack navigation with tab navigation in react navigation?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to create bottom tab navigation with in stack navigation using react navigation in react native, here we are using react navigation version 6.x.
+Let start today tutorial How to create stack navigation with tab navigation in react navigation?
+Here full source code of tutorial https://github.com/infinitbility/react-navigation-stack-and-tab-example/tree/master
+Installation Now, we have to install required react navigation packages, as well as our stack and tab mavigation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-10 00:00:00 +0000 UTC'>November 10, 2021</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to create stack navigation with tab navigation in react navigation?" href="https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get first element of array in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to get the first element of your array into react native, here we will use simple array concepts available in javascript to get the first element of the array.
+Let’s start today tutorial How to get the first element of the array in react native?
+let assume you have like the below example.
+var exampleArray = [ { id: 1, name: &#34;Infinit&#34; }, { id: 2, name: &#34;Bility&#34; } ]; Array provides the option to access elements using index....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-25 00:00:00 +0000 UTC'>October 25, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get first element of array in react native?" href="https://infinitbility.com/how-to-get-first-element-of-array-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get ip address in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to get ip address and ipv4address in react native, and in this tutorial we will use React native network info to get ipaddress of device.
+Let’s start today tutorial How to get ip address in react native?
+Introduction React native network info provide getIPAddress() method to get ip address of device, it will simply return data in string data type, and one more thing getIPAddress() available on both Platform android, and iOS....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-24 00:00:00 +0000 UTC'>October 24, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get ip address in react native?" href="https://infinitbility.com/how-to-get-ip-address-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get current month name in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+this tutorial will help you to get month name in react native, here we learn to show month name using javascript current date or using moment.js package.
+Let’s start today tutorial How to get current month name in react native?
+Show month name using months constants javascript date object provide getMonth() function to get month index number and now we will use this index in months array and show Month name based on date....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-23 00:00:00 +0000 UTC'>October 23, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get current month name in react native?" href="https://infinitbility.com/how-to-get-current-month-name-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check array is empty or not in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to check an array is empty or not in react native, here you will get an example of checking the empty array in function or in a render function.
+we can easily know array is empty or not using array length if the length is 0 it means the array hasn’t any value, it is greater than 0 it means the array has value....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-20 00:00:00 +0000 UTC'>October 20, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check array is empty or not in react native?" href="https://infinitbility.com/how-to-check-array-is-empty-or-not-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Implement react native firebase crashlytics in ios
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial is part of React Native Firebase crashlytics Series.
+React Native Firebase crashlytics In android React Native Firebase crashlytics In iOS This tutorial will help you to integrate react native firebase crashlytics in ios, and solve your some common issues will get in process of setup.
+Let’s start today’s tutorial How to integrate firebase crashlytics in react native
+Step 1: Setup Project in firebase console Go To Firebase console -&gt; Project Overview Tab...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-16 00:00:00 +0000 UTC'>October 16, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Implement react native firebase crashlytics in ios" href="https://infinitbility.com/implement-react-native-firebase-crashlytics-in-ios/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to solve react native firebase crashlytics generateDebugRFile failed issue?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial is part of React Native Firebase crashlytics Series.
+React Native Firebase crashlytics In android React Native Firebase crashlytics In iOS After following my own tutorial , I got Execution failed for task &#39;:react-native-firebase_crashlytics:generateDebugRFile&#39; issue when i’m trying to run react native application, but I’m glad, after some research I found the solution on Github, and today I’m going to share it with you....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-15 00:00:00 +0000 UTC'>October 15, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to solve react native firebase crashlytics generateDebugRFile failed issue?" href="https://infinitbility.com/how-to-solve-react-native-firebase-crashlytics-generatedebugrfile-failed-issue/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to call multiple functions onPress in react native?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to call two or multiple functions in react native when user press button or touchableOpecity.
+Here, i will share two ways to call multiple functions on onPress, use whatever you like.
+Let start today tutorial How to call multiple functions onPress in react native?
+Create Common function In this way, Create new function and call both or multiple functions from there....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-13 00:00:00 +0000 UTC'>October 13, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to call multiple functions onPress in react native?" href="https://infinitbility.com/how-to-call-multiple-functions-onpress-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Where does AsyncStorage store data?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native AsyncStorage is one of the most popular packages for storing data as a key, value pair but sometimes we think when we save our data in AsyncStorage then AsyncStorage where a store or save those data.
+Today, we are going to know Where does AsyncStorage store data? And How much data can be store in AsyncStorage in react native?
+Let start today tutorial...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-11 00:00:00 +0000 UTC'>October 11, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Where does AsyncStorage store data?" href="https://infinitbility.com/where-does-asyncstorage-store-data/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/react-native/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/react-native/page/5/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

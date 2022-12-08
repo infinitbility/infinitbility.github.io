@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cron on Infinitbility</title>
+    <link>https://infinitbility.com/tags/cron/</link>
+    <description>Recent content in Cron on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/cron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crontab Documentation</title>
+      <link>https://infinitbility.com/crontab-documentation/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/crontab-documentation/</guid>
+      <description>How to set crontab on windows, mac, ubuntu, and cronjob examples.</description>
+    </item>
+    
+  </channel>
+</rss>

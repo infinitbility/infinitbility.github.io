@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Photoshop on Infinitbility</title>
+    <link>https://infinitbility.com/tags/photoshop/</link>
+    <description>Recent content in Photoshop on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/photoshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add catch light to eyes in photoshop?</title>
+      <link>https://infinitbility.com/how-to-add-catch-light-to-eyes-in-photoshop/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-catch-light-to-eyes-in-photoshop/</guid>
+      <description>Change eye color in photoshop example with a step-by-step guide with images.</description>
+    </item>
+    
+    <item>
+      <title>How to add an image to a layer in photoshop?</title>
+      <link>https://infinitbility.com/how-to-add-an-image-to-a-layer-in-photoshop/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-an-image-to-a-layer-in-photoshop/</guid>
+      <description>Adding a custom image to a layer in photoshop example with step by step guide with images.</description>
+    </item>
+    
+  </channel>
+</rss>

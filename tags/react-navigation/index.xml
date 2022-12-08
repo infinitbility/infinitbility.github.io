@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React Navigation on Infinitbility</title>
+    <link>https://infinitbility.com/tags/react-navigation/</link>
+    <description>Recent content in React Navigation on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/react-navigation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add icon in bottom tab navigation react native?</title>
+      <link>https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-add-icon-in-bottom-tab-navigation-react-native/</guid>
+      <description>React Navigation icon tab navigation example.</description>
+    </item>
+    
+    <item>
+      <title>How to remove back button in react navigation?</title>
+      <link>https://infinitbility.com/how-to-remove-back-button-in-react-navigation/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-remove-back-button-in-react-navigation/</guid>
+      <description>React Navigation remove back button from stack mavigation screen example.</description>
+    </item>
+    
+    <item>
+      <title>How to create stack navigation with tab navigation in react navigation?</title>
+      <link>https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-create-stack-navigation-with-tab-navigation-in-react-navigation/</guid>
+      <description>Stack navigator with tab navigator in react navigation example</description>
+    </item>
+    
+    <item>
+      <title>how to disable drawer on the drawer navigation screen?</title>
+      <link>https://infinitbility.com/how-to-disable-drawer-on-the-drawer-navigation-screen/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-disable-drawer-on-the-drawer-navigation-screen/</guid>
+      <description>disable drawer swipe gesture on a specific screen</description>
+    </item>
+    
+    <item>
+      <title>How to get the current route in react-navigation?</title>
+      <link>https://infinitbility.com/how-to-get-the-current-route-in-react-navigation/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-get-the-current-route-in-react-navigation/</guid>
+      <description>the simplest way to get current route name from react navigation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Text on Infinitbility</title>
+    <link>https://infinitbility.com/tags/text/</link>
+    <description>Recent content in Text on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text align in react native</title>
+      <link>https://infinitbility.com/react-native/text-align-in-react-native/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native/text-align-in-react-native/</guid>
+      <description>React Native Tutorial - how to align text in react native</description>
+    </item>
+    
+    <item>
+      <title>React Native Text</title>
+      <link>https://infinitbility.com/react-native/react-native-text/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/react-native/react-native-text/</guid>
+      <description>React Native Tutorial - React Native Text</description>
+    </item>
+    
+  </channel>
+</rss>

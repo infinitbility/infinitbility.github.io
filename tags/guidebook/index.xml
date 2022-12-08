@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Guidebook on Infinitbility</title>
+    <link>https://infinitbility.com/tags/guidebook/</link>
+    <description>Recent content in Guidebook on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/guidebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#39;Guidebook The Javascript Monorepo&#39;</title>
+      <link>https://infinitbility.com/&#39;guidebook-the-javascript-monorepo&#39;/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/&#39;guidebook-the-javascript-monorepo&#39;/</guid>
+      <description>Example of Javascript Monorepo</description>
+    </item>
+    
+  </channel>
+</rss>

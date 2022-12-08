@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sequelize on Infinitbility</title>
+    <link>https://infinitbility.com/tags/sequelize/</link>
+    <description>Recent content in Sequelize on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/sequelize/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sequelize where in and where not in array example</title>
+      <link>https://infinitbility.com/sequelize-where-in-and-where-not-in-array-example/</link>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/sequelize-where-in-and-where-not-in-array-example/</guid>
+      <description>Sequelize where in and not in</description>
+    </item>
+    
+    <item>
+      <title>Sequelize Operators Example with query</title>
+      <link>https://infinitbility.com/sequelize-operators-example-with-query/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/sequelize-operators-example-with-query/</guid>
+      <description>Sequelize Operators</description>
+    </item>
+    
+    <item>
+      <title>Node sequelize update query example</title>
+      <link>https://infinitbility.com/node-sequelize-update-query-example/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/node-sequelize-update-query-example/</guid>
+      <description>Sequelize update</description>
+    </item>
+    
+    <item>
+      <title>Node sequelize where or query example</title>
+      <link>https://infinitbility.com/node-sequelize-where-or-query-example/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/node-sequelize-where-or-query-example/</guid>
+      <description>How to use where or in node sequelize</description>
+    </item>
+    
+    <item>
+      <title>Node.js sequelize query examples</title>
+      <link>https://infinitbility.com/node.js-sequelize-query-examples</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/node.js-sequelize-query-examples</guid>
+      <description>node sequelize query ( insert, update, select, delete and join or Eager ) examples</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS S3 on Infinitbility</title>
+    <link>https://infinitbility.com/tags/aws-s3/</link>
+    <description>Recent content in AWS S3 on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/aws-s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to delete files on s3 bucket using aws cli</title>
+      <link>https://infinitbility.com/how-to-delete-files-on-s3-bucket-using-aws-cli/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-delete-files-on-s3-bucket-using-aws-cli/</guid>
+      <description>Delete files from s3 bucket using AWS CLI</description>
+    </item>
+    
+    <item>
+      <title>how to copy folder s3 bucket to another s3 bucket</title>
+      <link>https://infinitbility.com/how-to-copy-folder-s3-bucket-to-another-s3-bucket/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-folder-s3-bucket-to-another-s3-bucket/</guid>
+      <description>how to copy folder between s3 bucket using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to copy folder from s3 using aws cli</title>
+      <link>https://infinitbility.com/how-to-copy-folder-from-s3-using-aws-cli/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-folder-from-s3-using-aws-cli/</guid>
+      <description>upload and download folder from s3 using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to copy file from s3 using aws cli</title>
+      <link>https://infinitbility.com/how-to-copy-file-from-s3-using-aws-cli/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-copy-file-from-s3-using-aws-cli/</guid>
+      <description>upload and download files from s3 using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to check files and folders of s3 bucket using aws cli</title>
+      <link>https://infinitbility.com/how-to-check-files-and-folders-of-s3-bucket-using-aws-cli/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-files-and-folders-of-s3-bucket-using-aws-cli/</guid>
+      <description>check files and folders of s3 bucket using aws cli</description>
+    </item>
+    
+    <item>
+      <title>How to configure S3 in ubuntu</title>
+      <link>https://infinitbility.com/how-to-configure-s3-in-ubuntu/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-configure-s3-in-ubuntu/</guid>
+      <description>Install and configure s3 in ubuntu</description>
+    </item>
+    
+  </channel>
+</rss>

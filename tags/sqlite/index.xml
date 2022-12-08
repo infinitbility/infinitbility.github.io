@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SQLite on Infinitbility</title>
+    <link>https://infinitbility.com/tags/sqlite/</link>
+    <description>Recent content in SQLite on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLite insert or update statement example</title>
+      <link>https://infinitbility.com/sqlite-insert-or-update-statement-example/</link>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/sqlite-insert-or-update-statement-example/</guid>
+      <description>SQLite upserts or insert or replace query example</description>
+    </item>
+    
+    <item>
+      <title>How to encrypt SQLite database?</title>
+      <link>https://infinitbility.com/how-to-encrypt-sqlite-database/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-encrypt-sqlite-database/</guid>
+      <description>Example of SQLite encryption using SQLcipher and SQLite DB browser.</description>
+    </item>
+    
+  </channel>
+</rss>

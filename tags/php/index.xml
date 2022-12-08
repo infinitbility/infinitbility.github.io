@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PHP on Infinitbility</title>
+    <link>https://infinitbility.com/tags/php/</link>
+    <description>Recent content in PHP on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Check if value exists in array JavaScript, php</title>
+      <link>https://infinitbility.com/how-to-check-if-value-exists-in-array-javascript,-php/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-if-value-exists-in-array-javascript,-php/</guid>
+      <description>How to Check if value exists in array using indexOf for javascript and in_array for php</description>
+    </item>
+    
+    <item>
+      <title>MIGS VPC Payment integration in php</title>
+      <link>https://infinitbility.com/migs-vpc-payment-integration-in-php/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/migs-vpc-payment-integration-in-php/</guid>
+      <description>In this article, we discuss how to integrate migs or vpc payment portal in php.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TypeScript | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/typescript/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/typescript/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="TypeScript" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/typescript/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="TypeScript"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    TypeScript
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a json object has a key in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+TypeScript almost has the same syntax as javascript to check object has a key or not, in this tutorial, we will learn multiple ways to check object has a key or not in typescript.
+Now, we are going to learn below three ways to check object keys exist or not.
+hasOwnProperty() method if..else method () ? : ; ternary method Let start today’s tutorial How to check if a JSON object has a key in typescript?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-30 00:00:00 +0000 UTC'>November 30, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a json object has a key in typescript?" href="https://infinitbility.com/how-to-check-if-a-json-object-has-a-key-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to sort an array of objects by a property value in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+TypeScript almost has the same syntax to do sorting of objects of array-like javascript i.e .sort() but in this tutorial, we will learn to do sorting of array-based on objects and how to use .sort() in typescript.
+Here, we will learn to
+defined object structure using the interface use interface to create an array of objects use sort with static typing to sort an array Let’s start today’s tutorial How to sort an array of objects by a property value in typescript?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-28 00:00:00 +0000 UTC'>November 28, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to sort an array of objects by a property value in typescript?" href="https://infinitbility.com/how-to-sort-an-array-of-objects-by-a-property-value-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to use interface in React hook useState?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to use interface or DTO in your React useState hook, Below example will work on react and react native both frameworks.
+Here we will learn use of interface objects and an array of interface objects in useState.
+Let start today’s tutorial How to use interface in React hook useState?
+First, take an example of an interface to use in variables....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-16 00:00:00 +0000 UTC'>November 16, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to use interface in React hook useState?" href="https://infinitbility.com/how-to-use-interface-in-react-hook-usestate/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check empty object in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to check objects are empty or not in typescript, here we are using the Object.keys() method to check object has value or not.
+As we know, to check an empty array we are using array length to verify array is empty or not in an object there is .length property not available then we have to first create an object to array for length using Object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-09 00:00:00 +0000 UTC'>November 9, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check empty object in typescript?" href="https://infinitbility.com/how-to-check-empty-object-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check a substring in a string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To check if a string contains a substring in typescript, just use the .includes() method it will check and return the result as a boolean based on whether the substring is available on a string or not.
+This tutorial will help you to check substring is present or not in a string using typescript syntax examples. here we are using the .includes() method to check substring available in string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-08 00:00:00 +0000 UTC'>November 8, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check a substring in a string in typescript?" href="https://infinitbility.com/how-to-check-a-substring-in-a-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check array is empty in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This tutorial will help you to check an array is empty or not in typescript, here we will use array length to check array has value or not but before checking the array, we have to check the array is defined or not.
+Let start today tutorial How to check an array is empty in typescript?
+for check array is defined, we are able to use typeof operator or for check empty array we have to just use array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-07 00:00:00 +0000 UTC'>November 7, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check array is empty in typescript?" href="https://infinitbility.com/how-to-check-array-is-empty-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check array contains value in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To check the array contains a value in typescript, use the includes() method it will return the result in true or false depending upon substring contains or not.
+This tutorial will help you to check value contains or presented or not in an array, here we are going to use Javascript includes() method to check whether the value include or not in an array on typescript syntax....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-11-06 00:00:00 +0000 UTC'>November 6, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check array contains value in typescript?" href="https://infinitbility.com/how-to-check-array-contains-value-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to use regex in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+To use regex in typescript, use the new RegExp() constructor, using this you can easily create and store the regex in a variable after that you will be able to operate on it.
+This tutorial will help you to use Regular expressions (RegEx) in typescript, here we will learn below three points in typescript regex.
+Create Regular Expressions Regular Expressions Methods Regular Expressions Practice Let’s start today’s tutorial How to use regex in typescript?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-31 00:00:00 +0000 UTC'>October 31, 2021</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to use regex in typescript?" href="https://infinitbility.com/how-to-use-regex-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check type of variable in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+Same like javascript, TypeScript have typeof Operator to check datatype of variable. using typeof we are able to check any variable type and compare with our own condition.
+Let start today tutorial How to check type of variable in typescript?
+TypeScript provide typeguard and typeof one of them. we will all of them but in this tutorial we will focus on typeof.
+typeof example let str: string = &#34;01234&#34;; console....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-29 00:00:00 +0000 UTC'>October 29, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check type of variable in typescript?" href="https://infinitbility.com/how-to-check-type-of-variable-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert number to string in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+TypeScript haven’t any new or specific way to convert number to a string , we have to do the same like javascript.
+JavaScript provide multiple way to convert number to string, we can use toString(), toLocaleString().
+let see how we can use javascript number to string conversion ways in typescript.
+toString() let y: number = 32; let x: string = y.toString(); // &#39;32&#39; toLocaleString() let y: number = 32; let x: string = y....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-28 00:00:00 +0000 UTC'>October 28, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert number to string in typescript?" href="https://infinitbility.com/how-to-convert-number-to-string-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to array in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+TypeScript haven’t any new or specific way to convert string to an array , we have to do the same like javascript.
+To convert string to array in typescript, use the split() method it will create an array based on your string and separator.
+JavaScript provide multiple way to convert string to array, we can use split().
+let see how we can use javascript string to array conversion ways in typescript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-28 00:00:00 +0000 UTC'>October 28, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to array in typescript?" href="https://infinitbility.com/how-to-convert-string-to-array-in-typescript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to convert string to number in typescript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+TypeScript haven’t any new or specific way to convert string to a number, we have to do the same like javascript.
+JavaScript provide multiple way to convert string to number, we can use parseInt(), parseFloat(), and unary &#43; operator.
+I will recommend the unary &#43; operator because is the fastest way to convert a string to a number.
+let see how we can use javascript string to number conversion ways in typescript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-10-28 00:00:00 +0000 UTC'>October 28, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to convert string to number in typescript?" href="https://infinitbility.com/how-to-convert-string-to-number-in-typescript/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/typescript/page/4/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

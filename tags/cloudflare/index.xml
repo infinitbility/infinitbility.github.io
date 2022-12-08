@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloudflare on Infinitbility</title>
+    <link>https://infinitbility.com/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Always Use https url using Cloudflare</title>
+      <link>https://infinitbility.com/always-use-https-url-using-cloudflare/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/always-use-https-url-using-cloudflare/</guid>
+      <description>In this article, we can create page rules for force sites http to https using cloudflare.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Node | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/node/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/node/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Node" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/node/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Node"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    Node
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check empty object in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check the empty object in node js, just use the Object.keys() method it will create an array of object keys after then you can check the length and if it’s equal to 0 means the object is empty.
+Like the following example, let’s take the below array of objects example here we will find an index of id 3 and delete it from the array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-09 00:00:00 +0000 UTC'>July 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check empty object in node js?" href="https://infinitbility.com/how-to-check-empty-object-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add string to array in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add string to array in node js, just use the push() method it will add your data into an array as the last element.
+Like the following example, we can add string to array using the push() method.
+let arr = [&#34;infinitbility&#34;,&#34;aguidehub&#34;]; arr.push(&#34;sortoutcode&#34;); console.log(arr); // [&#39;infinitbility&#39;, &#39;aguidehub&#39;, &#39;sortoutcode&#39;] Today, I’m going to show you How do i add string to array in node js, as above mentioned here, I’m going to use the push() method for adding new elements into the array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-08 00:00:00 +0000 UTC'>July 8, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add string to array in node js?" href="https://infinitbility.com/how-to-add-string-to-array-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check empty string in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check an empty string in node js, use the if..else statement just pass and put your string variable in an if condition if it’s empty it will go to the else statement.
+In the following example, we will take the sample empty string and use the if..else statement.
+let str = &#34;&#34;; if(str){ console.log(&#34;str is not empty&#34;); } else { console.log(&#34;str is empty&#34;); } // str is empty Today, I’m going to show you How do i check an empty string in node js, as mentioned above, I’m going to use the use if....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-07 00:00:00 +0000 UTC'>July 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check empty string in node js?" href="https://infinitbility.com/how-to-check-empty-string-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get length of string in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get length of string in node js, use the String length property it will return your string char count.
+The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+In the following example, we will take the sample string and use string length to get a count of the string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-07 00:00:00 +0000 UTC'>July 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get length of string in node js?" href="https://infinitbility.com/how-to-get-length-of-string-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>node js convert string to number
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To convert a string to a number in node js, you can use the &#43; plus operator it’s the fastest way to convert a string to a number.
+In the following example, we will take the sample string variable, and convert it into an integer using the plus operator.
+let text = &#34;24325&#34;; // using plus operator let num = &#43;text; console.log(num) // 24325 Today, I’m going to show you How do i convert string to number in node js, as above mentioned here, I’m going to use the plus operator and string interpolation....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-07 00:00:00 +0000 UTC'>July 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to node js convert string to number" href="https://infinitbility.com/node-js-convert-string-to-number/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to replace string in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To replace string in node js, use the replace() and use replace() with /PUT_HERE_REPLACEABLE_STRING/g regex method.
+the replace() method replace your first occurrence ( match ) from your string the replace() method with regex will replace all occurrences from your string Just you have to pass two parameters, in the first parameter you have to pass what you want to replace and in the second parameter you have to pass what you want to put in the place of replace string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-06 00:00:00 +0000 UTC'>July 6, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to replace string in node js?" href="https://infinitbility.com/how-to-replace-string-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to export multiple files in a single file in node js?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility ❤️!
+Today, we will learn to export multiple files in a single file, for example, we have a lot of controller files in the node project but when I want to use any controller function then I don’t have to write also controller name.
+Here, one more reason to do that way because in future when move one function to another controller then we haven’t worry about change imports also…...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-25 00:00:00 +0000 UTC'>March 25, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to export multiple files in a single file in node js?" href="https://infinitbility.com/how-to-export-multiple-files-in-a-single-file-in-node-js/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Sequelize where in and where not in array example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article based on sequelize where in and where not in query, here you will learn to write where in query in sequelize and also how many way to do.
+For managing where in and not in types of query sequelize provide operators.
+Let start today article Sequelize where in and where not in array example
+In this article, you will get examples of query using where in or where not in array....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-05 00:00:00 +0000 UTC'>July 5, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Sequelize where in and where not in array example" href="https://infinitbility.com/sequelize-where-in-and-where-not-in-array-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Sequelize Operators Example with query
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+Today, we will learn about sequelize operators
+How to use sequelize operators Where to use sequelize operators what operation we can be done with sequelize operators We use greater than, less than, Greater than or equal, Less than or equal, Not equal, Equal , sign in sql but in sequelize we use as Operators to done this types of query. One more thing sequelize Operators also use for and and or types of query....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-02 00:00:00 +0000 UTC'>July 2, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Sequelize Operators Example with query" href="https://infinitbility.com/sequelize-operators-example-with-query/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Node sequelize update query example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+To update data in the database, sequelize provide update() method it will update your data on the database based on your condition. using sequelize update method we are able to write SQL update query in a function and JSON parameters.
+This article based on sequelize update query, here you will get update query examples to do on your project.
+If you are looking for sequelize basics query example for crud check below article it’s based on sequelize create, select, delete, and update, and join examples...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-01 00:00:00 +0000 UTC'>July 1, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Node sequelize update query example" href="https://infinitbility.com/node-sequelize-update-query-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Node sequelize where or query example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article based on where or query in node sequelize, here you will get example of where or query.
+Sequelize provide operator functionality to manage this types of query.
+For using operator you have to import op from sequelize like below.
+const { Op } = require(&#34;sequelize&#34;); For using or condition we have to Op.or in where condition like below example.
+const { Op } = require(&#34;sequelize&#34;); Post....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-06-30 00:00:00 +0000 UTC'>June 30, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Node sequelize where or query example" href="https://infinitbility.com/node-sequelize-where-or-query-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Node.js sequelize query examples
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article help you to write query in node with sequelize. here you get examples query of insert, update, select, delete, and join query with code snippest.
+Let’s start today topic Node.js sequelize query examples Or how to write query in node sequelize
+Table of content
+Insert query Update query Select query Delete query Join or Eager query Insert query Node sequelize provide create() method to create new record or row in table also return row id and row details....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-05 00:00:00 +0000 UTC'>May 5, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Node.js sequelize query examples" href="https://infinitbility.com/node.js-sequelize-query-examples"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>integrate Mustache nodejs example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article explain and provide example to implement Mustache template in node js. we are assuming you want send mustache template content in your mail function.
+Let’s start today topic integrate mustache template in nodejs with typescript
+Start with Installation
+npm install consolidate mustache --save install consolidate and mustache library to setup mustache render engine
+Setup mustache engine
+app.ts import consolidate engine import engine from &#34;consolidate&#34;; create private function initializeMailTemplate private initializeMailTemplate(){ // set templates folder this....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-01 00:00:00 +0000 UTC'>May 1, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to integrate Mustache nodejs example" href="https://infinitbility.com/integrate-mustache-nodejs-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to deploy nodejs application subdirectory level in apache ubuntu
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+In this Article, we deploy nodejs application subdirectory level in apache ubuntu server. here you get complete tutorial to deploy, setup, and run node js project in apache server.
+let’s start with subdirectory.
+what is Subdirectory url level? Some people also say sub url or custom url. subdirectory come after core domain.
+Take below example.
+here https://infinitbility.com is core domain &amp; category is a subdirectory url....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-01 00:00:00 +0000 UTC'>February 1, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to deploy nodejs application subdirectory level in apache ubuntu" href="https://infinitbility.com/how-to-deploy-nodejs-application-subdirectory-level-in-apache-ubuntu/"></a>
+</article>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

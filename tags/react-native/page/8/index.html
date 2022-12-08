@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>React Native | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/react-native/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/react-native/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="React Native" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/react-native/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="React Native"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    React Native
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native autocomplete
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This article provides an example to create autocomplete or suggestion list in react native, here we use FlatList and TextInput to make autocomplete textinput or suggestions textinput.
+Let’s start today topic React native autocomplete Or how to add autocomplete in react native
+TextInput We are use React Native TextInput to search and change autocomplete list to suggest most match value, here textinput use to filter autocomplete list....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-14 00:00:00 +0000 UTC'>May 14, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native autocomplete" href="https://infinitbility.com/react-native-autocomplete/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to debug swift code in react native xcode
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This article help you to debug your swift code many times we are write print() in swift but we don’t where we get logs.
+Let’s start today topic How to debug swift code in react native xcode Or how to check logs of swift in xocde
+Follow below points’ to debug your swift code.
+open your project.xcodeworkspace file. clean build folder and run your application after successfully launch your clicked icon ( mark in below image ) After click you will see something like below image you will see all your swift print logs marked on big rectangle area marked on image Thanks for reading…...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-06 00:00:00 +0000 UTC'>May 6, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to debug swift code in react native xcode" href="https://infinitbility.com/how-to-debug-swift-code-in-react-native-xcode/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native net info example
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+we need to check internet connection before call api in react native and today we are going to learn how to check internet connection and if not available then show error No Internet Connection.
+This article help you to manage internet connection on your react native application. here you will get code snipest to know internet available or not in user phone.
+React Native provide netinfo package to handle internet but it’s now move to react native netinfo package ( https://github....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-05-02 00:00:00 +0000 UTC'>May 2, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native net info example" href="https://infinitbility.com/react-native-net-info-example/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Task transform dex archive with dex merger for debug failed in react native
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+In this article, you will solve your Task :app:transformDexArchiveWithDexMergerForDebug FAILED issue in your application.
+If your methods &#43; your dependencies method greater then 64k&#43; methods then your react native throwing DexMerger error.
+Follow some simple steps you absolutely solved this error.
+Step 1: Enable MultiDex Dir - Project/Android/app/build.gradle android { defaultConfig { ... minSdkVersion 15 targetSdkVersion 28 multiDexEnabled true // add this line } ....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-25 00:00:00 +0000 UTC'>April 25, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Task transform dex archive with dex merger for debug failed in react native" href="https://infinitbility.com/task-transform-dex-archive-with-dex-merger-for-debug-failed-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native video example with custom control
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native video provides the functionality to play video in your react native application with native controls but not supported in iOS i.e devs search about video control library or custom control. many devs choose to a react native video player or react native video control for show controls on video but in this article, we will implement our own video controls for both platforms (android, ios)....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-24 00:00:00 +0000 UTC'>April 24, 2021</span>&nbsp;·&nbsp;18 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native video example with custom control" href="https://infinitbility.com/react-native-video-example-with-custom-control/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to run react native project in xcode
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+this article explain run react native project using xcode and provide good practice to use xcode.
+Steps go to your project/ios and click on project.xcodeworkspace. ( after click project open on xcode like provided image ) select your desired simulator ( mearked on image ) Find product tab in xcode menu. first clean your build folder ( product-&gt;clean build folder ) click on run ( product-&gt;run ) Thanks For Reading…...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-18 00:00:00 +0000 UTC'>April 18, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to run react native project in xcode" href="https://infinitbility.com/how-to-run-react-native-project-in-xcode/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native application release testing using xcode
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+This article explains how to test react native ios apps using Xcode. we have to change some configuration for testing in release mode and the below steps explain configuration changes with a screenshot.
+Steps open xcode menu and click on Product tab. Select Schema -&gt; Edit Schema Select Run tab and change build configuration Debug to Release Select your appropriate simuletter, Clean build follder your project, and Run your application....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-13 00:00:00 +0000 UTC'>April 13, 2021</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native application release testing using xcode" href="https://infinitbility.com/react-native-application-release-testing-using-xcode/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Expiring Daemon because JVM heap space is exhausted In React Native
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+You are seeing multiple times ‘Daemon will be stopped at the end of the build after running out of JVM memory’ and ‘Expiring Daemon because JVM heap space is exhausted’ then you need to improve your JVM heap memory. Follow the below steps and crack your error.
+Solution 1 Step 1: Increase Your Heap Size Add dexOptions in your android/app/build.gradle
+android {...dexOptions {javaMaxHeapSize &#34;4g&#34;}....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-04-04 00:00:00 +0000 UTC'>April 4, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Expiring Daemon because JVM heap space is exhausted In React Native" href="https://infinitbility.com/expiring-daemon-because-jvm-heap-space-is-exhausted-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to select and upload video in react native
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+In this article, we create react native application to select and upload videos from the user’s library.
+We use react native image picker to select video from user gallery.
+Table Of Content
+Create React native application Install react native image picker implement select video from the user library upload a video using fetch complete Example to select &amp; upload video in react native Let’s start with create react native application...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-03-27 00:00:00 +0000 UTC'>March 27, 2021</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to select and upload video in react native" href="https://infinitbility.com/how-to-select-and-upload-video-in-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Network request failed in react native fetch
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+Getting error TypeError Network request failed in android, ios, or with SSL server then read all below cases.
+In this article, we solve 3 cases of network request failed issue in react-native but your condition does not match with the below mention cases then comment below on the article.
+Case 1: http url not working in android if you are trying to call HTTP ( unsecured ) url then you have to add usesCleartextTraffic to your AndroidManifest....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-03-15 00:00:00 +0000 UTC'>March 15, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Network request failed in react native fetch" href="https://infinitbility.com/network-request-failed-in-react-native-fetch/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to open any link from react native render Html
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React native render HTML provides the feature to render anchor tag or link in your HTML content but you want the link is clickable then you have to some extra stuff.
+We know when we want to open any link from react native app we use react native linking to redirect the app to the browser and open the URL.
+So, we have to do the same thing here also for open URLs or you want to click on the link....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-26 00:00:00 +0000 UTC'>February 26, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to open any link from react native render Html" href="https://infinitbility.com/how-to-open-any-link-from-react-native-render-html/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React Native image picker launchimagelibrary on second time issue
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+React Native image picker launchimagelibrary doesn’t open image gallery when click second time in iOS.
+The below Solution only work for those users who calling launchimagelibrary function from the modal
+Issue criteria launchimagelibrary working first time only
+Solution Call launchimagelibrary function after close modal &#43; 1 second delay.
+delay example delay = (ms) =&gt; new Promise((res) =&gt; setTimeout(res, ms)); launchimagelibrary example async selectUmage () { await this....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-22 00:00:00 +0000 UTC'>February 22, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React Native image picker launchimagelibrary on second time issue" href="https://infinitbility.com/react-native-image-picker-launchimagelibrary-on-second-time-issue/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React Native commands you need almost every day
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends 👋,
+Welcome To Infinitbility! ❤️
+In this article, You already familiar with every command I have shared the article but the purpose article is to get all useful commands in a single article.
+For Windows users, 🔖 bookmark this article then you do not need to write a command every time. ( windows cmd can’t ❌ save the history of commands )
+Let’s start today topic “React Native commands you need almost every day”...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-02-04 00:00:00 +0000 UTC'>February 4, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React Native commands you need almost every day" href="https://infinitbility.com/react-native-commands-you-need-almost-every-day/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React Native Share
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+In this tutorial, we create react native app with share funtionallity of image, file, and text using react native share example.
+This Article Part of React Native Tutorial Series want to start from scrach follow below link
+https://infinitbility.com/react-native/table-of-contents
+Installing Install react native share package.
+for npm users npm install react-native-share --save for yarn users yarn add react-native-share *** Install dependencies ( only for iOS )***...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-01-30 00:00:00 +0000 UTC'>January 30, 2021</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React Native Share" href="https://infinitbility.com/react-native-share/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Image not showing in ios 14 react native
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+You react native image component not rendering images in iOS 14 then you have to change react-native node_modules or use patch packages.
+Here, I don’t recommend changing your node_modules because you may forget to change when setup another machine or in deployment.
+patch packages solution get from GitHub after hours of scrolling &amp; researching. In this article, I am sharing solutions to solve the image rendering issue using patch packages....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-01-22 00:00:00 +0000 UTC'>January 22, 2021</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Image not showing in ios 14 react native" href="https://infinitbility.com/image-not-showing-in-ios-14-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React native material dropdown twice click issue
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+Many times we use react native material dropdown to show picker but when we use multiple dropdowns on the same screen getting the issue of click.
+click issues arise due to some time scrollview or sometimes textinput.
+Solution 1 when you have multiple dropdowns and facing twice click issue
+add below attribute on your dropdown element.
+&lt;Dropdown ... keyboardShouldPersistTaps={&#39;always&#39;} /&gt; Solution 2 when you have getting issue after come from textinput....</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-01-04 00:00:00 +0000 UTC'>January 4, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React native material dropdown twice click issue" href="https://infinitbility.com/react-native-material-dropdown-twice-click-issue/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Implement react native firebase crashlytics on android
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+This tutorial is part of React Native Firebase crashlytics Series.
+React Native Firebase crashlytics In android React Native Firebase crashlytics In iOS Today, we implement react native firebase crashlytics on android.
+Many Folks, stuck on firebase crashlytics setup then please read and follow all steps carefully…
+What is Firebase Crashlytics Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality, in realtime....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-12-12 00:00:00 +0000 UTC'>December 12, 2020</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Implement react native firebase crashlytics on android" href="https://infinitbility.com/implement-react-native-firebase-crashlytics-on-android/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to delete SQLite database in android react native
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+React native SQLite &amp; React native SQLite storage provide an option (SQLite.deleteDatabase) to delete db file from user phone but if you call SQLite.openDatabase for deleted db then db file re-creates on user phone.
+if you want to completely remove the database then you have to delete the database from your project before the build.
+SQLite.deleteDatabase use for deleting previous used database from users mobile....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-11-25 00:00:00 +0000 UTC'>November 25, 2020</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to delete SQLite database in android react native" href="https://infinitbility.com/how-to-delete-sqlite-database-in-android-react-native/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>React Native Image
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+React Native provide &lt;image /&gt; component for adding image statically or dynamically for your app.
+Today we see how to add static, dynamic, and data:base64 images.
+For importing image component from react native write like below.
+import { Image } from &#39;react-native&#39;; Table of Contents Static Image example Dynamic Image example Data Image example Static Image React Native provides a unified way of managing images and other media assets in your Android and iOS apps....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-11-08 00:00:00 +0000 UTC'>November 8, 2020</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to React Native Image" href="https://infinitbility.com/react-native-image/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add datePickerAndroid in react native with color changes?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello Friends,
+Welcome To Infinitbility!
+DatePickerAndroid provide by react native you don’t need to install packages for it.
+for import DatePickerAndroid from react native
+import { DatePickerAndroid } from &#39;react-native&#39;; DatePickerAndroid Deprecated. Use @react-native-community/datetimepicker instead.
+To show date picker in react native call below function on your code
+// call function for show date picker async openDatePicker(){ try { const { action, year, month, day } = await DatePickerAndroid.open({ // Use `new Date()` for current date....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-10-30 00:00:00 +0000 UTC'>October 30, 2020</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add datePickerAndroid in react native with color changes?" href="https://infinitbility.com/how-to-add-datepickerandroid-in-react-native-with-color-changes/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/react-native/page/7/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/react-native/page/9/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

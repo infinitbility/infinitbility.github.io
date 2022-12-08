@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>JavaScript | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/javascript/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/javascript/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="JavaScript" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/javascript/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="JavaScript"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    JavaScript
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to display data in textarea using javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To display data in textarea using javascript, use the document.getElementById().value method to set value dyanamically, it will assign new value in the textarea.
+Today, I’m going to show you How do I display data in textarea using javascript, as mentioned above, I’m going to create a sample textarea and change the content of textarea with the click of a button,
+Let’s start today’s tutorial on how do you display data in textarea using javascript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-27 00:00:00 +0000 UTC'>October 27, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to display data in textarea using javascript?" href="https://infinitbility.com/how-to-display-data-in-textarea-using-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you add a character to the beginning of a string Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add a character to the beginning of a string in javascript, use the &#43; concatenate opertor and put your string before &#34;&#43;&#34; like this yourstring &#43; string, it will add character to the beginning of a string.
+Today, I’m going to show you How do I add a character to the beginning of a string in javascript, as mentioned above, I’m going to create a sample string variable with data and use the &#43; concatenate opertor to add character at the beginning of a string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-19 00:00:00 +0000 UTC'>October 19, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you add a character to the beginning of a string Javascript?" href="https://infinitbility.com/how-do-you-add-a-character-to-the-beginning-of-a-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to look for a character in a string Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To search character in a string in javascript, use the indexOf() method it will return index o character from string else -1.
+Today, I’m going to show you How do I search character in a string in javascript, as mentioned above, I’m going to create a sample string variable with data and use the indexOf() method to find character from string.
+Let’s start today’s tutorial on how do you search character in a string in javascript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-19 00:00:00 +0000 UTC'>October 19, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to look for a character in a string Javascript?" href="https://infinitbility.com/how-to-look-for-a-character-in-a-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you check if a letter is repeated in a string in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check if a letter is repeated in a string in javascript, use the test() method with /(.).*\1/ regex it is the simplest way to check string has a duplicate characters or not.
+Today, I’m going to show you How do I check if a letter is repeated in a string in javascript, as mentioned above, I’m going to create a function that checks string contains a duplicate character or not....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-18 00:00:00 +0000 UTC'>October 18, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you check if a letter is repeated in a string in Javascript?" href="https://infinitbility.com/how-do-you-check-if-a-letter-is-repeated-in-a-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you separate vowels and consonants in a string in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To separate vowels and consonants in a string in javascript, use the match() method with /[aeiou]/gi regex it is the simplest way to separate vowels and consonants from a string.
+Today, I’m going to show you How do I separate vowels and consonants in a string in javascript, as mentioned above, I’m going to create a sample string variable with data and use the match() method with /[aeiou]/gi regex to separate vowels and consonants....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-18 00:00:00 +0000 UTC'>October 18, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you separate vowels and consonants in a string in Javascript?" href="https://infinitbility.com/how-do-you-separate-vowels-and-consonants-in-a-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to store multiple strings in an array in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To store multiple strings in an array in javascript, use push() method it will add your passed parameter into an array.
+Today, I’m going to show you How do I store multiple strings in an array in javascript, as mentioned above, I’m going to create a sample array variable then I will use push() to add new strings element.
+Let’s start today’s tutorial on how do you store multiple strings in an array in javascript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-17 00:00:00 +0000 UTC'>October 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to store multiple strings in an array in Javascript?" href="https://infinitbility.com/how-to-store-multiple-strings-in-an-array-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Which method is used to lowercase all the characters in a string in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To lowercase all the characters of string in javascript, use string.toLowerCase() instead of string use your string variable name it will return new string with lowercase all the character.
+Today, I’m going to show you How do I lowercase all the characters of string in javascript, as mentioned above, I’m going to create a sample string variable then I will use string.toLowerCase() method to convert string character into lowercase....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-17 00:00:00 +0000 UTC'>October 17, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Which method is used to lowercase all the characters in a string in Javascript?" href="https://infinitbility.com/which-method-is-used-to-lowercase-all-the-characters-in-a-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you split a string of numbers in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To split a string of numbers in javascript, use string.split(&#39;&#39;) instead of string use your string variable name it will return array of string number character.
+Today, I’m going to show you How do I split a string of numbers in javascript, as mentioned above, I’m going to create a sample string variable then I will use string.split(&#39;&#39;) method to split and we will also see convert array of string number character to number....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-16 00:00:00 +0000 UTC'>October 16, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you split a string of numbers in Javascript?" href="https://infinitbility.com/how-do-you-split-a-string-of-numbers-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get length of string Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get length of string in javascript, use string.length instead of string use your string variable name it will return the number of character.
+Today, I’m going to show you How do I get length of string in javascript, as mentioned above, I’m going to create a sample string variable then I will use the string length property to count number of letter....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-15 00:00:00 +0000 UTC'>October 15, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get length of string Javascript?" href="https://infinitbility.com/how-to-get-length-of-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to find the length of a string in an array in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To find the length of a string in an array in javascript, use array[0].length it will return length of your first string of array.
+Today, I’m going to show you How do I find the length of a string in an array in javascript, as mentioned above, I’m going to create a sample array of string variable then I will use the array index method to get the first string and check their length....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-11 00:00:00 +0000 UTC'>October 11, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to find the length of a string in an array in Javascript?" href="https://infinitbility.com/how-to-find-the-length-of-a-string-in-an-array-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you get the first letter of string Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get the first letter of a string in javascript, use string[0] instead of string use your string variable name it will return the first character of string.
+Today, I’m going to show you How do I get the first letter of a string in javascript, as mentioned above, I’m going to create a sample string variable then I will use the string index method to get the first letter of the string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-10 00:00:00 +0000 UTC'>October 10, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you get the first letter of string Javascript?" href="https://infinitbility.com/how-do-you-get-the-first-letter-of-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to find the first vowel in a string Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To find the first vowel in a string in javascript, use the /[aeiou]/gi regex with the string match method it will return an array and the first index of the array is the first vowel of the string.
+Today, I’m going to show you How do I find the first vowel in a string in javascript, as mentioned above, I’m going to take a sample string using the match() method with regex to get the first vowel....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-09 00:00:00 +0000 UTC'>October 9, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to find the first vowel in a string Javascript?" href="https://infinitbility.com/how-to-find-the-first-vowel-in-a-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How do you make a string empty in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To make a string empty in javascript, assign the &#34;&#34; empty string to the variable. it will remove the previous value and store a new value which is a string.
+Today, I’m going to show you How do I make a string empty in javascript, as mentioned above, I’m going to create a sample string variable then I will assign an empty string to make the string variable empty....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-08 00:00:00 +0000 UTC'>October 8, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How do you make a string empty in javascript?" href="https://infinitbility.com/how-do-you-make-a-string-empty-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how do you check if a string is a string in Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check if a string is a string in javascript, use the typeof keyword it will return &#34;string&#34; if the value is a string.
+Today, I’m going to show you How do I check if a string is a string in javascript, as mentioned above, I’m going to create a function to check value is a string or not.
+Let’s start today’s tutorial on how do you check if a string is a string in javascript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-07 00:00:00 +0000 UTC'>October 7, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how do you check if a string is a string in Javascript?" href="https://infinitbility.com/how-do-you-check-if-a-string-is-a-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to check if a string is an number Javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check string is a number in javascript, use &#34;&#43;&#34; unary operator to convert the string to a number and check converted value is not a &#34;NaN&#34; and that a datatype is a number if both are true then your string is a number.
+Use Number.isInteger() method to check converted number is a integer. ( *** The isInteger() method true only for integer numbers not for decimal number *** )...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-06 00:00:00 +0000 UTC'>October 6, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to check if a string is an number Javascript?" href="https://infinitbility.com/how-to-check-if-a-string-is-an-number-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove prefix and suffix from string in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove prefix and suffix from string in javascript, use replace() method it will return a string without your prefix and suffix but it will work only when you know the prefix and suffix, suppose if you don’t know the coming prefix and suffix then you have to put some separator at the time of creating your string like “prefix###yourstring###suffix”.
+Let’s see a short example of javascript removing prefixes and suffixes from string in javascript....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-05 00:00:00 +0000 UTC'>October 5, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove prefix and suffix from string in javascript?" href="https://infinitbility.com/how-to-remove-prefix-and-suffix-from-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove Â from string in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove Â from string in javascript, use replace(&#34;Â&#34;, &#34;&#34;) it will return a string without Â character and we will also see how to replace &#34;Â&#34; this character with another.
+Let’s see a short example of javascript remove Â from a string in javascript.
+const string = &#34;Â is also a&#34;; console.log(string.replace(&#34;Â&#34;, &#34;&#34;)) Today, I’m going to show you How do I remove or replace Â from a string in javascript, as above mentioned, I’m going to use the above-mentioned replace() method....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-04 00:00:00 +0000 UTC'>October 4, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove Â from string in javascript?" href="https://infinitbility.com/how-to-remove-%C3%A2-from-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>Get distinct values from comma separated string javascript
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get distinct values from comma separated string in javascript, use split(&#34;,&#34;) with ...new Set() spread operator it will return array of unique values then use join() method it will return distinct values from comma separated string.
+Let’s see a short example of javascript remove duplicate values from comma-separated strings.
+const string = &#34;infinitbility,aguidehub,sortoutcode,aguidehub,sortoutcode,infinitbility,sortoutcode&#34;; const strArr = string.split(&#34;,&#34;); const uniqueArray = [...new Set(strArr)]; console....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-03 00:00:00 +0000 UTC'>October 3, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to Get distinct values from comma separated string javascript" href="https://infinitbility.com/get-distinct-values-from-comma-separated-string-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to split string first 4 characters in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To split first 4 characters of string in javascript, use substring(0, 4) it will return first 4 characters of string and if want another part of the string use substring(4, string.length) and it will return the else part of string.
+Let’s see short example of javascript get the first 4 characters of the string.
+const string = &#34;0001infinitbility&#34;; const first4Char = string.substring(0, 4); console....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-02 00:00:00 +0000 UTC'>October 2, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to split string first 4 characters in javascript?" href="https://infinitbility.com/how-to-split-string-first-4-characters-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get size of json object in bytes javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get size of json object in bytes, use new TextEncoder().encode(JSON.stringify(obj)).length it will return size in bytes and if you want in kilobyte devide by 1024.
+Let’s see short example of javascript get size of json object in bytes.
+const obj = { id: 1, name: &#34;infinitbility&#34;, } const size = new TextEncoder().encode(JSON.stringify(obj)).length Today, I’m going to show you How do I get size of json object in bytes in javascript, as above mentioned, I’m going to use the above-mentioned regex with TextEncoder() and JSON....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-01 00:00:00 +0000 UTC'>October 1, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get size of json object in bytes javascript?" href="https://infinitbility.com/how-to-get-size-of-json-object-in-bytes-javascript/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://infinitbility.com/tags/javascript/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-Sitemap: https://infinitbility.com/sitemap.xml
-Sitemap: https://infinitbility.com/react-native/sitemap.xml
 User-agent: *
-Disallow: 
+Disallow:
+Sitemap: https://infinitbility.com/sitemap.xml

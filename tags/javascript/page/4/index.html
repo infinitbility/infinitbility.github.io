@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>JavaScript | Infinitbility</title>
+<meta name="keywords" content="">
+<meta name="description" content="Infinitbility - The Unknown Developer">
+<meta name="author" content="The Unknown Developer">
+<link rel="canonical" href="https://infinitbility.com/tags/javascript/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9ab97a39799687a904cc629f1fafd7b6e710b5261ec89eb9b6e221ec415732ca.css" integrity="" rel="preload stylesheet" as="style"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6106226996374193"
+     crossorigin="anonymous"></script>
+<link rel="icon" href="https://infinitbility.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://infinitbility.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://infinitbility.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://infinitbility.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://infinitbility.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://infinitbility.com/tags/javascript/index.xml">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XJCFP4G0NE"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XJCFP4G0NE', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="JavaScript" />
+<meta property="og:description" content="Infinitbility - The Unknown Developer" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://infinitbility.com/tags/javascript/" /><meta property="og:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://infinitbility.com/papermod-cover.png"/>
+
+<meta name="twitter:title" content="JavaScript"/>
+<meta name="twitter:description" content="Infinitbility - The Unknown Developer"/>
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://infinitbility.com/" accesskey="h" title="Infinitbility (Alt + H)">Infinitbility</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://infinitbility.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://infinitbility.com/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="site-body">
+        <div class="site-body-left">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+        <main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://infinitbility.com/">Home</a>&nbsp;»&nbsp;<a href="https://infinitbility.com/tags/">Tags</a></div>
+  <h1>
+    JavaScript
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to add character in string in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To add a character in a string in javascript, just use the &#43; operator it will concat two strings in one string and for short syntax, you can also use the &#43;= operator.
+let’s take an example of adding two characters in a single string.
+let name = &#34;&#34;; name &#43;= &#34;Infinite&#34;; name &#43;= &#34; &#34;; name &#43;= &#34;Ability&#34;; console.log(name) // 👇️ Output // Infinite Ability Today, I’m going to show you How do I add a character in a string in javascript, as above mentioned here, I’m going to use the &#43; operator to add a string to another string....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-22 00:00:00 +0000 UTC'>July 22, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to add character in string in javascript?" href="https://infinitbility.com/how-to-add-character-in-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove special characters and space from number in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove special characters and space from number in javascript, just use replace() method with /[ `!@#$%^&amp;*()_&#43;\-=\[\]{};&#39;:&#34;\\|,.&lt;&gt;\/?~]/g regex then it will return new string without special characters and spaces then convert it number.
+The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function called for each match....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-13 00:00:00 +0000 UTC'>July 13, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove special characters and space from number in javascript?" href="https://infinitbility.com/how-to-remove-special-characters-and-space-from-number-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to remove special characters and space from string in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To remove special characters and space in javascript, just use replace() method with /[ `!@#$%^&amp;*()_&#43;\-=\[\]{};&#39;:&#34;\\|,.&lt;&gt;\/?~]/g regex then it will return new string without special characters and spaces.
+The replace() method returns a new string with some or all matches of a pattern replaced by a replacement. The pattern can be a string or a RegExp, and the replacement can be a string or a function called for each match....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-13 00:00:00 +0000 UTC'>July 13, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to remove special characters and space from string in javascript?" href="https://infinitbility.com/how-to-remove-special-characters-and-space-from-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to convert string to key value pair in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To convert string to key value pair in javascript, use the split(&#34;:&#34;) and Object.fromEntries() method. the split(&#34;:&#34;) method help you to convert string to array and Object.fromEntries() method will create array to object.
+The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array. The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method’s call....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-26 00:00:00 +0000 UTC'>June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to convert string to key value pair in javascript?" href="https://infinitbility.com/how-to-convert-string-to-key-value-pair-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to convert string to number in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To convert string to number in javascript, use &#43; unary plus oprator it’s one of the fastest way to convert string to int. let’s take a example
+The unary plus operator (&#43;) precedes its operand and evaluates to its operand but attempts to convert it into a number, if it isn’t already.
+In the following example, we can able to convert string to number, float or any negative number using &#43; unary plus oprator....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-26 00:00:00 +0000 UTC'>June 26, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to convert string to number in javascript?" href="https://infinitbility.com/how-to-convert-string-to-number-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to convert string to object key in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To convert string to object key in javascript, use the basic syntax of assign value in object using dynamic keys for example obj[&#34;your_key&#34;] = &#34;value&#34;.
+In the following example, we will take example string and convert it on object key.
+let obj = {id: 1, name: &#34;infinitbility&#34;}; let str = &#34;domain&#34;; obj[str] = &#34;infinitbility.com&#34;; console.log(obj) // {id: 1, name: &#39;infinitbility&#39;, domain: &#39;infinitbility.com&#39;} Today, I’m going to show you How do i convert string to object key in javascript, as above mentioned here, I’m going to use some basic syntax which can help to assign key value pair dynamically....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-26 00:00:00 +0000 UTC'>June 26, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to convert string to object key in javascript?" href="https://infinitbility.com/how-to-convert-string-to-object-key-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to explode string in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To explode string in javascript, use split() method it will explode your string based upon your parameter you have passed in a split() method. let’s take a example
+The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array. The division is done by searching for a pattern; where the pattern is provided as the first parameter in the method’s call....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-26 00:00:00 +0000 UTC'>June 26, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to explode string in javascript?" href="https://infinitbility.com/how-to-explode-string-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get difference between two dates in weeks in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get weeks between two dates,
+Subtract the date to get the difference in nanoseconds. Devied your output time with / 1000 * 3600 * 24 * 7 It will return your difference in dates in a number of weeks.
+Today, I’m going to show How do I get weeks between two dates in javascript, here I will use the javascript getTime() method and the above-mentioned conditions to get weeks between the start and end date time....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-10 00:00:00 +0000 UTC'>June 10, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get difference between two dates in weeks in javascript?" href="https://infinitbility.com/how-to-get-difference-between-two-dates-in-weeks-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get months between two dates in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get months between two dates,
+Use the getMonth() method to get the months of both dates, and subtract them to get the difference of months Use the getFullYear() method to get the years of both dates, and subtract them to get the difference of years Multiply the year difference by 12 and return the sum. It will return your difference of dates in months....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-09 00:00:00 +0000 UTC'>June 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get months between two dates in javascript?" href="https://infinitbility.com/how-to-get-months-between-two-dates-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>how to get year difference between two dates in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get years between two dates,
+Extract both dates and years using the getFullYear() method. subtract them to get a number of years between dates. It will return your difference in dates in a number of years.
+The getFullYear() method returns the year of the specified date according to local time.
+Today, I’m going to show How do I get years between two dates in javascript, here I will use the javascript getFullYear() method and the above-mentioned conditions to get years between the start and end date time....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-09 00:00:00 +0000 UTC'>June 9, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to how to get year difference between two dates in javascript?" href="https://infinitbility.com/how-to-get-year-difference-between-two-dates-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get days between two dates in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get days between two dates,
+Get both dates as a time using the getTime() method. subtract them which you get using the getTime() method. Devied your output time with / 1000 * 3600 * 24 It will return your difference in dates in a number of days.
+The getTime() method returns the number of milliseconds since the ECMAScript epoch.
+You can use this method to help assign a date and time to another Date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-08 00:00:00 +0000 UTC'>June 8, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get days between two dates in javascript?" href="https://infinitbility.com/how-to-get-days-between-two-dates-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get hours between two dates in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get hours between two dates,
+Get both dates as a time using the getTime() method. subtract them which you get using the getTime() method. Devied your output time with / 36e5 ( 36e5 is the scientific notation for 60601000 ) It will return your difference of dates in number of hours.
+The getTime() method returns the number of milliseconds since the ECMAScript epoch....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-08 00:00:00 +0000 UTC'>June 8, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get hours between two dates in javascript?" href="https://infinitbility.com/how-to-get-hours-between-two-dates-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to get minutes between two dates in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To get minutes between two dates,
+Get both dates as a time using the getTime() method. subtract them which you get using the getTime() method. Devied your output time with / (1000 * 60) % 60 It will return your difference in dates in a minutes.
+The getTime() method returns the number of milliseconds since the ECMAScript epoch.
+You can use this method to help assign a date and time to another Date object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-07 00:00:00 +0000 UTC'>June 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to get minutes between two dates in javascript?" href="https://infinitbility.com/how-to-get-minutes-between-two-dates-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a string is alphanumeric in JavaScript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check string is alphanumeric, use this regex /^[a-z0-9]&#43;$/i if it gets true means the string contains only alphabets and numbers.
+Today, I’m going to show How do I check if a string is alphanumeric in javascript, here I will use the javascript test() method and regex as mentioned above to validate whether the string is alphanumeric or not.
+Let’s start the today’s tutorial How do you check if a string is alphanumeric in javascript?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-06 00:00:00 +0000 UTC'>June 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a string is alphanumeric in JavaScript?" href="https://infinitbility.com/how-to-check-if-a-string-is-alphanumeric-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a number is divisible by another number in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check if a number is divisible by another number, use the remainder ( % ) operator if get 0 means the number is divisible else not.
+Note: Here, another number is any number like 3, 4, 5, 6, 7, 8, etc.
+Today, I’m going to show How do I check if a number is divisible by another number in javascript, here I will use the modulo ( % ) operator and if....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-05 00:00:00 +0000 UTC'>June 5, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a number is divisible by another number in javascript?" href="https://infinitbility.com/how-to-check-if-a-number-is-divisible-by-another-number-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a number is between two values in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check if a number is between two values, Apply greater then and less than both conditions with and ( &amp;&amp; ) operator. if get true means a number in a range.
+Note: Here we are using &amp;&amp; operator to reduce the number of codes, there have a lot of ways to do that
+Today, I’m going to show How do I check if a number is between two values in javascript, here I will write some conditions and an if....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-04 00:00:00 +0000 UTC'>June 4, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a number is between two values in javascript?" href="https://infinitbility.com/how-to-check-if-a-number-is-between-two-values-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if number is prime in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check number is a prime number, looping through 2 to your given number-1 and check is any divisible number or not, if have means it’s not a prime number.
+Note: 1 is considered neither prime nor composite.
+Today, I’m going to show How do I check if the number is a prime number or not in Javascript, here I will create a custom function isPrimeNumber() where I will check if there have any divisible number based on this it will return a boolean value....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-02 00:00:00 +0000 UTC'>June 2, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if number is prime in javascript?" href="https://infinitbility.com/how-to-check-if-number-is-prime-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a character is a letter or number in JavaScript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check character is a letter or number, JavaScript provides the isNaN() method just pass your character as a parameter it will check character is NaN ( Not a number ) when it returns false means the character is a number else validate the character with regex code /^[a-zA-Z]&#43;$/ to check is a letter or not.
+Today, I’m going to show How do I check if a character is a letter or number in Javascript, here I will use the javascript string isNaN() method, and regex code /^[a-zA-Z]&#43;$/` to check if a character is a letter or number....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-01 00:00:00 +0000 UTC'>June 1, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a character is a letter or number in JavaScript?" href="https://infinitbility.com/how-to-check-if-a-character-is-a-letter-or-number-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if a string is valid url in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+Today, I’m going to show you, how do you check if a string is a valid URL in javascript, here I will use the regex expression to validate URL string.
+To validate the string URL, I will use the below regex which can handle the below cases.
+protocol Domain name address IP (v4) address port and path URL query string fragment locator function isValidURL(str) { var pattern = new RegExp(&#39;^(https?...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-01 00:00:00 +0000 UTC'>June 1, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if a string is valid url in javascript?" href="https://infinitbility.com/how-to-check-if-a-string-is-valid-url-in-javascript/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2>How to check if number is integer or float in javascript?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hi Friends 👋,
+Welcome To Infinitbility! ❤️
+To check number is an integer or float, JavaScript provides isInteger() method just pass your number as a parameter and it will return true if the number is an integer or else false.
+Today, I’m going to show How do I check if the number is an integer or float in Javascript, here I will use the javascript string isInteger() method, to check if a number is an integer or float....</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-06-01 00:00:00 +0000 UTC'>June 1, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Infinitbility</footer>
+  <a class="entry-link" aria-label="post link to How to check if number is integer or float in javascript?" href="https://infinitbility.com/how-to-check-if-number-is-integer-or-float-in-javascript/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://infinitbility.com/tags/javascript/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="https://infinitbility.com/tags/javascript/page/5/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+        </main>
+        <div class="site-body-right">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079"
+                data-ad-format="auto"
+                data-full-width-responsive="true">
+            </ins>
+        </div>
+    </div>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://infinitbility.com/">Infinitbility</a></span>
+    <span>|</span>
+    <span><a href="/privacy-policy/">Privacy Policy</a></span>
+    <span>|</span>
+    <span><a href="/disclaimer/">Disclaimer</a></span>
+    <span>|</span>
+    <span><a href="/terms-and-conditions/">Terms and Conditions</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

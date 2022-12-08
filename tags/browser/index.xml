@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Browser on Infinitbility</title>
+    <link>https://infinitbility.com/tags/browser/</link>
+    <description>Recent content in Browser on Infinitbility</description>
+    <image>
+      <url>https://infinitbility.com/papermod-cover.png</url>
+      <link>https://infinitbility.com/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to check data store in localstorage?</title>
+      <link>https://infinitbility.com/how-to-check-data-store-in-localstorage/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://infinitbility.com/how-to-check-data-store-in-localstorage/</guid>
+      <description>Example of check and verify data store in localstorage or not</description>
+    </item>
+    
+  </channel>
+</rss>
