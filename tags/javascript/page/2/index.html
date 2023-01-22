@@ -151,19 +151,26 @@ if (!doNotTrack) {
 </header>
 <div class="site-body">
         <div class="site-body-left" id="leftPanel">
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+            <div id="leftPanel-1">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            
+            <div id="leftPanel-2">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div id="leftPanel-3">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <div style="position:sticky;top:10px">
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div style="position:sticky;top:10px" id="leftPanel-4">
                 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                     data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
                 </ins>
@@ -527,19 +534,25 @@ string.split(&#34; &#34;).pop(); Today, I’m going to show you How do I get str
         </main>
         <div class="site-body-right" id="RightPanel">
 
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+            <div id="RightPanel-1">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div id="RightPanel-2">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div id="RightPanel-3">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-            </ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            <div style="position:sticky;top:10px">
+                </ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div style="position:sticky;top:10px" id="RightPanel-4">
                 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                     data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
                 </ins>
@@ -622,52 +635,55 @@ string.split(&#34; &#34;).pop(); Today, I’m going to show you How do I get str
     (() => {
         setInterval(() => {
             console.log("setInterval Runed")
-            document.getElementById("RightPanel").innerHTML = "";
-            document.getElementById("RightPanel").innerHTML = `
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <div style="position:sticky;top:10px">
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                    </ins>
+            document.getElementById("leftPanel-1").innerHTML = "";
+            document.getElementById("leftPanel-1").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+                (adsbygoogle = window.adsbygoogle || []).push({})
 
-                </div>
-            `;
-            document.getElementById("leftPanel").innerHTML = "";
-            document.getElementById("leftPanel").innerHTML = `
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                </ins>
-                <div style="position:sticky;top:10px">
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
-                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
-                    </ins>
+                document.getElementById("leftPanel-2").innerHTML = "";
+            document.getElementById("leftPanel-2").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+                (adsbygoogle = window.adsbygoogle || []).push({})
+            
+                document.getElementById("leftPanel-3").innerHTML = "";
+            document.getElementById("leftPanel-3").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+                (adsbygoogle = window.adsbygoogle || []).push({})
 
-                </div>
-            `;
+                document.getElementById("leftPanel-4").innerHTML = "";
+            document.getElementById("leftPanel-4").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+                (adsbygoogle = window.adsbygoogle || []).push({})
+
+            document.getElementById("RightPanel-1").innerHTML = "";
+            document.getElementById("RightPanel-1").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+            (adsbygoogle = window.adsbygoogle || []).push({})
+
+            document.getElementById("RightPanel-2").innerHTML = "";
+            document.getElementById("RightPanel-2").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+            (adsbygoogle = window.adsbygoogle || []).push({})
+
+            document.getElementById("RightPanel-3").innerHTML = "";
+            document.getElementById("RightPanel-3").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+            (adsbygoogle = window.adsbygoogle || []).push({})
+
+            document.getElementById("RightPanel-4").innerHTML = "";
+            document.getElementById("RightPanel-4").innerHTML = `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>`;
+            (adsbygoogle = window.adsbygoogle || []).push({})
 
 
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
-            (adsbygoogle = window.adsbygoogle || []).push({})
         }, 30000)
     })();
 </script>
