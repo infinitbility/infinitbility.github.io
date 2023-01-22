@@ -150,7 +150,7 @@ if (!doNotTrack) {
     </nav>
 </header>
 <div class="site-body">
-        <div class="site-body-left">
+        <div class="site-body-left" id="leftPanel">
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
             </ins>
@@ -200,7 +200,7 @@ Flexbox Flexbox is a one-dimensional layout system that we can use to create a r
   <a class="entry-link" aria-label="post link to React Native Flexbox" href="https://infinitbility.com/react-native/react-native-flexbox/"></a>
 </article>
         </main>
-        <div class="site-body-right">
+        <div class="site-body-right" id="RightPanel">
 
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
@@ -293,5 +293,57 @@ Flexbox Flexbox is a one-dimensional layout system that we can use to create a r
 
 </script>
 </body>
+<script>
+    (() => {
+        setInterval(() => {
+            console.log("setInterval Runed")
+            document.getElementById("RightPanel").innerHTML = "";
+            document.getElementById("RightPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
 
+                </div>
+            `;
+            document.getElementById("leftPanel").innerHTML = "";
+            document.getElementById("leftPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
+
+                </div>
+            `;
+
+
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+        }, 30000)
+    })();
+</script>
 </html>

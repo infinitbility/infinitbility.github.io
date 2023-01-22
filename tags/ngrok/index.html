@@ -150,7 +150,7 @@ if (!doNotTrack) {
     </nav>
 </header>
 <div class="site-body">
-        <div class="site-body-left">
+        <div class="site-body-left" id="leftPanel">
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
             </ins>
@@ -201,7 +201,7 @@ Let’s start today’s tutorial how do you fix ngrok your account is limited to
   <a class="entry-link" aria-label="post link to how to fix ngrok your account is limited to 1 simultaneous ngrok client session issue?" href="https://infinitbility.com/how-to-fix-ngrok-your-account-is-limited-to-1-simultaneous-ngrok-client-session-issue/"></a>
 </article>
         </main>
-        <div class="site-body-right">
+        <div class="site-body-right" id="RightPanel">
 
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
@@ -294,5 +294,57 @@ Let’s start today’s tutorial how do you fix ngrok your account is limited to
 
 </script>
 </body>
+<script>
+    (() => {
+        setInterval(() => {
+            console.log("setInterval Runed")
+            document.getElementById("RightPanel").innerHTML = "";
+            document.getElementById("RightPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
 
+                </div>
+            `;
+            document.getElementById("leftPanel").innerHTML = "";
+            document.getElementById("leftPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
+
+                </div>
+            `;
+
+
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+        }, 30000)
+    })();
+</script>
 </html>

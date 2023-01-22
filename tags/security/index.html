@@ -150,7 +150,7 @@ if (!doNotTrack) {
     </nav>
 </header>
 <div class="site-body">
-        <div class="site-body-left">
+        <div class="site-body-left" id="leftPanel">
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
             </ins>
@@ -266,7 +266,7 @@ they do whatever they want. they may block the users or they use the information
   <a class="entry-link" aria-label="post link to Authentication Bypass what is it and how to protect it" href="https://infinitbility.com/authentication-bypass-what-is-it-and-how-to-protect-it/"></a>
 </article>
         </main>
-        <div class="site-body-right">
+        <div class="site-body-right" id="RightPanel">
 
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
@@ -359,5 +359,57 @@ they do whatever they want. they may block the users or they use the information
 
 </script>
 </body>
+<script>
+    (() => {
+        setInterval(() => {
+            console.log("setInterval Runed")
+            document.getElementById("RightPanel").innerHTML = "";
+            document.getElementById("RightPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
 
+                </div>
+            `;
+            document.getElementById("leftPanel").innerHTML = "";
+            document.getElementById("leftPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
+
+                </div>
+            `;
+
+
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+        }, 30000)
+    })();
+</script>
 </html>

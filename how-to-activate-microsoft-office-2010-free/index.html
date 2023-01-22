@@ -205,7 +205,7 @@ if (!doNotTrack) {
     </nav>
 </header>
 <div class="site-body">
-        <div class="site-body-left">
+        <div class="site-body-left" id="leftPanel">
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
             </ins>
@@ -337,7 +337,7 @@ Extract the (Office 2010 Toolkit and EZ-Activator v 2.1.6 Final) And then instal
   </footer>
 </article>
         </main>
-        <div class="site-body-right">
+        <div class="site-body-right" id="RightPanel">
 
             <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
                 data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
@@ -477,5 +477,57 @@ Extract the (Office 2010 Toolkit and EZ-Activator v 2.1.6 Final) And then instal
     });
 </script>
 </body>
+<script>
+    (() => {
+        setInterval(() => {
+            console.log("setInterval Runed")
+            document.getElementById("RightPanel").innerHTML = "";
+            document.getElementById("RightPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
 
+                </div>
+            `;
+            document.getElementById("leftPanel").innerHTML = "";
+            document.getElementById("leftPanel").innerHTML = `
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                    data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                </ins>
+                <div style="position:sticky;top:10px">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6106226996374193"
+                        data-ad-slot="4511921079" data-ad-format="auto" data-full-width-responsive="true">
+                    </ins>
+
+                </div>
+            `;
+
+
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+            (adsbygoogle = window.adsbygoogle || []).push({})
+        }, 30000)
+    })();
+</script>
 </html>
