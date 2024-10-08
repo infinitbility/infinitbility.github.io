@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yajra on Infinitbility</title>
-    <link>https://infinitbility.com/tags/yajra/</link>
+    <link>https://infinitbility.github.io/tags/yajra/</link>
     <description>Recent content in Yajra on Infinitbility</description>
     <image>
-      <url>https://infinitbility.com/papermod-cover.png</url>
-      <link>https://infinitbility.com/papermod-cover.png</link>
+      <url>https://infinitbility.github.io/papermod-cover.png</url>
+      <link>https://infinitbility.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.com/tags/yajra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://infinitbility.github.io/tags/yajra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yajra issue after install in laravel</title>
-      <link>https://infinitbility.com/call_user_func_array()-expects-parameter-1-to-be-a-valid-callback-class-&#39;yajradatatablesenginescollectionengine&#39;-not-found-laravel/</link>
+      <link>https://infinitbility.github.io/call_user_func_array()-expects-parameter-1-to-be-a-valid-callback-class-&#39;yajradatatablesenginescollectionengine&#39;-not-found-laravel/</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://infinitbility.com/call_user_func_array()-expects-parameter-1-to-be-a-valid-callback-class-&#39;yajradatatablesenginescollectionengine&#39;-not-found-laravel/</guid>
+      <guid>https://infinitbility.github.io/call_user_func_array()-expects-parameter-1-to-be-a-valid-callback-class-&#39;yajradatatablesenginescollectionengine&#39;-not-found-laravel/</guid>
       <description>after install yajra getting call use func array expects parameter 1 to be a valid callback</description>
     </item>
     
